@@ -23,7 +23,7 @@
 			<Text>Jousting Arena</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SELLSWORDS_DESCRIPTION">
-			<Text>The Westerlands' unique Medieval era units. Randomly spawn Swordsman, Pikeman or Marksman.[NEWLINE]Combat victories provide [ICON_GOLD] Gold equal to 75% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+			<Text>The Westerlands' unique Medieval era units. Randomly spawn Swordsman, Pikeman or Marksman on purchase and can move instantly.[NEWLINE]Combat victories provide [ICON_GOLD] Gold equal to 75% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SELLSWORDS_SWORDSMAN_DESCRIPTION">
 			<Text>Melee class Sellswords unit. Combat victories provide [ICON_GOLD] Gold equal to 75% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
@@ -35,13 +35,13 @@
 			<Text>Ranged class Sellswords unit. Combat victories provide [ICON_GOLD] Gold equal to 75% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SQUIRE_DESCRIPTION">
-			<Text>Provide +12 [ICON_Strength] Combat Strength and +2 [ICON_Movement] Movement to Warrior and Swordsman in the same tile.</Text>
+			<Text>The Stormlands' unique support unit. Provide +12 [ICON_Strength] Combat Strength and +2 [ICON_Movement] Movement to Warrior and Swordsman in the same tile.</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION">
-			<Text>A district unique to Westerlands replacing Encampment. +2 [ICON_GOlD] Gold bonus if adjacent to a Commercial Hub district.</Text>
+			<Text>A district unique to Westerlands replacing Encampment. +2 [ICON_GOlD] Gold bonus if adjacent to a Commercial Hub district. +1 Great Merchant point for each citizen working on Sellswords Camp.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION">
-			<Text>A building unique to Stormlands replacing Stable. Other than standard Stable yields, Jousting Arena provides extra +1 [ICON_Amenities] Amenity and Pastures in the territory of cities with Jousting Arena gain +2 [ICON_CULTURE]. [NEWLINE]May not be built in an Encampment district that already has a Barracks.</Text>
+			<Text>A building unique to Stormlands replacing Stable. Other than standard Stable yields, Jousting Arena provides extra +1 [ICON_Amenities] Amenity and Pastures in the territory of cities with Jousting Arena gain +2 [ICON_CULTURE] Culture. [NEWLINE]May not be built in an Encampment district that already has a Barracks.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_TYWIN_LANNISTER_NAME">
 			<Text>Tywin Lannister</Text>
@@ -50,10 +50,10 @@
 			<Text>Robert Baratheon</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_TYWIN_LANNISTER">
-			<Text>Placeholder</Text>
+			<Text>"When your enemies defy you, you must serve them steel and fire. When they go to their knees, however, you must help them back to their feet. Elsewise no man will ever bend the knee to you. And any man who must say ‘I am the king’ is no true king at all. Aerys never understood that, but you will. When I’ve won your war for you, we will restore the king’s peace and the king’s justice."-Tywin Lannister</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_ROBERT_BARATHEON">
-			<Text>Placeholder</Text>
+			<Text>"The gods be damned. It was a hollow victory they gave me. A crown ... it was the girl I prayed them for. Your sister, safe ... and mine again, as she was meant to be. I ask you, Ned, what good is it to wear a crown? The gods mock the prayers of kings and cowherds alike."-Robert Baratheon</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_NAME">
 			<Text>The Westerlands</Text>
@@ -71,13 +71,16 @@
 			<Text>All Mines over resources yield +2 [ICON_GOLD] Gold. Completing Mines over resources triggers culture bomb even if the adjacent tiles are already 4 or more tiles away from city. [NEWLINE]20% discount to all [ICON_GOLD] Gold purchases.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_DESCRIPTION">
-			<Text>+100% [ICON_Production]  Production when building Ancient Walls, Medieval Walls and Renaissance Walls. [NEWLINE]Self founded cities grant Ancient Walls immediately even without Masonary Technology. [NEWLINE]Ancient Walls yield extra +1 [ICON_CULTURE] Culture, Medieval Walls yield extra +2 [ICON_CULTURE] Culture, and Renaissance Walls yield extra +4 [ICON_CULTURE] Culture. [NEWLINE]+10 [ICON_Strength] City Defense Strength with walls.</Text>
+			<Text>+100% [ICON_Production] Production when building Ancient Walls, Medieval Walls and Renaissance Walls. [NEWLINE]Self founded cities grant Ancient Walls immediately even without Masonary Technology. [NEWLINE]Ancient Walls yield extra +1 [ICON_CULTURE] Culture, Medieval Walls yield extra +2 [ICON_CULTURE] Culture, and Renaissance Walls yield extra +4 [ICON_CULTURE] Culture. [NEWLINE]+10 [ICON_Strength] City Defense Strength with walls.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_TYWIN_LANNISTER_NAME">
 			<Text>Hammer and Anvil</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ROBERT_BARATHEON_NAME">
 			<Text>The Usurper</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_TYWIN_LANNISTER_DESCRIPTION">
+			<Text>+10 [ICON_Strength] Combat Strength to Melee and Anti-Cavalry units when defending. +50% Flanking Bonus to Light and Heavy Cavalry units. +5 [ICON_Strength] Combat Strength to Ranged and Siege units when attacking wounded unit.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ROBERT_BARATHEON_DESCRIPTION">
 			<Text>Upon major civilization city conquered by Robert Baratheon, grant a free [ICON_SCIENCE] Technology or [ICON_CULTURE] Civic that the conquered city owner already has and is available to Robert Baratheon.</Text>

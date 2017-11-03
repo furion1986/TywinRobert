@@ -28,6 +28,9 @@
 		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" YieldType="YIELD_GOLD" YieldChange="1"/>
 	</District_CitizenYieldChanges>
+	<District_CitizenGreatPersonPoints>
+		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1">
+	</District_CitizenGreatPersonPoints>
 	<Adjacency_YieldChanges>
 		<Row ID="Sellswords_CommercialHub_Gold" Description="LOC_DISTRICT_SELLSWORDS_CAMP_COMMERCIAL_HUB_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
 	</Adjacency_YieldChanges>

@@ -4,38 +4,89 @@
 <!-- DateCreated: 7/7/2017 9:40:58 PM -->
 <GameData>
 	<LocalizedText>
-		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_MOUNTAIN_CLAN_NAME">
-			<Text>山地氏族</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_SELLSWORDS_NAME">
+			<Text>雇佣兵</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DISTRICT_HEART_TREE_NAME">
-			<Text>神木林</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_SELLSWORDS_SWORDSMAN_NAME">
+			<Text>雇用剑士</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_MOUNTAIN_CLAN_DESCRIPTION">
-			<Text>北境远古时代特殊侦查单位。在冻土和雪地上获得战斗力加成。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_SELLSWORDS_PIKEMAN_NAME">
+			<Text>雇用枪兵</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DISTRICT_HEART_TREE_DESCRIPTION">
-			<Text>北境特殊城区，替代圣地。[NEWLINE]每有一片邻近的森林地格获得 +2 [ICON_Faith] 信仰。[NEWLINE]为所在城市的森林地格提供 +1 [ICON_Science] 科研。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_SELLSWORDS_MARKSMAN_NAME">
+			<Text>雇用弩手</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_LEADER_EDDARD_STARK_NAME">
-			<Text>艾德·史塔克</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_SQUIRE_NAME">
+			<Text>骑士侍从</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_LOADING_INFO_LEADER_EDDARD_STARK">
-			<Text>"史塔克家族的人体内仍流有‘先民’的血液，我们相信判决死刑的人必须亲自动手。如果你要取人性命，至少应该注视他的双眼，聆听他的临终遗言，倘若你做不到这点，那么或许他罪不至死，统治者若是躲在幕后，付钱给刽子手执行，很快就会忘记死亡为何物。" - 艾德·史塔克</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DISTRICT_SELLSWORDS_CAMP_NAME">
+			<Text>雇佣兵营帐</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_NAME">
-			<Text>北境</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_BUILDING_JOUSTING_ARENA_NAME">
+			<Text>马上比武场</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_THE_NORTH_NAME">
-			<Text>凛冬将至</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_SELLSWORDS_DESCRIPTION">
+			<Text>西镜独特的中世纪单位。购买后随机出现剑士，枪兵或者弩手中的一种，并且可以立刻行动。[NEWLINE]战斗胜利会获得相当于所战胜单位 75% [ICON_Strength]战斗力的[ICON_GOLD]金钱。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_THE_NORTH_DESCRIPTION">
-			<Text>所有国境内的冻土和雪地地格额外产出 +1 [ICON_Food] 食物， +1 [ICON_Production] 生产力和 +1 [ICON_Culture] 文化。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_SELLSWORDS_SWORDSMAN_DESCRIPTION">
+			<Text>近战类型雇佣兵。战斗胜利会获得相当于所战胜单位75%[ICON_Strength]战斗力的[ICON_GOLD]金钱。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_EDDARD_STARK_NAME">
-			<Text>北境不忘</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_SELLSWORDS_PIKEMAN_DESCRIPTION">
+			<Text>反骑类型雇佣兵。战斗胜利会获得相当于所战胜单位75%[ICON_Strength]战斗力的[ICON_GOLD]金钱。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_EDDARD_STARK_DESCRIPTION">
-			<Text>建成神木林时获得 +1 [ICON_Envoy] 使者。每成为一个城邦的宗主国获得 +5% [ICON_Faith] 信仰产出。能够使用 [ICON_Faith] 信仰购买平民和商队单位。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_SELLSWORDS_MARKSMAN_DESCRIPTION">
+			<Text>远程类型雇佣兵。战斗胜利会获得相当于所战胜单位75%[ICON_Strength]战斗力的[ICON_GOLD]金钱。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_SQUIRE_DESCRIPTION">
+			<Text>风暴地独特的支援单位。为所属同一格的勇士和剑客提供 +12 [ICON_Strength] 战斗力和 +2 [ICON_Movement] 移动力。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION">
+			<Text>西镜独特的城区，替代军事驻地。 临近商业中心时 +2 [ICON_GOlD] 金钱。 每个在雇佣兵营帐工作的市民产生 +1 大商人点数。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION">
+			<Text>风暴地独特的建筑，替代马厩。除了普通马厩的产出外，马上比武场还提供额外 +1 [ICON_Amenities] 宜居度。城市境内的牧场产出 +2 [ICON_CULTURE] 文化. [NEWLINE]不能在拥有兵营的军事驻地中建造。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_LEADER_TYWIN_LANNISTER_NAME">
+			<Text>泰温·兰尼斯特</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_LEADER_ROBERT_BARATHEON_NAME">
+			<Text>劳伯·拜拉席恩</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_LOADING_INFO_LEADER_TYWIN_LANNISTER">
+			<Text>“当有人起而向你挑战，你应该坚决地回以铁与血；当他们屈膝臣服时，你则要亲手把他们扶起来，否则就再没有人愿意归顺。还有，任何大声声明‘我是国王！’的人，根本当不了真正的王者。伊里斯就是不明白这点才败亡的，我要你牢牢记取他的教训。请你放心，我会替你平定国家，恢复国王的律法和尊严，一统江山。”——泰温·兰尼斯特</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_LOADING_INFO_LEADER_ROBERT_BARATHEON">
+			<Text>“诸神都该死，我只求得到你妹妹，他们却硬塞给我一顶狗屁王冠……赢得战争又如何？我只要她平平安安……重回我的怀抱，一切都和原本一样。奈德，我问你，当国王有什么好？管你是国王还是放牛郎，诸神不都一样嘲弄你么？”——劳伯·拜拉席恩</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_WESTERLANDS_NAME">
+			<Text>西镜</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_STORMLANDS_NAME">
+			<Text>风暴地</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_NAME">
+			<Text>听我怒吼</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_NAME">
+			<Text>怒火燎原</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION">
+			<Text>所有在资源上建设的矿场产出 +2 [ICON_GOLD] 金钱. 在资源上建设矿场会触发文化炸弹并且能突破城市3格距离的限制。 [NEWLINE][ICON_GOLD]金钱购买单位和建筑便宜20%。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_DESCRIPTION">
+			<Text>建设远古城墙，中世纪城墙和文艺复兴城墙时 +100% [ICON_Production] 生产力。 [NEWLINE]通过移民新建立的城市立即获得远古城墙（即使没有研发石工术）。[NEWLINE]远古城墙额外产出 +1 [ICON_CULTURE] 文化，中世纪城墙额外产出 +2 [ICON_CULTURE] 文化，文艺复兴城墙额外产出 +4 [ICON_CULTURE] 文化。 [NEWLINE]拥有城墙的城市获得 +10 [ICON_Strength] 城市防御力。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_TYWIN_LANNISTER_NAME">
+			<Text>铁锤与铁毡</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_ROBERT_BARATHEON_NAME">
+			<Text>篡夺者</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_TYWIN_LANNISTER_DESCRIPTION">
+			<Text>近战与反骑单位防御时获得 +10 [ICON_Strength] 战斗力。轻骑兵和重骑兵获得 +50% 夹击加成。远程和攻城单位对受伤单位获得 +5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_ROBERT_BARATHEON_DESCRIPTION">
+			<Text>劳伯·拜拉席恩在攻占主流文明城市时会获得一项对方已研发完成并且劳伯已可研发的 [ICON_SCIENCE] 科技或者 [ICON_CULTURE] 市政。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
