@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Tywin - Robert</Name>
+    <Guid>13d1f84e-5e12-4102-8a3d-cd02127a399c</Guid>
+    <ProjectGuid>376677eb-0caf-4a2a-92cd-7f7aaefc5331</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Hear Me Roar vs. Ours Is the Fury</Teaser>
+    <Description>Hear Me Roar vs. Ours Is the Fury</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>TywinRobert_Civilizations.xml</File><File>TywinRobert_Leaders.xml</File><File>TywinRobert_Units.xml</File><File>TywinRobert_District_and_Buildings.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>TywinRobert_ConfigText.xml</File><File>TywinRobert_Text.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="InGameScripts"><File>GameScript/LannisterBaratheonGameScript.lua</File></AddGameplayScripts><AddUserInterfaces id="AddUI"><Properties><Context>InGame</Context></Properties><File>GameScript/TR_SwitchMember.xml</File></AddUserInterfaces><ImportFiles id="ImportUI"><File>GameScript/TR_SwitchMember.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>TywinRobert_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>TywinRobert_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons" /><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_TYWIN_LANNISTER,LEADER_ROBERT_BARATHEON</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>EddardStark</AssemblyName>
+    <RootNamespace>EddardStark</RootNamespace>
+    <Authors>Furion Huang</Authors>
+    <ModProperties>
+      <CustomProperties xmlns="" />
+    </ModProperties>
+    <AssociationData><![CDATA[<Associations />]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Artdefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\No_Horse.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\SwordsmanKnight_ArmorA.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\WarriorHorseman_ArmorA.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\WarriorHorseman_HorseArmorA.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameScript\LannisterBaratheonGameScript.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameScript\TR_SwitchMember.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameScript\TR_SwitchMember.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TywinRobert_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TywinRobert_District_and_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TywinRobert_ConfigText_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TywinRobert_Text_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Units.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Assets\" />
+    <Folder Include="GameScript" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="TywinRobert_Config.xml" />
+    <Content Include="TywinRobert_ConfigText.xml" />
+    <Content Include="TywinRobert_Civilizations.xml" />
+    <Content Include="TywinRobert_Icons.xml" />
+    <Content Include="TywinRobert_Leaders.xml" />
+    <Content Include="TywinRobert_Text.xml" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

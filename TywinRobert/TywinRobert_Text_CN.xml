@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Furion -->
+<!-- DateCreated: 7/7/2017 9:52:26 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_DESCRIPTION">
+			<Text>北境王国</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_ADJECTIVE">
+			<Text>北境</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_THE_NORTH_REMEMBERS_NAME">
+			<Text>北境不忘</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_THE_NORTH_REMEMBERS_DESCRIPTION">
+			<Text>建成神木林时获得 +1 [ICON_Envoy] 使者。每成为一个城邦的宗主国获得 +5% [ICON_Faith] 信仰产出。能够使用 [ICON_Faith] 信仰购买平民和商队单位。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_LEADER_EDDARD_STARK_QUOTE">
+			<Text>北方的冬天很冷很苦，但史塔克家族会熬过去的，这么多年来我们不是一直都熬过来了吗？</Text>
+		</Replace>
+
+		<!--City Names-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_1">
+			<Text>临冬城</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_2">
+			<Text>恐怖堡</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_3">
+			<Text>霍伍德城</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_4">
+			<Text>深林堡</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_5">
+			<Text>托伦方城</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_6">
+			<Text>赛文城</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_7">
+			<Text>白港</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_8">
+			<Text>卡霍城</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_9">
+			<Text>最后的壁炉城</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_10">
+			<Text>卡林湾</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_11">
+			<Text>灰水望</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_12">
+			<Text>公羊门</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_13">
+			<Text>寡妇望</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_14">
+			<Text>老城</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_CITY_15">
+			<Text>菲林特之指</Text>
+		</Replace>
+		<!--CITIZEN NAMES-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_THE_NORTH_MALE_1">
+			<Text>罗德利克·凯索</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_THE_NORTH_MALE_2">
+			<Text>鲁温学士</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_THE_NORTH_MALE_3">
+			<Text>玖健·黎德</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_THE_NORTH_MALE_4">
+			<Text>阿多</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_THE_NORTH_FEMALE_1">
+			<Text>老奶妈</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_THE_NORTH_FEMALE_2">
+			<Text>珍妮·普尔</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_THE_NORTH_FEMALE_3">
+			<Text>梅拉·黎德</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_THE_NORTH_FEMALE_4">
+			<Text>亚丽·卡史塔克</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_THE_NORTH_FEMALE_5">
+			<Text>莱安娜·莫尔蒙</Text>
+		</Replace>
+
+		<!--Unit Ability Descriptions-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_ABILITY_MOUNTAIN_CLAN_DESCRIPTION">
+			<Text>在冻土和雪地上 +{1_Amount} 战斗力</Text>
+		</Replace>
+
+		<!--Agendas-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_AGENDA_HONOR_AND_JUSTICE_NAME">
+			<Text>荣耀与正义</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_AGENDA_HONOR_AND_JUSTICE_DESCRIPTION">
+			<Text>尊敬并忠于对伙伴忠臣的文明。讨厌对伙伴发起突袭战争的文明。</Text>
+		</Replace>
+
+		<!--PEDIA-->
+		<!--CIV-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_HEART_TREE_CHAPTER_HISTORY_PARA_1">
+			<Text>神木林通常是指七大王国全境的城堡城墙内的一片小树林。对于那些传承着先民的传统、信仰旧神的人们来说，那里是祷告敬拜之地。然而对于信仰七神的地域的人们来说，那只不过是个散步阅读或在暖阳下休憩的处所。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_1">
+			<Text>北境是维斯特洛的一部分，在征服战争发生前曾是独立的王国，目前是维斯特洛的七大王国中面积最大的地区，北至守夜人的新赠地，南至颈泽。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_2">
+			<Text>北境数千年来一直由临冬城的史塔克家族统治，他的封臣包括波顿、赛文、达斯丁、菲林特、葛洛佛、霍伍德、卡史塔克、曼德勒、莫尔蒙、黎德、莱斯威尔、陶哈和安柏。北境的私生子都被冠以“雪诺”的姓氏。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_3">
+			<Text>北境面积广大，占了七大王国面积的40%左右，但人烟稀少，境内遍是大片的荒地、森林和白雪皑皑的高山。北境的冬季酷寒无比，甚至在夏季也可能降雪。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_4">
+			<Text>北境拥有两处天然的屏障。一是北方的长城，由守夜人军团驻守，用于抵挡塞外的野人和其他的威胁。二是南方的颈泽，一片无路可循的三角形的沼泽。唯一可通行的一条堤道则由卡林湾的堡垒据守。曾经的北境之王们在这里击退了无数南方侵略者。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_5">
+			<Text>北境人继承了很多先民的血统，各大家族也因此关系紧密。北方人以性情直爽、坚韧不拔著称，不屑于南方舒适的生活。大多数北境人仍信奉旧神和他们的鱼梁木，信仰新神的则寥寥无几。当然也有少数例外，例如白港的曼德勒家族就信仰七神。因为宗教方面的原因，大多数北境人无意也无法成为骑士。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_6">
+			<Text>地形和气候决定了北方艰苦的生活。冬天的苦寒使北方人和颈泽以南的南方人大为不同。他们打一出生就知道凛冬将至，为了生存他们必须做好准备。在这样一种环境下，北方人无暇关心什么空洞的礼貌、宫廷的仪式、花哨的文化或者什么比武大会。由于很少接触南方的习俗，北方人，尤其是史塔克，总是恪守荣誉，不事权谋。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_7">
+			<Text>有些北方人居住在偏远地区，更像是未开化的蛮族。这些氏族（例如斯卡格斯人）虽然地处偏远但依然名义上从属于史塔克，并且只要保证效忠临冬城就可以保有他们自己的文化和传统。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_8">
+			<Text>几乎全部的北境家族都来自先民的血脉。先民于12000年前登陆维斯特洛。关于当时的情形如今我们已经所知甚少，唯有石头和坟墓上雕刻的符文能够证明先民的存在。在先民荒冢可以找到这样的符文。先民构筑的古老城堡仍然散落在北境的角落，其中包括白港海豹石之上的环形堡垒和海龙角的城堡废墟。森林之子在北境也留下了环形的鱼梁木遗迹。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_NORTH_CHAPTER_HISTORY_PARA_9">
+			<Text>当学士宣告秋季到来之时, 北境的领主们会把收获的一部分粮食储存起来。这一决定非常重要，五分之一至四分之一的比例似乎非常合理，然而，食物需要使用烟熏、腌制等形式保存，否则无法保存至整个冬天。沿海地区主要依靠打渔为生，即使在冬季，河流和长湖经常能看到捕鱼场景. 然而，冬季之前的歉收则意味着饥荒。</Text>
+		</Replace>
+		<!--LEADER-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDDARD_STARK_TITLE">
+			<Text>艾德·史塔克</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDDARD_STARK_SUBTITLE">
+			<Text>史塔克家族的家主，临冬城公爵、北境总督、北境守护。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDDARD_STARK_QUOTE">
+			<Text>北方的冬天很冷很苦，但史塔克家族会熬过去的，这么多年来我们不是一直都熬过来了吗？</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDDARD_STARK_CHAPTER_HISTORY_PARA_1">
+			<Text>艾德·史塔克，昵称“奈德”，是史塔克家族的家主，临冬城公爵、北境总督、北境守护。他与劳勃国王是从小一起长大的好友，并一同发起战争推翻了坦格利安王朝。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDDARD_STARK_CHAPTER_HISTORY_PARA_2">
+			<Text>艾德性格上继承了家族恪守荣誉，公正无私的传统。家人们认为他很和善，但是由于他总是一副严肃的神情，常常被外人误解为对别人不屑与冷淡。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDDARD_STARK_CHAPTER_HISTORY_PARA_3">
+			<Text>尽管艾德·史塔克一直认为自己并不是一位好的领袖，无法与自己的哥哥布兰登相提并论，但是他对于荣誉的执着恪守和公正严明的处事作风依然赢得了许多北境家族的尊重和爱戴。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDDARD_STARK_CHAPTER_HISTORY_PARA_4">
+			<Text>奈德从八岁开始就与劳勃·拜拉席恩一道作为琼恩·艾林的养子在鹰巢城长大，他视劳勃为手足，琼恩为生父。伊里斯二世在下令杀死奈德的父兄之后，曾下令琼恩·艾林交出两位养子的头颅，艾林拒绝了命令并率先在东境举起了反叛大旗。继承了临冬城公爵爵位的奈德，也在北境发起了反叛。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_EDDARD_STARK_CHAPTER_HISTORY_PARA_5">
+			<Text>他在一位渔夫及其女儿的帮助下计划从谷地乘船返回北境，却于中途遭遇风暴，渔夫死于海难，女孩将奈德送到了甜姐岛，在波内尔伯爵的协助之下经从甜姐岛抵达白港，潜回北境，最终得以举兵反叛伊里斯二世。在南下和在南方作战的劳勃会合之前，奈德迎娶了本该嫁给自己哥哥布兰登的凯特琳·徒利。</Text>
+		</Replace>
+
+		<!--UNITS-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MOUNTAIN_CLAN_CHAPTER_HISTORY_PARA_1">
+			<Text>这些纷争不断的西北氏族部落人性情坚毅，与其他北方人一样，他们声称血统袭自先民并笃信旧神。共有大大小小近四十个山地氏族部落，其中最著名的是菲林特氏族、渥尔氏族、诺瑞氏族、伯莱利氏族、哈克莱氏族、里德尔氏族和诺特氏族。他们已经在狼林以北的山脉中居住了几千年之久。山地氏族部落承认他们接受史塔克家族的统治，然而由于他们的文化与其他贵族差距巨大，实际上史塔克家族对他们的控制有很大困难。历史上，史塔克家族不得不多次派军队进入山地调解部落纷争或邀请他们来临冬城仲裁纠纷。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MOUNTAIN_CLAN_CHAPTER_HISTORY_PARA_2">
+			<Text>虽然部落首领并不认为自己真的出身高贵，但他们依然被他们的封君，临冬城的史塔克家族以伯爵之礼相待。就他们自己而言，氏族部落成员以氏族名称呼他们的首领，如里德尔家族的首领会被称为“里德尔”。这一习俗也被延伸到其他方面，比如艾德·史塔克公爵被氏族人称为“奈德”而非史塔克公爵。</Text>
+		</Replace>
+		<!--CIVINFO-->
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_THE_NORTH_LOCATION">
+			<Text>北境</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_THE_NORTH_SIZE">
+			<Text>北境面积广大，占了七大王国面积的40%左右，但人烟稀少，境内遍是大片的荒地、森林和白雪皑皑的高山。北境的冬季酷寒无比，甚至在夏季也可能降雪。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_THE_NORTH_POPULATION">
+			<Text>北境人继承了很多先民的血统，各大家族也因此关系紧密。北方人以性情直爽、坚韧不拔著称，不屑于南方舒适的生活。大多数北境人仍信奉旧神和他们的鱼梁木，信仰新神的则寥寥无几。当然也有少数例外，例如白港的曼德勒家族就信仰七神。因为宗教方面的原因，大多数北境人无意也无法成为骑士。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_THE_NORTH_CAPITAL">
+			<Text>临冬城</Text>
+		</Replace>
+
+		<!--DIPLO-->
+
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_EDDARD_STARK_ANY">
+			<Text>与您成为友邦是我的荣耀，我必须接受。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_EDDARD_STARK_ANY">
+			<Text>荣耀未与你随行，我们不接受你的友谊。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_EDDARD_STARK_ANY">
+			<Text>您是北境真诚的朋友，让我们宣告友谊。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_EDDARD_STARK_ANY">
+			<Text>这是我的荣幸。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_EDDARD_STARK_ANY">
+			<Text>非常可惜。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_EDDARD_STARK_ANY">
+			<Text>我的封臣早已待命。他们会为史塔克家族的荣耀与正义而战。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_EDDARD_STARK_ANY">
+			<Text>你的行为可憎，北境会惩罚你的愚行。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_EDDARD_STARK_ANY">
+			<Text>我们会确保到来的宾客不会遭受严寒和饥饿。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_EDDARD_STARK_ANY">
+			<Text>这次不行。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_EDDARD_STARK_ANY">
+			<Text>我猜您会喜欢来自北境的礼物。比如毛皮和芜菁。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_EDDARD_STARK_ANY">
+			<Text>这听上去很糟糕，你应该重新考虑和北境人民交流的方式。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_EDDARD_STARK_ANY">
+			<Text>你毫无荣誉可言。连旧神都在耳语你的邪恶。(谴责了您)。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_EDDARD_STARK_ANY">
+			<Text>欢迎来到北境。我们土地广袤，寒风瑟瑟，人民坚强。我希望您对旧神虔诚。哦对，我说的就是那棵盯着您看的树。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_EDDARD_STARK_ANY">
+			<Text>来参加临冬城的盛宴如何？您还能享受温泉浴和舒适的狼皮毛毯。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_EDDARD_STARK_ANY">
+			<Text>我们感谢您的热情好客。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_EDDARD_STARK_ANY">
+			<Text>让我听听您都城的故事。那边也下雪吗？</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_EDDARD_STARK_ANY">
+			<Text>欢迎回来。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_EXIT_LEADER_EDDARD_STARK_ANY">
+			<Text>您对您的友邦忠诚。北境看在眼里，记在心里。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_LEADER_EDDARD_STARK_REASON_ANY">
+			<Text>(您是他们的朋友)</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_EDDARD_STARK_ANY">
+			<Text>你的行为很不光彩，停止你的愚行。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_LEADER_EDDARD_STARK_REASON_ANY">
+			<Text>(您背刺了朋友或者发动了突袭战争)</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_EDDARD_STARK_ANY">
+			<Text>联盟使我们更加强大。我们可以结为盟邦吗？</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_EDDARD_STARK_ANY">
+			<Text>我们应该为凛冬的到来做好准备。是时候结束战争了。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_EDDARD_STARK_ANY">
+			<Text>不。还没有结束。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_EDDARD_STARK_ANY">
+			<Text>我这辈子犯过的错，超乎你的想象。然而这却不是其中之一。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_EDDARD_STARK_ANY">
+			<Text>请小心，森林深处危险莫测。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_EDDARD_STARK_ANY">
+			<Text>神圣的鱼梁木不是用来参观的。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_EDDARD_STARK_ANY">
+			<Text>请为我们开辟通路，我们感谢您的慷慨。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_EDDARD_STARK_ANY">
+			<Text>鲁温学士，送渡鸦去我的封臣。看来有硬仗要打了。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_EDDARD_STARK_ANY">
+			<Text>世上不变的唯有凛冬。我们的确有可能失败，但……假如我们胜利呢？</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_EDDARD_STARK_ANY">
+			<Text>我们不接受。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_EDDARD_STARK_ANY">
+			<Text>这是个公平的交易。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

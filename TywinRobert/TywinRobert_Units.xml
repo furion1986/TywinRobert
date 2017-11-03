@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Furion -->
+<!-- DateCreated: 6/20/2017 9:08:52 PM -->
+<GameData>
+	<Types>
+		<!-- Unique-->
+		<!--Tywin Lannister-->
+		<Row Kind="KIND_UNIT" Type="UNIT_SELLSWORDS"/>
+		<Row Kind="KIND_UNIT" Type="UNIT_SELLSWORDS_SWORDSMAN"/>
+		<Row Kind="KIND_UNIT" Type="UNIT_SELLSWORDS_PIKEMAN"/>
+		<Row Kind="KIND_UNIT" Type="UNIT_SELLSWORDS_MARKSMAN"/>
+		<Row Type="ABILITY_SELLSWORDS" Kind="KIND_ABILITY"/>
+		<Row Type="TRAIT_DUMMY_UNIT_SELLSWORDS" Kind="KIND_TRAIT" />
+		<!--Robert Baratheon-->
+		<Row Kind="KIND_UNIT" Type="UNIT_SQUIRE"/>
+		<Row Type="ABILITY_SQUIRE" Kind="KIND_ABILITY"/>
+	</Types>
+	<Traits>
+		<!--Unique trait for sellswords-->
+		<Row TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS" Name="LOC_TRAIT_DUMMY_UNIT_SELLSWORDS_NAME" Description="LOC_TRAIT_DUMMY_UNIT_SELLSWORDS_DESCRIPTION"/>
+	</Traits>
+	<Tags>
+		<Row Tag="CLASS_SELLSWORDS" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SQUIRE" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<!--Tywin Lannister-->
+		<Row Type="UNIT_SELLSWORDS" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_SELLSWORDS_SWORDSMAN" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_SELLSWORDS_PIKEMAN" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_SELLSWORDS_MARKSMAN" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_SELLSWORDS_SWORDSMAN" Tag="CLASS_SELLSWORDS"/>
+		<Row Type="UNIT_SELLSWORDS_PIKEMAN" Tag="CLASS_SELLSWORDS"/>
+		<Row Type="UNIT_SELLSWORDS_MARKSMAN" Tag="CLASS_SELLSWORDS"/>
+		<Row Type="ABILITY_SELLSWORDS" Tag="CLASS_SELLSWORDS"/>
+		<!--Robert Baratheon-->
+		<Row Type="UNIT_SQUIRE" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_SQUIRE" Tag="CLASS_SQUIRE"/>
+		<Row Type="ABILITY_SQUIRE" Tag="CLASS_SQUIRE"/>
+	</TypeTags>
+	<Units>
+		<!--Tywin Lannister-->
+		<Row UnitType="UNIT_SELLSWORDS" TraitType="TRAIT_CIVILIZATION_UNIT_SELLSWORDS" BaseMoves="0" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SELLSWORDS_NAME" Description="LOC_UNIT_SELLSWORDS_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqDistrict="DISTRICT_SELLSWORDS_CAMP" PrereqCivic="CIVIC_FEUDALISM" MustPurchase="TRUE"/>
+		<Row UnitType="UNIT_SELLSWORDS_SWORDSMAN" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SELLSWORDS_SWORDSMAN_NAME" Description="LOC_UNIT_SELLSWORDS_SWORDSMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="3" Combat="45" PrereqCivic="CIVIC_FEUDALISM" TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS"/>
+		<Row UnitType="UNIT_SELLSWORDS_PIKEMAN" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SELLSWORDS_PIKEMAN_NAME" Description="LOC_UNIT_SELLSWORDS_PIKEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="3" Combat="41" PrereqCivic="CIVIC_FEUDALISM" TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS"/>
+		<Row UnitType="UNIT_SELLSWORDS_MARKSMAN" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SELLSWORDS_MARKSMAN_NAME" Description="LOC_UNIT_SELLSWORDS_MARKSMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="3" Combat="30" RangedCombat="40" Range="2" PrereqCivic="CIVIC_FEUDALISM" TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS"/>
+		<!--Robert Baratheon-->
+		<Row UnitType="UNIT_SQUIRE" TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE" BaseMoves="4" Cost="48" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_SQUIRE_NAME" Description="LOC_UNIT_SQUIRE_DESCRIPTION" CanCapture="False" PrereqCivic="CIVIC_MILITARY_TRADITION"/>
+	</Units>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_SELLSWORDS" Name="LOC_ABILITY_SELLSWORDS_NAME" Description="LOC_ABILITY_SELLSWORDS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SQUIRE" Name="LOC_ABILITY_SQUIRE_NAME" Description="LOC_ABILITY_SQUIRE_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_SELLSWORDS</UnitAbilityType>
+			<ModifierId>SELLSWORDS_VICTORY_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SQUIRE</UnitAbilityType>
+			<ModifierId>SQUIRE_COMBAT_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SQUIRE</UnitAbilityType>
+			<ModifierId>SQUIRE_MOVEMENT_MODIFIER</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>SELLSWORDS_VICTORY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_COMBAT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_MOVEMENT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_MOVEMENT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SELLSWORDS_VICTORY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>SELLSWORDS_VICTORY_GOLD</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>75</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>SQUIRE_COMBAT_MODIFIER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>SQUIRE_COMBAT_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_MOVEMENT_MODIFIER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>SQUIRE_MOVEMENT_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_MOVEMENT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="SELLSWORDS_VICTORY_GOLD" Context="Preview" Text="LOC_ABILITY_SELLSWORDS_DESCRIPTION"/>
+		<Row ModifierId="SQUIRE_COMBAT_BONUS" Context="Preview" Text="LOC_ABILITY_SQUIRE_COMBAT_BONUS_DESCRIPTION"/>
+		<Row ModifierId="SQUIRE_MOVEMENT_BONUS" Context="Preview" Text="LOC_ABILITY_SQUIRE_MOVEMENT_BONUS_DESCRIPTION"/>
+	</ModifierStrings>
+	<UnitAiInfos>
+		<!-- Unique-->
+		<Row UnitType="UNIT_SELLSWORDS_SWORDSMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SELLSWORDS_PIKEMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SELLSWORDS_MARKSMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SQUIRE" AiType="UNITTYPE_CIVILIAN_LEADER"/>
+		<Row UnitType="UNIT_SQUIRE" AiType="UNITAI_LEADER"/>
+	</UnitAiInfos>
+	<UnitUpgrades>
+		<Row Unit="UNIT_SELLSWORDS_SWORDSMAN" UpgradeUnit="UNIT_INFANTRY"/>
+		<Row Unit="UNIT_SELLSWORDS_PIKEMAN" UpgradeUnit="UNIT_AT_CREW"/>
+		<Row Unit="UNIT_SELLSWORDS_MARKSMAN" UpgradeUnit="UNIT_FIELD_CANNON"/>
+		<Row Unit="UNIT_SQUIRE" UpgradeUnit="UNIT_KNIGHT"/>
+	</UnitUpgrades>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RB_UNIT_MELEE_ATTCHED_UNITS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS</RequirementSetId>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS_MET_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS</RequirementSetId>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_ADJACENCY</RequirementId>
+		</Row>
+		
+		<Row>
+			<RequirementSetId>RB_UNIT_MELEE_ATTCHED_UNITS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>RB_UNIT_IS_WARRIOR</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RB_UNIT_MELEE_ATTCHED_UNITS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>RB_UNIT_IS_SWORDSMAN</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS_MET_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_ADJACENCY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+		
+		<Row>
+			<RequirementId>RB_UNIT_IS_WARRIOR</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>RB_UNIT_IS_SWORDSMAN</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS_MET_REQUIREMENT</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>RB_UNIT_MELEE_ATTCHED_UNITS_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_ADJACENCY</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_ADJACENCY</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>0</Value>
+		</Row>
+		
+		<Row>
+			<RequirementId>RB_UNIT_IS_WARRIOR</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_WARRIOR</Value>
+		</Row>
+		<Row>
+			<RequirementId>RB_UNIT_IS_SWORDSMAN</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SWORDSMAN</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>
+

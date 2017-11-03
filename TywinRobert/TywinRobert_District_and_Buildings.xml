@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Furion -->
+<!-- DateCreated: 6/20/2017 9:39:44 PM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_SELLSWORDS_CAMP" Kind="KIND_DISTRICT"/>
+		<Row Type="BUILDING_JOUSTING_ARENA" Kind="KIND_BUILDING"/>
+	</Types>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_SELLSWORDS_CAMP" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
+	</DistrictReplaces>
+	<Districts>
+		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" Name="LOC_DISTRICT_SELLSWORDS_CAMP_NAME" Description="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Appeal="-1" CityStrengthModifier="2" TraitType ="TRAIT_CIVILIZATION_DISTRICT_SELLSWORDS_CAMP"/>
+	</Districts>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" YieldChangeId="Sellswords_CommercialHub_Gold"/>
+	</District_Adjacencies>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="0"/>
+	</District_TradeRouteYields>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" YieldType="YIELD_GOLD" YieldChange="1"/>
+	</District_CitizenYieldChanges>
+	<Adjacency_YieldChanges>
+		<Row ID="Sellswords_CommercialHub_Gold" Description="LOC_DISTRICT_SELLSWORDS_CAMP_COMMERCIAL_HUB_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+	</Adjacency_YieldChanges>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_JOUSTING_ARENA" ReplacesBuildingType="BUILDING_STABLE"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_JOUSTING_ARENA" Name="LOC_BUILDING_JOUSTING_ARENA_NAME" Description="LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION" PrereqTech="TECH_HORSEBACK_RIDING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="120" AdvisorType="ADVISOR_CONQUEST" Maintenance="1" Housing="1" Entertainment="1" CitizenSlots="1" TraitType ="TRAIT_CIVILIZATION_BUILDING_JOUSTING_ARENA"/>
+	</Buildings>
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_JOUSTING_ARENA" MutuallyExclusiveBuilding="BUILDING_BARRACKS"/>
+	</MutuallyExclusiveBuildings>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_JOUSTING_ARENA" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_JOUSTING_ARENA" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<Modifiers>
+		<Row>
+			<ModifierId>RB_PASTURES_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_PASTURE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>RB_PASTURES_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_PASTURES_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_JOUSTING_ARENA</BuildingType>
+			<ModifierId>STABLE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JOUSTING_ARENA</BuildingType>
+			<ModifierId>RB_PASTURES_CULTURE</ModifierId>
+		</Row>
+	</BuildingModifiers>
+</GameData>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!--Tywin Lannister-->
+		<Row Type="LEADER_TYWIN_LANNISTER" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_HAMMER_AND_ANVIL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS" Kind="KIND_TRAIT"/>
+		
+		<Row Type="ABILITY_MELEE_DEFEND" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CAVALRY_FLANKING" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RANGED_WOUNDED" Kind="KIND_ABILITY"/>
+		<!--Robert Baratheon-->
+		<Row Type="LEADER_ROBERT_BARATHEON" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_THE_USURPER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_THE_STAG_KING" Kind="KIND_TRAIT"/>
+
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_MELEE_DEFEND" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_MELEE_DEFEND" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_CAVALRY_FLANKING" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_CAVALRY_FLANKING" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_RANGED_WOUNDED" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_RANGED_WOUNDED" Tag="CLASS_SIEGE"/>
+	</TypeTags>
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_TYWIN_LANNISTER</LeaderType>
+			<Name>LOC_LEADER_TYWIN_LANNISTER_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROBERT_BARATHEON</LeaderType>
+			<Name>LOC_LEADER_ROBERT_BARATHEON_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_TYWIN_LANNISTER" Quote="LOC_LEADER_TYWIN_LANNISTER_QUOTE"/>
+		<Row LeaderType="LEADER_ROBERT_BARATHEON" Quote="LOC_LEADER_ROBERT_BARATHEON_QUOTE"/>
+	</LeaderQuotes>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_TYWIN_LANNISTER" TraitType="TRAIT_HAMMER_AND_ANVIL"/>
+		<Row LeaderType="LEADER_ROBERT_BARATHEON" TraitType="TRAIT_THE_USURPER"/>
+	</LeaderTraits>
+	<Traits>
+		<Row Name="LOC_TRAIT_THE_USURPER_NAME" TraitType="TRAIT_THE_USURPER" Description="LOC_TRAIT_THE_USURPER_DESCRIPTION"/>
+		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_THE_STAG_KING" Description="LOC_PLACEHOLDER"/>
+
+		<Row Name="LOC_TRAIT_HAMMER_AND_ANVIL_NAME" TraitType="TRAIT_HAMMER_AND_ANVIL" Description="LOC_TRAIT_HAMMER_AND_ANVIL_DESCRIPTION"/>
+		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS" Description="LOC_PLACEHOLDER"/>
+	</Traits>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_HAMMER_AND_ANVIL</TraitType>
+			<ModifierId>TRAIT_MELEE_DEFEND_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HAMMER_AND_ANVIL</TraitType>
+			<ModifierId>TRAIT_CAVALRY_FLANKING_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HAMMER_AND_ANVIL</TraitType>
+			<ModifierId>TRAIT_RANGED_WOUNDED_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS</TraitType>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_FRIEND</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS</TraitType>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_WAR</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<UnitAbilities>
+		<Row Description="LOC_ABILITY_MELEE_DEFEND_DESCRIPTION" Name="LOC_ABILITY_MELEE_DEFEND_NAME" UnitAbilityType="ABILITY_MELEE_DEFEND" Inactive="true"/>
+		<Row Description="LOC_ABILITY_CAVALRY_FLANKING_DESCRIPTION" Name="LOC_ABILITY_CAVALRY_FLANKING_NAME" UnitAbilityType="ABILITY_CAVALRY_FLANKING" Inactive="true"/>
+		<Row Description="LOC_ABILITY_RANGED_WOUNDED_DESCRIPTION" Name="LOC_ABILITY_RANGED_WOUNDED_NAME" UnitAbilityType="ABILITY_RANGED_WOUNDED" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_MELEE_DEFEND</UnitAbilityType>
+			<ModifierId>MELEE_DEFEND_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CAVALRY_FLANKING</UnitAbilityType>
+			<ModifierId>CAVALRY_FLANKING_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RANGED_WOUNDED</UnitAbilityType>
+			<ModifierId>RANGED_WOUNDED_BONUS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_MELEE_DEFEND_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAVALRY_FLANKING_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RANGED_WOUNDED_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MELEE_DEFEND_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_STRONG_WHEN_DEFENDING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CAVALRY_FLANKING_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RANGED_WOUNDED_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_OPPONENT_IS_WOUNDED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_WAR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARES_SURPRISE_WAR</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_MELEE_DEFEND_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_MELEE_DEFEND</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAVALRY_FLANKING_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_CAVALRY_FLANKING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RANGED_WOUNDED_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_RANGED_WOUNDED</Value>
+		</Row>
+		<Row>
+			<ModifierId>MELEE_DEFEND_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAVALRY_FLANKING_BONUS</ModifierId>
+			<Name>Percent</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>RANGED_WOUNDED_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<!--Agenda-->
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_FRIEND</ModifierId>
+			<Name>MaxValue</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_FRIEND</ModifierId>
+			<Name>IncrementValue</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_FRIEND</ModifierId>
+			<Name>IncrementTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_THE_LANNISTERS_PAY_DEBTS_FRIEND</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_WAR</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_WAR</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_WAR</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_WAR</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_WAR</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_THE_LANNISTERS_PAY_DEBTS_WAR</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_THE_LANNISTERS_PAY_DEBTS_FRIEND" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_THE_LANNISTERS_PAY_DEBTS_WAR" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="MELEE_DEFEND_BONUS" Context="Preview" Text="LOC_ABILITY_MELEE_DEFEND_BONUS_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="RANGED_WOUNDED_BONUS" Context="Preview" Text="LOC_ABILITY_RANGED_WOUNDED_BONUS_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+
+	<!--AI Settings-->
+	<AiListTypes>
+		<Row ListType="TywinCivics"/>
+		<Row ListType="TywinTechs"/>
+		<Row ListType="TywinWonders"/>
+		<Row ListType="TywinUnitBuilds"/>
+		<Row ListType="TywinDiplomacy"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="TywinDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS"/>
+
+		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinWonders" System="Buildings"/>
+		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinCivics" System="Civics"/>
+		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinTechs" System="Technologies"/>
+		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinUnitBuilds" System="UnitPromotionClasses"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!--Wonder Preference-->
+		<!--Row Item="BUILDING_APADANA" ListType="TywinWonders"/-->
+		<!--Civic Preference-->
+		<Row Item="CIVIC_FOREIGN_TRADE" ListType="TywinCivics"/>
+		<Row Item="CIVIC_POLITICAL_PHILOSOPHY" ListType="TywinCivics"/>
+		<Row Item="CIVIC_MILITARY_TRAINING" ListType="TywinCivics"/>
+		<Row Item="CIVIC_DEFENSIVE_TACTICS" ListType="TywinCivics"/>
+		<Row Item="CIVIC_MYSTICISM" ListType="TywinCivics"/>
+		<Row Item="CIVIC_THEOLOGY" ListType="TywinCivics"/>
+		<Row Item="CIVIC_DIVINE_RIGHT" ListType="TywinCivics"/>
+		<Row Item="CIVIC_REFORMED_CHURCH" ListType="TywinCivics"/>
+		<!--Tech Preference-->
+		<Row Item="TECH_ASTROLOGY" ListType="TywinTechs"/>
+		<Row Item="TECH_STIRRUPS" ListType="TywinTechs"/>
+		<!--Unit Preference-->
+		<Row Item="PROMOTION_CLASS_RECON" ListType="TywinUnitBuilds" Value="1"/>
+		<!--Diplomatic Actions-->
+		<Row ListType="TywinDiplomacy" Favored="false" Item="DIPLOACTION_DECLARE_SURPRISE_WAR"/>
+		<Row ListType="TywinDiplomacy" Favored="true" Item="DIPLOACTION_DECLARE_FRIENDSHIP"/>
+	</AiFavoredItems>
+	<Agendas>
+		<Row AgendaType="AGENDA_THE_LANNISTERS_PAY_DEBTS" Description="LOC_AGENDA_THE_LANNISTERS_PAY_DEBTS_DESCRIPTION" Name="LOC_AGENDA_THE_LANNISTERS_PAY_DEBTS_NAME"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_TYWIN_LANNISTER" AgendaType="AGENDA_THE_LANNISTERS_PAY_DEBTS"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_THE_LANNISTERS_PAY_DEBTS" TraitType="TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS"/>
+	</AgendaTraits>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>UNIT_STRONG_WHEN_DEFENDING_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>UNIT_STRONG_WHEN_DEFENDING_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_STRONG_WHEN_DEFENDING_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>UNIT_STRONG_WHEN_DEFENDING_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_ATTACKING</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+</GameData>

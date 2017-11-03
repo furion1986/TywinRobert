@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!--Declare Civilizations-->
+		<Row Type="CIVILIZATION_THE_WESTERLANDS" Kind="KIND_CIVILIZATION" />
+		<Row Type="CIVILIZATION_THE_STORMLANDS" Kind="KIND_CIVILIZATION" />
+		<!--Declare Traits-->
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_SELLSWORDS_CAMP" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_SELLSWORDS" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_HEAR_ME_ROAR" Kind="KIND_TRAIT" />
+
+		<Row Type="MODIFIER_LANNISTER_TRAIT_FLAT_BONUS" Kind="KIND_MODIFIER"/>
+
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_JOUSTING_ARENA" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_SQUIRE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_OURS_IS_THE_FURY" Kind="KIND_TRAIT" />
+		<!--Declare New Unit Ability-->
+	</Types>
+
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_THE_WESTERLANDS</CivilizationType>
+			<Name>LOC_CIVILIZATION_THE_WESTERLANDS_NAME</Name>
+			<Description>LOC_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_THE_WESTERLANDS_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+			<RandomCityNameDepth>5</RandomCityNameDepth>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_THE_STORMLANDS</CivilizationType>
+			<Name>LOC_CIVILIZATION_THE_STORMLANDS_NAME</Name>
+			<Description>LOC_CIVILIZATION_THE_STORMLANDS_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_THE_STORMLANDS_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+			<RandomCityNameDepth>5</RandomCityNameDepth>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" LeaderType="LEADER_TYWIN_LANNISTER" CapitalName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" LeaderType="LEADER_ROBERT_BARATHEON" CapitalName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_1" />
+	</CivilizationLeaders>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" TraitType="TRAIT_CIVILIZATION_DISTRICT_SELLSWORDS_CAMP"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" TraitType="TRAIT_CIVILIZATION_UNIT_SELLSWORDS"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" TraitType="TRAIT_CIVILIZATION_HEAR_ME_ROAR"/>
+
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" TraitType="TRAIT_CIVILIZATION_BUILDING_JOUSTING_ARENA"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" TraitType="TRAIT_CIVILIZATION_OURS_IS_THE_FURY"/>
+	</CivilizationTraits>
+
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" SortIndex="10" Caption="LOC_CIVINFO_THE_WESTERLANDS_LOCATION" Header="LOC_CIVINFO_LOCATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" SortIndex="20" Caption="LOC_CIVINFO_THE_WESTERLANDS_SIZE" Header="LOC_CIVINFO_SIZE"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" SortIndex="30" Caption="LOC_CIVINFO_THE_WESTERLANDS_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" SortIndex="40" Caption="LOC_CIVINFO_THE_WESTERLANDS_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>
+
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" SortIndex="10" Caption="LOC_CIVINFO_THE_STORMLANDS_LOCATION" Header="LOC_CIVINFO_LOCATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" SortIndex="20" Caption="LOC_CIVINFO_THE_STORMLANDS_SIZE" Header="LOC_CIVINFO_SIZE"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" SortIndex="30" Caption="LOC_CIVINFO_THE_STORMLANDS_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" SortIndex="40" Caption="LOC_CIVINFO_THE_STORMLANDS_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>
+	</CivilizationInfo>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_5" Female="1"/>
+
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_TYWIN_LANNISTER" PlayDawnOfManAudio="0" BackgroundImage="LEADER_TYWIN_LANNISTER_Background" ForegroundImage="LEADER_TYWIN_LANNISTER_Foreground"/>
+		<Row LeaderType="LEADER_ROBERT_BARATHEON" PlayDawnOfManAudio="0" BackgroundImage="LEADER_ROBERT_BARATHEON_Background" ForegroundImage="LEADER_ROBERT_BARATHEON_Foreground"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_TYWIN_LANNISTER" BackgroundImage="LEADER_TYWIN_LANNISTER_Diplomacy"/>
+		<Row Type="LEADER_ROBERT_BARATHEON" BackgroundImage="LEADER_ROBERT_BARATHEON_Diplomacy"/>
+	</DiplomacyInfo>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_SELLSWORDS_CAMP" Name="LOC_DISTRICT_SELLSWORDS_CAMP_NAME" Description="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_SELLSWORDS" Name="LOC_UNIT_SELLSWORDS_NAME" Description="LOC_UNIT_SELLSWORDS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HEAR_ME_ROAR" Name="LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_NAME" Description="LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION"/>
+
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_JOUSTING_ARENA" Name="LOC_BUILDING_JOUSTING_ARENA_NAME" Description="LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE" Name="LOC_UNIT_SQUIRE_NAME" Description="LOC_UNIT_SQUIRE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_OURS_IS_THE_FURY" Name="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_NAME" Description="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_DESCRIPTION"/>
+	</Traits>
+
+	<TraitModifiers>
+		<!--Tywin Lannister-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HEAR_ME_ROAR</TraitType>
+			<ModifierId>TRAIT_TL_MINE_BONUS_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HEAR_ME_ROAR</TraitType>
+			<ModifierId>TRAIT_TL_MINE_STRATEGIC_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HEAR_ME_ROAR</TraitType>
+			<ModifierId>TRAIT_TL_MINE_LUXURY_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HEAR_ME_ROAR</TraitType>
+			<ModifierId>TRAIT_TL_GOLD_DISCOUNT</ModifierId>
+		</Row>
+		<!--Robert Baratheon-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_WALLS_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_CASTLE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_STAR_FORT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_WALLS_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_CASTLE_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_STAR_FORT_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_OUTER_DEFENSE</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+		<!--Tywin Lannister-->
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_BONUS_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_BONUS_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_STRATEGIC_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_LUXURY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_LUXURY_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_GOLD_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_LANNISTER_TRAIT_FLAT_BONUS</ModifierType>
+		</Row>
+		<!--Robert Baratheon-->
+		<Row>
+			<ModifierId>TRAIT_RB_WALLS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_CASTLE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_STAR_FORT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_WALLS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ANCIENT_WALLS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_CASTLE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_MEDIEVAL_WALLS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_STAR_FORT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_RENAISSANCE_WALLS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RB_WALLS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>RB_CASTLE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>RB_STAR_FORT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_OUTER_DEFENSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--Tywin Lannister-->
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_BONUS_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_BONUS_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_STRATEGIC_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_STRATEGIC_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_LUXURY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_LUXURY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_GOLD_DISCOUNT</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_GOLD_PURCHASES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_GOLD_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<!--Robert Baratheon-->
+		<Row>
+			<ModifierId>TRAIT_RB_WALLS_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WALLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_WALLS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_CASTLE_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CASTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_CASTLE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_STAR_FORT_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STAR_FORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_STAR_FORT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>TRAIT_RB_WALLS_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>RB_WALLS_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_WALLS_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WALLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_WALLS_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_WALLS_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>TRAIT_RB_CASTLE_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>RB_CASTLE_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_CASTLE_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CASTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_CASTLE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_CASTLE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>TRAIT_RB_STAR_FORT_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>RB_STAR_FORT_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_STAR_FORT_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STAR_FORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_STAR_FORT_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_STAR_FORT_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>TRAIT_RB_OUTER_DEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="TRAIT_RB_WALLS_CULTURE" Context="Preview" Text="LOC_TRAIT_RB_WALLS_CULTURE_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_RB_CASTLE_CULTURE" Context="Preview" Text="LOC_TRAIT_RB_CASTLE_CULTURE_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_RB_STAR_FORT_CULTURE" Context="Preview" Text="LOC_TRAIT_RB_STAR_FORT_CULTURE_DESCRIPTION"/>
+	</ModifierStrings>
+	
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_LANNISTER_TRAIT_FLAT_BONUS</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_FLAT_BONUS</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+	<CityNames>
+		<!--Tywin Lannister-->
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_15" />
+		<!--Robert Baratheon-->
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_15" />
+	</CityNames>
+
+	<Colors>
+		<!--Tywin Lannister-->
+		<Row>
+			<Type>COLOR_PLAYER_THE_WESTERLANDS_PRIMARY</Type>
+			<Color>162,6,6,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_THE_WESTERLANDS_SECONDARY</Type>
+			<Color>246,217,32,255</Color>
+		</Row>
+		<!--Robert Baratheon-->
+		<Row>
+			<Type>COLOR_PLAYER_THE_STORMLANDS_PRIMARY</Type>
+			<Color>254,207,3,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_THE_STORMLANDS_SECONDARY</Type>
+			<Color>34,30,31,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_TYWIN_LANNISTER</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_THE_WESTERLANDS_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_THE_WESTERLANDS_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>LEADER_ROBERT_BARATHEON</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_THE_STORMLANDS_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_THE_STORMLANDS_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<StartBiasResources>
+		<!--Tywin Lannister-->
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_IRON"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_SILVER"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_COPPER"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_SALT"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_JADE"/>
+		<!--Robert Baratheon-->
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" Tier="2" ResourceType="RESOURCE_HORSES"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" Tier="3" ResourceType="RESOURCE_CATTLE"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" Tier="3" ResourceType="RESOURCE_SHEEP"/>
+	</StartBiasResources>
+</GameData>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Furion -->
+<!-- DateCreated: 7/7/2017 9:40:58 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_MOUNTAIN_CLAN_NAME">
+			<Text>山地氏族</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DISTRICT_HEART_TREE_NAME">
+			<Text>神木林</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_MOUNTAIN_CLAN_DESCRIPTION">
+			<Text>北境远古时代特殊侦查单位。在冻土和雪地上获得战斗力加成。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DISTRICT_HEART_TREE_DESCRIPTION">
+			<Text>北境特殊城区，替代圣地。[NEWLINE]每有一片邻近的森林地格获得 +2 [ICON_Faith] 信仰。[NEWLINE]为所在城市的森林地格提供 +1 [ICON_Science] 科研。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_LEADER_EDDARD_STARK_NAME">
+			<Text>艾德·史塔克</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_LOADING_INFO_LEADER_EDDARD_STARK">
+			<Text>"史塔克家族的人体内仍流有‘先民’的血液，我们相信判决死刑的人必须亲自动手。如果你要取人性命，至少应该注视他的双眼，聆听他的临终遗言，倘若你做不到这点，那么或许他罪不至死，统治者若是躲在幕后，付钱给刽子手执行，很快就会忘记死亡为何物。" - 艾德·史塔克</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_THE_NORTH_NAME">
+			<Text>北境</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_THE_NORTH_NAME">
+			<Text>凛冬将至</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_THE_NORTH_DESCRIPTION">
+			<Text>所有国境内的冻土和雪地地格额外产出 +1 [ICON_Food] 食物， +1 [ICON_Production] 生产力和 +1 [ICON_Culture] 文化。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_EDDARD_STARK_NAME">
+			<Text>北境不忘</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_EDDARD_STARK_DESCRIPTION">
+			<Text>建成神木林时获得 +1 [ICON_Envoy] 使者。每成为一个城邦的宗主国获得 +5% [ICON_Faith] 信仰产出。能够使用 [ICON_Faith] 信仰购买平民和商队单位。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

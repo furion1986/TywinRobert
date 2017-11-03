@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION">
+			<Text>Kingdom of The Westerlands</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_ADJECTIVE">
+			<Text>The Westerlands</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HAMMER_AND_ANVIL_NAME">
+			<Text>Hammer and Anvil</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HAMMER_AND_ANVIL_DESCRIPTION">
+			<Text>+10 [ICON_Strength] Combat Strength to Melee and Anti-Cavalry units when defending. +50% Flanking Bonus to Light and Heavy Cavalry units. +5 [ICON_Strength] Combat Strength to Ranged and Siege units when attacking wounded unit.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TYWIN_LANNISTER_QUOTE">
+			<Text>Placeholder</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_DESCRIPTION">
+			<Text>Kingdom of The Stormlands</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_ADJECTIVE">
+			<Text>The Stormlands</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_USURPER_NAME">
+			<Text>The Usurper</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_USURPER_DESCRIPTION">
+			<Text>Upon major civilization city conquered by Robert Baratheon, grant a free Technology or Civic that the conquered city owner already has and is available to Robert Baratheon.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ROBERT_BARATHEON_QUOTE">
+			<Text>Placeholder</Text>
+		</Row>
+
+		<!--City Names-->
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_1">
+			<Text>Casterly Rock</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_2">
+			<Text>Ashemark</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_3">
+			<Text>Banefort</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_4">
+			<Text>Castamere</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_5">
+			<Text>Clegane's Keep</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_6">
+			<Text>Cornfield</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_7">
+			<Text>Crag</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_8">
+			<Text>Crakehall</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_9">
+			<Text>Deep Den</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_10">
+			<Text>Faircastle</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_11">
+			<Text>Feastfires</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_12">
+			<Text>Golden Tooth</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_13">
+			<Text>Greenfield</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_14">
+			<Text>Hornvale</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_15">
+			<Text>Kayce</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_16">
+			<Text>Lannisport</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_17">
+			<Text>Oxcross</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_18">
+			<Text>Riverspring</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_19">
+			<Text>Sarsfield</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_20">
+			<Text>Silverhill</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_21">
+			<Text>Tarbeck Hall</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_22">
+			<Text>Wyndhall</Text>
+		</Row>		
+		<!--CITIZEN NAMES-->
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_MALE_1">
+			<Text>Tytos Brax</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_MALE_2">
+			<Text>Gylbert Farman</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_MALE_3">
+			<Text>Podrick Payne</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_MALE_4">
+			<Text>Gregor Clegane</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_1">
+			<Text>Johanna Lannister</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_2">
+			<Text>Teora Kyndall</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_3">
+			<Text>Myranda Lefford</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_4">
+			<Text>Jeyne Westerling</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_5">
+			<Text>Rohanne Tarbeck</Text>
+		</Row>
+
+		<!--City Names-->
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_1">
+			<Text>Storm's End</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_2">
+			<Text>Amberly</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_3">
+			<Text>Blackhaven</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_4">
+			<Text>Broad Arch</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_5">
+			<Text>Bronzegate</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_6">
+			<Text>Crow's Nest</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_7">
+			<Text>Evenfall Hall</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_8">
+			<Text>Fawnton</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_9">
+			<Text>Felwood</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_10">
+			<Text>Gallowsgrey</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_11">
+			<Text>Grandview</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_12">
+			<Text>Greenstone</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_13">
+			<Text>Griffin's Roost</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_14">
+			<Text>Harvest Hall</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_15">
+			<Text>Mistwood</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_16">
+			<Text>Morne</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_17">
+			<Text>Nightsong</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_18">
+			<Text>Parchments</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_19">
+			<Text>Poddingfield</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_20">
+			<Text>Rain House</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_21">
+			<Text>Stonehelm</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_22">
+			<Text>Summerhall</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_23">
+			<Text>Weeping Town</Text>
+		</Row>	
+		<!--CITIZEN NAMES-->
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_MALE_1">
+			<Text>Rodrik Cassel</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_MALE_2">
+			<Text>Maester Luwin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_MALE_3">
+			<Text>Jojen Reed</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_MALE_4">
+			<Text>Hodor</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_1">
+			<Text>Old Nan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_2">
+			<Text>Jeyne Poole</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_3">
+			<Text>Meera Reed</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_4">
+			<Text>Alys Karstark</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_5">
+			<Text>Lyanna Mormont</Text>
+		</Row>
+
+		<!--Unit Ability Descriptions-->
+		<Row Tag="LOC_ABILITY_MELEE_DEFEND_BONUS_MODIFIER_DESCRIPTION">
+			<Text>+{1_Amount} Combat Strength when defending</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_RANGED_WOUNDED_BONUS_MODIFIER_DESCRIPTION">
+			<Text>+{1_Amount} Combat Strength to wounded unit</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SELLSWORDS_NAME">
+			<Text>Pillage Corpse</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SELLSWORDS_DESCRIPTION">
+			<Text>Gain [ICON_GOLD] on combat victory</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SQUIRE_COMBAT_BONUS_DESCRIPTION">
+			<Text>+{1_Amount} Combat Strength from Squire</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SQUIRE_MOVEMENT_BONUS_DESCRIPTION">
+			<Text>+{1_Amount} Movement from Squire</Text>
+		</Row>
+
+		<!--Agendas-->
+		<Row Tag="LOC_AGENDA_HONOR_AND_JUSTICE_NAME">
+			<Text>Honor and Justice</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HONOR_AND_JUSTICE_DESCRIPTION">
+			<Text>Be loyal and respects civilizations who are loyal to friends. Does not like civilizations who declare suprise war on friends.</Text>
+		</Row>
+
+		<!--PEDIA-->
+		<!--CIV-->
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SELLSWORD_CAMP_CHAPTER_HISTORY_PARA_1">
+			<Text>Placeholder</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_1">
+			<Text>The north or the North is one of the constituent regions of Westeros and was a sovereign nation ruled by Kings in the North before Aegon's Conquest. The largest region of the Seven Kingdoms, the dominion of House Stark extends from the border of the New Gift, which is controlled by the Night's Watch, to the southern edge of the Neck far to the south.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_2">
+			<Text>The north has been ruled by the Starks for thousands of years from the castle known as Winterfell. Notable bannermen of the region include Bolton, Cerwyn, Dustin, Flint, Glover, Hornwood, Karstark, Manderly, Mormont, Reed, Ryswell, Tallhart, and Umber. Bastards of noble origin raised in the north are given the surname Snow.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_3">
+			<Text>The vast wolfswood, the largest forest of the Seven Kingdoms, extends northwest to the Bay of Ice and Sea Dragon Point. Deepwood Motte, the seat of House Glover, lies in the western wolfswood. House Mormont rules Bear Island in the Bay of Ice. The northern mountains extend from the wolfswood to the Wall and are inhabited by northern mountain clans.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_4">
+			<Text>South of the wolfswood is hilly terrain with several large lakes. Torrhen's Square, seat of House Tallhart, is located by the largest of these lakes. Farther west along the Sunset Sea is the Stony Shore, which contains fishing villages. Southeast of the Stony Shore and north of Blazewater Bay is the Rills, plains which are ruled by House Ryswell. East of the Rills and south of Winterfell are the barrowlands, hilly plains dotted with the barrows of the First Men. House Dustin rules the large town of Barrowton. There are unnamed rivers which flow south from Barrowton and near Torrhen's Square into the Saltspear, while another unnamed river divides the Stony Shore from the Rills.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_5">
+			<Text>South of the barrowlands is the Neck, an isthmus forming the border with the riverlands to the south. A vast swamp and the source of the Green Fork, the Neck is home to the crannogmen; House Reed rules from the moving castle Greywater Watch. The ruined castle of Moat Cailin, located on the causeway near the Fever River, controls access to the north from the Neck. It is here the Kings in the North held off southron invasions.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_6">
+			<Text>A large peninsula is located west of the Neck and south of the Saltspear and Blazewater Bay. Flint's Finger, home of House Flint of Flint's Finger, is located on its northern shore, while Cape Kraken and and the Flint Cliffs are located along its western and southern shores, respectively. South of the peninsula are Ironman's Bay and the Iron Islands.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_7">
+			<Text>East of the barrowlands is the White Knife, a major river of the north which has its source at Long Lake northeast of Winterfell. Castle Cerwyn, the seat of House Cerwyn, is located near a tributary south of Winterfell. The White Knife runs south to White Harbor, one of the major cities of the Seven Kingdoms and the main port of the north. Southeast of White Harbor is Oldcastle, the seat of House Locke, while farther east are Ramsgate and the Broken Branch, which has its source in the Sheepshead Hills northeast of White Harbor. Widow's Watch, the castle of House Flint of Widow's Watch, is built on an isolated peninsula east of Ramsgate in the Shivering Sea. The Bite separates the southeastern North, much of which is influenced by House Manderly of White Harbor, from the Vale of Arryn.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_8">
+			<Text>Hornwood, the seat of House Hornwood, is located in the Hornwood forest north of White Harbor and south of the Dreadfort, the seat of House Bolton. The Dreadfort lies near the Weeping Water, which flows east to the Shivering Sea. Northeast of the Dreadfort are the forested lands of House Karstark. East of their castle, Karhold, are the Grey Cliffs. Located in the Bay of Seals are several islands, including Skagos and uninhabited Skane. The largest, Skagos, is said to be inhabited by cannibals and unicorns and is only nominally controlled by the Starks of Winterfell.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_9">
+			<Text>North of Winterfell and the Dreadfort and northwest of Karhold are the lands of House Umber, whose castle of Last Hearth is located in a forest. The Umbers control the Lonely Hills and land along the Bay of Seals. Beginning near Last Hearth, the Last River flows southeast between Karhold and the Dreadfort.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_BUILDING_JOUSTING_ARENA_CHAPTER_HISTORY_PARA_1">
+			<Text>Placeholder</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_1">
+			<Text>The north or the North is one of the constituent regions of Westeros and was a sovereign nation ruled by Kings in the North before Aegon's Conquest. The largest region of the Seven Kingdoms, the dominion of House Stark extends from the border of the New Gift, which is controlled by the Night's Watch, to the southern edge of the Neck far to the south.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_2">
+			<Text>The north has been ruled by the Starks for thousands of years from the castle known as Winterfell. Notable bannermen of the region include Bolton, Cerwyn, Dustin, Flint, Glover, Hornwood, Karstark, Manderly, Mormont, Reed, Ryswell, Tallhart, and Umber. Bastards of noble origin raised in the north are given the surname Snow.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_3">
+			<Text>The vast wolfswood, the largest forest of the Seven Kingdoms, extends northwest to the Bay of Ice and Sea Dragon Point. Deepwood Motte, the seat of House Glover, lies in the western wolfswood. House Mormont rules Bear Island in the Bay of Ice. The northern mountains extend from the wolfswood to the Wall and are inhabited by northern mountain clans.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_4">
+			<Text>South of the wolfswood is hilly terrain with several large lakes. Torrhen's Square, seat of House Tallhart, is located by the largest of these lakes. Farther west along the Sunset Sea is the Stony Shore, which contains fishing villages. Southeast of the Stony Shore and north of Blazewater Bay is the Rills, plains which are ruled by House Ryswell. East of the Rills and south of Winterfell are the barrowlands, hilly plains dotted with the barrows of the First Men. House Dustin rules the large town of Barrowton. There are unnamed rivers which flow south from Barrowton and near Torrhen's Square into the Saltspear, while another unnamed river divides the Stony Shore from the Rills.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_5">
+			<Text>South of the barrowlands is the Neck, an isthmus forming the border with the riverlands to the south. A vast swamp and the source of the Green Fork, the Neck is home to the crannogmen; House Reed rules from the moving castle Greywater Watch. The ruined castle of Moat Cailin, located on the causeway near the Fever River, controls access to the north from the Neck. It is here the Kings in the North held off southron invasions.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_6">
+			<Text>A large peninsula is located west of the Neck and south of the Saltspear and Blazewater Bay. Flint's Finger, home of House Flint of Flint's Finger, is located on its northern shore, while Cape Kraken and and the Flint Cliffs are located along its western and southern shores, respectively. South of the peninsula are Ironman's Bay and the Iron Islands.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_7">
+			<Text>East of the barrowlands is the White Knife, a major river of the north which has its source at Long Lake northeast of Winterfell. Castle Cerwyn, the seat of House Cerwyn, is located near a tributary south of Winterfell. The White Knife runs south to White Harbor, one of the major cities of the Seven Kingdoms and the main port of the north. Southeast of White Harbor is Oldcastle, the seat of House Locke, while farther east are Ramsgate and the Broken Branch, which has its source in the Sheepshead Hills northeast of White Harbor. Widow's Watch, the castle of House Flint of Widow's Watch, is built on an isolated peninsula east of Ramsgate in the Shivering Sea. The Bite separates the southeastern North, much of which is influenced by House Manderly of White Harbor, from the Vale of Arryn.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_8">
+			<Text>Hornwood, the seat of House Hornwood, is located in the Hornwood forest north of White Harbor and south of the Dreadfort, the seat of House Bolton. The Dreadfort lies near the Weeping Water, which flows east to the Shivering Sea. Northeast of the Dreadfort are the forested lands of House Karstark. East of their castle, Karhold, are the Grey Cliffs. Located in the Bay of Seals are several islands, including Skagos and uninhabited Skane. The largest, Skagos, is said to be inhabited by cannibals and unicorns and is only nominally controlled by the Starks of Winterfell.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_9">
+			<Text>North of Winterfell and the Dreadfort and northwest of Karhold are the lands of House Umber, whose castle of Last Hearth is located in a forest. The Umbers control the Lonely Hills and land along the Bay of Seals. Beginning near Last Hearth, the Last River flows southeast between Karhold and the Dreadfort.</Text>
+		</Row>
+		<!--LEADER-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_TITLE">
+			<Text>Tywin Lannister</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_SUBTITLE">
+			<Text>Head of House Lannister, Lord of Casterly Rock, and Warden of the Westerlands.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_QUOTE">
+			<Text>The winters are hard, but the Starks will endure. We always have.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_1">
+			<Text>Eddard Stark, also called "Ned", is the head of House Stark, Lord of Winterfell, and Warden of the North. He is a close friend to King Robert I Baratheon, with whom he was raised.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_2">
+			<Text>Eddard Stark was born the second son of Lord Rickard Stark and Lady Lyarra Stark. He had one older brother, Brandon, and two younger siblings, Lyanna and Benjen.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_3">
+			<Text>Eddard was fostered by Lord Jon Arryn at the Eyrie from the age of eight. There, Eddard befriended his fellow ward, Robert Baratheon, while Lord Jon became like a second father to him. When he reached the age of sixteen, Eddard was a man grown, and divided his time between Winterfell and the Eyrie. During one of his visits to Winterfell, Eddard carried a wedding proposal from Robert to his father, Lord Rickard, who agreed to betroth his daughter Lyanna to Eddard's friend. When Lyanna later expressed that her believe that Robert would never keep to one bed, having heard about Robert's bastard daughter in the Vale, Eddard recalled having seen the child, and is unable to deny her existence.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_4">
+			<Text>In 282 AC, Eddard's sister Lyanna was allegedly abducted by Prince Rhaegar Targaryen. Eddard's brother Brandon rode to King's Landing in anger, but when he threatened the crown prince, he was arrested. Lord Rickard Stark was summoned to King's Landing, and when he demanded a trial by combat, both he and Brandon were executed at the command of King Aerys II Targaryen. Aerys's next step was to demand that Jon Arryn send him the heads of his former wards, Eddard and Robert. Jon refused and instead called his banners.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_5">
+			<Text>With his father and brother dead, Eddard was now the Lord of Winterfell. Eddard called his banners, and marched south to join Robert and Jon, arriving in time to turn the tide at the Battle of the Bells. Afterward, he went to Riverrun to marry Catelyn Tully, who had been betrothed to his brother Brandon before his death. Jon Arryn married Catelyn's sister Lysa in the same ceremony. The double wedding bound House Tully to the rebels' cause. During his marriage to Catelyn, he had five children with her: Robb, Sansa, Arya, Bran, and Rickon.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_TITLE">
+			<Text>Robert Baratheon</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_SUBTITLE">
+			<Text>Head of House Baratheon, Lord of Storm's End, the Stag King, and Warden of the Stormlands.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_QUOTE">
+			<Text>The winters are hard, but the Starks will endure. We always have.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_1">
+			<Text>Eddard Stark, also called "Ned", is the head of House Stark, Lord of Winterfell, and Warden of the North. He is a close friend to King Robert I Baratheon, with whom he was raised.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_2">
+			<Text>Eddard Stark was born the second son of Lord Rickard Stark and Lady Lyarra Stark. He had one older brother, Brandon, and two younger siblings, Lyanna and Benjen.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_3">
+			<Text>Eddard was fostered by Lord Jon Arryn at the Eyrie from the age of eight. There, Eddard befriended his fellow ward, Robert Baratheon, while Lord Jon became like a second father to him. When he reached the age of sixteen, Eddard was a man grown, and divided his time between Winterfell and the Eyrie. During one of his visits to Winterfell, Eddard carried a wedding proposal from Robert to his father, Lord Rickard, who agreed to betroth his daughter Lyanna to Eddard's friend. When Lyanna later expressed that her believe that Robert would never keep to one bed, having heard about Robert's bastard daughter in the Vale, Eddard recalled having seen the child, and is unable to deny her existence.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_4">
+			<Text>In 282 AC, Eddard's sister Lyanna was allegedly abducted by Prince Rhaegar Targaryen. Eddard's brother Brandon rode to King's Landing in anger, but when he threatened the crown prince, he was arrested. Lord Rickard Stark was summoned to King's Landing, and when he demanded a trial by combat, both he and Brandon were executed at the command of King Aerys II Targaryen. Aerys's next step was to demand that Jon Arryn send him the heads of his former wards, Eddard and Robert. Jon refused and instead called his banners.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_5">
+			<Text>With his father and brother dead, Eddard was now the Lord of Winterfell. Eddard called his banners, and marched south to join Robert and Jon, arriving in time to turn the tide at the Battle of the Bells. Afterward, he went to Riverrun to marry Catelyn Tully, who had been betrothed to his brother Brandon before his death. Jon Arryn married Catelyn's sister Lysa in the same ceremony. The double wedding bound House Tully to the rebels' cause. During his marriage to Catelyn, he had five children with her: Robb, Sansa, Arya, Bran, and Rickon.</Text>
+		</Row>
+
+		<!--UNITS-->
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SELLSWORDS_CHAPTER_HISTORY_PARA_1">
+			<Text>Placeholder</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SELLSWORDS_CHAPTER_HISTORY_PARA_2">
+			<Text>Placeholder</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SQUIRE_CHAPTER_HISTORY_PARA_1">
+			<Text>Placeholder</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SQUIRE_CHAPTER_HISTORY_PARA_2">
+			<Text>Placeholder</Text>
+		</Row>
+		<!--CIVINFO-->
+		<Row Tag="LOC_CIVINFO_THE_WESTERLANDS_LOCATION">
+			<Text>The Westerlands</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_WESTERLANDS_SIZE">
+			<Text>While some say the vast north is nearly as large as the rest of the Seven Kingdoms combined, in actuality it is roughly a third of the landmass controlled by the Iron Throne.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_WESTERLANDS_POPULATION">
+			<Text>Most northmen are descended from the First Men, although there have been centuries of intermarriage with the Andals who conquered south of the Neck.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_WESTERLANDS_CAPITAL">
+			<Text>Castly Rock</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_THE_STORMLANDS_LOCATION">
+			<Text>The Stormlands</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_STORMLANDS_SIZE">
+			<Text>While some say the vast north is nearly as large as the rest of the Seven Kingdoms combined, in actuality it is roughly a third of the landmass controlled by the Iron Throne.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_STORMLANDS_POPULATION">
+			<Text>Most northmen are descended from the First Men, although there have been centuries of intermarriage with the Andals who conquered south of the Neck.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_STORMLANDS_CAPITAL">
+			<Text>Storm's End</Text>
+		</Row>
+		<!--DIPLO-->
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>You honor me with your friendship, we accept it.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Honor is not with you, your friendship can't be accepted.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>You are the true friend to the North, let's declare friendship.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>It's my honor.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>What a pity.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>My banner man awaits. They will fight alongside House Stark for honor and justice.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Your act is despicable, the north shall purnish your folly.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>We will make sure our guest stays warm and well fed.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Not this time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>I bet you'd like to receive some northern goods. Fur and turnip.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>I don't like the sound of it, you should reconsider what you say to north people.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>You bear no honor with you. Even the Old God whispers to me about your evil. (Denounces You).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Welcome to the north. Our land is vast, wind is cold, people are tough. I wish you be faithful to the Old God. Yes, the trees that're staring at you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>How about joining the feast in my castle, have a bathe in the hot spring and get a good sleep under the wolf-skin blankets.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>We thank you for your hospitality</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Tell me of your capital. Does it snow often like here?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Welcome again.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Your are loyal to your friends. The north sees, the north remembers.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_ANY">
+			<Text>(You are friend to them)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>What you've done isn't honorable, stop this folly.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_ANY">
+			<Text>(You have backstabbed a friend or declared a surprise war.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Alliance makes us stronger. Shall we make bonds of our houses?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>We should save some food for next winter. Let's stop this war.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>No. It's not over yet.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>I have made more mistakes than you can possibly imagine, but that was not one of them.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Be careful, it's dangerous deep in the forest.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>The sacred weirwood groves are not for tourism.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Please grant us a passage, we thank you for your generosity</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Maester Luwin, send the ravens to my banner man. Looking like we will have a war to fight.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>In this world only winter is certain. We may lose our heads, it's true ... but what if we prevail?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>We do not accept it.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>That's a good deal.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>You honor me with your friendship, we accept it.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Honor is not with you, your friendship can't be accepted.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>You are the true friend to the North, let's declare friendship.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>It's my honor.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>What a pity.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>My banner man awaits. They will fight alongside House Stark for honor and justice.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Your act is despicable, the north shall purnish your folly.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>We will make sure our guest stays warm and well fed.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Not this time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>I bet you'd like to receive some northern goods. Fur and turnip.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>I don't like the sound of it, you should reconsider what you say to north people.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>You bear no honor with you. Even the Old God whispers to me about your evil. (Denounces You).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Welcome to the north. Our land is vast, wind is cold, people are tough. I wish you be faithful to the Old God. Yes, the trees that're staring at you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>How about joining the feast in my castle, have a bathe in the hot spring and get a good sleep under the wolf-skin blankets.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>We thank you for your hospitality</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Tell me of your capital. Does it snow often like here?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Welcome again.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Your are loyal to your friends. The north sees, the north remembers.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_ROBERT_BARATHEON_REASON_ANY">
+			<Text>(You are friend to them)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>What you've done isn't honorable, stop this folly.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_ROBERT_BARATHEON_REASON_ANY">
+			<Text>(You have backstabbed a friend or declared a surprise war.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Alliance makes us stronger. Shall we make bonds of our houses?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>We should save some food for next winter. Let's stop this war.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>No. It's not over yet.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>I have made more mistakes than you can possibly imagine, but that was not one of them.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Be careful, it's dangerous deep in the forest.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>The sacred weirwood groves are not for tourism.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Please grant us a passage, we thank you for your generosity</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Maester Luwin, send the ravens to my banner man. Looking like we will have a war to fight.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>In this world only winter is certain. We may lose our heads, it's true ... but what if we prevail?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>We do not accept it.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>That's a good deal.</Text>
+		</Row>
+	</BaseGameText>
+</GameData>
