@@ -67,11 +67,35 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS</TraitType>
-			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_FRIEND</ModifierId>
+			<ModifierId>AGENDA_HIGH_INCOME</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS</TraitType>
-			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_WAR</ModifierId>
+			<ModifierId>AGENDA_LOW_INCOME</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS</TraitType>
+			<ModifierId>AGENDA_HIGH_STANDING_ARMY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS</TraitType>
+			<ModifierId>AGENDA_LOW_STANDING_ARMY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_THE_STAG_KING</TraitType>
+			<ModifierId>AGENDA_SAME_GOVERNMENT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_THE_STAG_KING</TraitType>
+			<ModifierId>AGENDA_DIFFERENT_GOVERNMENT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_THE_STAG_KING</TraitType>
+			<ModifierId>AGENDA_HIGH_STANDING_ARMY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_THE_STAG_KING</TraitType>
+			<ModifierId>AGENDA_LOW_STANDING_ARMY</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<UnitAbilities>
@@ -236,44 +260,75 @@
 		<Row ListType="TywinWonders"/>
 		<Row ListType="TywinUnitBuilds"/>
 		<Row ListType="TywinDiplomacy"/>
+		<Row ListType="RobertCivics"/>
+		<Row ListType="RobertTechs"/>
+		<Row ListType="RobertWonders"/>
+		<Row ListType="RobertUnitBuilds"/>
+		<Row ListType="RobertDiplomacy"/>
 	</AiListTypes>
 	<AiLists>
-		<Row ListType="TywinDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS"/>
-
+		<!--Row ListType="TywinDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS"/-->
 		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinWonders" System="Buildings"/>
 		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinCivics" System="Civics"/>
 		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinTechs" System="Technologies"/>
 		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinUnitBuilds" System="UnitPromotionClasses"/>
+		<!--Row ListType="RobertDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_THE_STAG_KING"/-->
+		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertWonders" System="Buildings"/>
+		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertCivics" System="Civics"/>
+		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertTechs" System="Technologies"/>
+		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertUnitBuilds" System="UnitPromotionClasses"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!--Wonder Preference-->
-		<!--Row Item="BUILDING_APADANA" ListType="TywinWonders"/-->
+		<Row Item="BUILDING_BIG_BEN" ListType="TywinWonders"/>
+		<Row Item="BUILDING_GREAT_ZIMBABWE" ListType="TywinWonders"/>
+		<Row Item="BUILDING_TERRACOTTA_ARMY" ListType="TywinWonders"/>
+		<Row Item="BUILDING_CASTLE" ListType="RobertWonders"/>
+		<Row Item="BUILDING_STAR_FORT" ListType="RobertWonders"/>
+		<Row Item="BUILDING_JOUSTING_ARENA" ListType="RobertWonders"/>
+		<Row Item="BUILDING_ALHAMBRA" ListType="RobertWonders"/>
 		<!--Civic Preference-->
 		<Row Item="CIVIC_FOREIGN_TRADE" ListType="TywinCivics"/>
 		<Row Item="CIVIC_POLITICAL_PHILOSOPHY" ListType="TywinCivics"/>
 		<Row Item="CIVIC_MILITARY_TRAINING" ListType="TywinCivics"/>
 		<Row Item="CIVIC_DEFENSIVE_TACTICS" ListType="TywinCivics"/>
-		<Row Item="CIVIC_MYSTICISM" ListType="TywinCivics"/>
-		<Row Item="CIVIC_THEOLOGY" ListType="TywinCivics"/>
-		<Row Item="CIVIC_DIVINE_RIGHT" ListType="TywinCivics"/>
-		<Row Item="CIVIC_REFORMED_CHURCH" ListType="TywinCivics"/>
+		<Row Item="CIVIC_MERCENARIES" ListType="TywinCivics"/>
+		<Row Item="CIVIC_EXPLORATION" ListType="TywinCivics"/>
+		<Row Item="CIVIC_MERCANTILISM" ListType="TywinCivics"/>
+		<Row Item="CIVIC_COLONIALISM" ListType="TywinCivics"/>
+		<Row Item="CIVIC_EARLY_EMPIRE" ListType="RobertCivics"/>
+		<Row Item="CIVIC_DIVINE_RIGHT" ListType="RobertCivics"/>
+		<Row Item="CIVIC_MILITARY_TRAINING" ListType="RobertCivics"/>
+		<Row Item="CIVIC_DEFENSIVE_TACTICS" ListType="RobertCivics"/>
 		<!--Tech Preference-->
-		<Row Item="TECH_ASTROLOGY" ListType="TywinTechs"/>
-		<Row Item="TECH_STIRRUPS" ListType="TywinTechs"/>
+		<Row Item="TECH_BRONZE_WORKING" ListType="TywinTechs"/>
+		<Row Item="TECH_CURRENCY" ListType="TywinTechs"/>
+		<Row Item="TECH_BANKING" ListType="TywinTechs"/>
+		<Row Item="TECH_HORSEBACK_RIDING" ListType="RobertTechs"/>
+		<Row Item="TECH_CASTLES" ListType="RobertTechs"/>
+		<Row Item="TECH_SIEGE_TACTICS" ListType="RobertTechs"/>
 		<!--Unit Preference-->
-		<Row Item="PROMOTION_CLASS_RECON" ListType="TywinUnitBuilds" Value="1"/>
-		<!--Diplomatic Actions-->
-		<Row ListType="TywinDiplomacy" Favored="false" Item="DIPLOACTION_DECLARE_SURPRISE_WAR"/>
-		<Row ListType="TywinDiplomacy" Favored="true" Item="DIPLOACTION_DECLARE_FRIENDSHIP"/>
+		<Row Item="PROMOTION_CLASS_MELEE" ListType="TywinUnitBuilds" Value="1"/>
+		<Row Item="PROMOTION_CLASS_MELEE" ListType="RobertUnitBuilds" Value="1"/>
+		<Row Item="PROMOTION_CLASS_HEAVY_CAVALRY" ListType="RobertUnitBuilds" Value="1"/>
 	</AiFavoredItems>
 	<Agendas>
 		<Row AgendaType="AGENDA_THE_LANNISTERS_PAY_DEBTS" Description="LOC_AGENDA_THE_LANNISTERS_PAY_DEBTS_DESCRIPTION" Name="LOC_AGENDA_THE_LANNISTERS_PAY_DEBTS_NAME"/>
+		<Row AgendaType="AGENDA_THE_STAG_KING" Description="LOC_AGENDA_THE_STAG_KING_DESCRIPTION" Name="LOC_AGENDA_THE_STAG_KING_NAME"/>
 	</Agendas>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_TYWIN_LANNISTER" AgendaType="AGENDA_THE_LANNISTERS_PAY_DEBTS"/>
+		<Row LeaderType="LEADER_ROBERT_BARATHEON" AgendaType="AGENDA_THE_STAG_KING"/>
 	</HistoricalAgendas>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_THE_LANNISTERS_PAY_DEBTS" AgendaTwo="AGENDA_MONEY_GRUBBER"/>
+		<Row AgendaOne="AGENDA_THE_LANNISTERS_PAY_DEBTS" AgendaTwo="AGENDA_STANDING_ARMY"/>
+		<Row AgendaOne="AGENDA_THE_STAG_KING" AgendaTwo="AGENDA_IDEOLOGUE"/>
+		<Row AgendaOne="AGENDA_THE_STAG_KING" AgendaTwo="AGENDA_STANDING_ARMY"/>
+	</ExclusiveAgendas>
 	<AgendaTraits>
 		<Row AgendaType="AGENDA_THE_LANNISTERS_PAY_DEBTS" TraitType="TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS"/>
+		<Row AgendaType="AGENDA_THE_STAG_KING" TraitType="TRAIT_AGENDA_THE_STAG_KING"/>
 	</AgendaTraits>
 	<RequirementSets>
 		<Row>

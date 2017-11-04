@@ -86,7 +86,7 @@
 			<Text>近战与反骑单位防御时获得 +10 [ICON_Strength] 战斗力。轻骑兵和重骑兵获得 +50% 夹击加成。远程和攻城单位对受伤单位获得 +5 [ICON_Strength] 战斗力。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_LEADER_ROBERT_BARATHEON_DESCRIPTION">
-			<Text>劳伯·拜拉席恩在攻占主流文明城市时会获得一项对方已研发完成并且劳伯已可研发的 [ICON_SCIENCE] 科技或者 [ICON_CULTURE] 市政。</Text>
+			<Text>劳伯·拜拉席恩在攻占主流文明城市时会获得一项对方已研发完成并且劳伯当前可研发的 [ICON_SCIENCE] 科技或者 [ICON_CULTURE] 市政。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

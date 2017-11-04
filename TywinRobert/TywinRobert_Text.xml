@@ -14,7 +14,7 @@
 			<Text>+10 [ICON_Strength] Combat Strength to Melee and Anti-Cavalry units when defending. +50% Flanking Bonus to Light and Heavy Cavalry units. +5 [ICON_Strength] Combat Strength to Ranged and Siege units when attacking wounded unit.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_TYWIN_LANNISTER_QUOTE">
-			<Text>Placeholder</Text>
+			<Text>Some battles are won with swords and spears, others with quills and ravens.</Text>
 		</Row>
 		
 		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_DESCRIPTION">
@@ -30,7 +30,7 @@
 			<Text>Upon major civilization city conquered by Robert Baratheon, grant a free Technology or Civic that the conquered city owner already has and is available to Robert Baratheon.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_ROBERT_BARATHEON_QUOTE">
-			<Text>Placeholder</Text>
+			<Text>I swear to you, I was never so alive as when I was winning this throne, or so dead as now that I've won it.</Text>
 		</Row>
 
 		<!--City Names-->
@@ -201,31 +201,31 @@
 		</Row>	
 		<!--CITIZEN NAMES-->
 		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_MALE_1">
-			<Text>Rodrik Cassel</Text>
+			<Text>Jon Connington</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_MALE_2">
-			<Text>Maester Luwin</Text>
+			<Text>Beric Dondarrion</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_MALE_3">
-			<Text>Jojen Reed</Text>
+			<Text>Davos Seaworth</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_MALE_4">
-			<Text>Hodor</Text>
+			<Text>Harrold Rogers</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_1">
-			<Text>Old Nan</Text>
+			<Text>Cyrenna Swann</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_2">
-			<Text>Jeyne Poole</Text>
+			<Text>Brienne Tarth</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_3">
-			<Text>Meera Reed</Text>
+			<Text>Shyra Errol</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_4">
-			<Text>Alys Karstark</Text>
+			<Text>Cassana Estermont</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_5">
-			<Text>Lyanna Mormont</Text>
+			<Text>Mylenda Caron</Text>
 		</Row>
 
 		<!--Unit Ability Descriptions-->
@@ -250,17 +250,23 @@
 		</Row>
 
 		<!--Agendas-->
-		<Row Tag="LOC_AGENDA_HONOR_AND_JUSTICE_NAME">
-			<Text>Honor and Justice</Text>
+		<Row Tag="LOC_AGENDA_THE_LANNISTERS_PAY_DEBTS_NAME">
+			<Text>The Lannisters Pay Debts</Text>
 		</Row>
-		<Row Tag="LOC_AGENDA_HONOR_AND_JUSTICE_DESCRIPTION">
-			<Text>Be loyal and respects civilizations who are loyal to friends. Does not like civilizations who declare suprise war on friends.</Text>
+		<Row Tag="LOC_AGENDA_THE_LANNISTERS_PAY_DEBTS_DESCRIPTION">
+			<Text>Likes civilizations with high gold income and strong standing army. Dislikes weak civilizations with low gold income.</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_THE_STAG_KING_NAME">
+			<Text>The Stag King</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_THE_STAG_KING_DESCRIPTION">
+			<Text>Be happy to see civilizations with same government and strong standing army. Dislikes civilizations with different government or weak army.</Text>
 		</Row>
 
 		<!--PEDIA-->
 		<!--CIV-->
 		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SELLSWORD_CAMP_CHAPTER_HISTORY_PARA_1">
-			<Text>Placeholder</Text>
+			<Text>A mercenary is a soldier who takes temporary assignments fighting for wages rather than as an official member of an army. There are a number of different types of mercenaries. The terms "sellsword" and "freerider" carry a certain stigma in Westeros. Sellswords are said to have no loyalty, or only loyal to GOLD.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_1">
 			<Text>The north or the North is one of the constituent regions of Westeros and was a sovereign nation ruled by Kings in the North before Aegon's Conquest. The largest region of the Seven Kingdoms, the dominion of House Stark extends from the border of the New Gift, which is controlled by the Night's Watch, to the southern edge of the Neck far to the south.</Text>
@@ -328,22 +334,25 @@
 			<Text>Head of House Lannister, Lord of Casterly Rock, and Warden of the Westerlands.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_QUOTE">
-			<Text>The winters are hard, but the Starks will endure. We always have.</Text>
+			<Text>Some battles are won with swords and spears, others with quills and ravens.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_1">
-			<Text>Eddard Stark, also called "Ned", is the head of House Stark, Lord of Winterfell, and Warden of the North. He is a close friend to King Robert I Baratheon, with whom he was raised.</Text>
+			<Text>Tywin is one of the most powerful lords in Westeros, and is the father of Cersei, Jaime, and Tyrion. He loves his children Jaime and Cersei, but despises Tyrion. This is partly because Tyrion is deformed, but also Tywin blames his son for causing his beloved wife Joanna's death during his birth, as well as for shaming the family name with his frequent whoring.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_2">
-			<Text>Eddard Stark was born the second son of Lord Rickard Stark and Lady Lyarra Stark. He had one older brother, Brandon, and two younger siblings, Lyanna and Benjen.</Text>
+			<Text>Tywin is a tall, slender, broad-shouldered man in his fifties. He has kept his head shaved ever since he started going bald, but grows out bushy golden side-whiskers, and has green eyes flecked with gold. In battle, he wears deep crimson armor highlighted with gold, with a cloth-of-gold cape.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_3">
-			<Text>Eddard was fostered by Lord Jon Arryn at the Eyrie from the age of eight. There, Eddard befriended his fellow ward, Robert Baratheon, while Lord Jon became like a second father to him. When he reached the age of sixteen, Eddard was a man grown, and divided his time between Winterfell and the Eyrie. During one of his visits to Winterfell, Eddard carried a wedding proposal from Robert to his father, Lord Rickard, who agreed to betroth his daughter Lyanna to Eddard's friend. When Lyanna later expressed that her believe that Robert would never keep to one bed, having heard about Robert's bastard daughter in the Vale, Eddard recalled having seen the child, and is unable to deny her existence.</Text>
+			<Text>Tywin is a calculating, intelligent, politically astute, ruthless, and controlling man. He dedicates his life and efforts towards maintaining the Lannisters' prestige, and ensuring House Lannister is respected, or at least feared. He is a proven battle commander and politician, and has a very powerful presence combined with an intimidating gaze.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_4">
-			<Text>In 282 AC, Eddard's sister Lyanna was allegedly abducted by Prince Rhaegar Targaryen. Eddard's brother Brandon rode to King's Landing in anger, but when he threatened the crown prince, he was arrested. Lord Rickard Stark was summoned to King's Landing, and when he demanded a trial by combat, both he and Brandon were executed at the command of King Aerys II Targaryen. Aerys's next step was to demand that Jon Arryn send him the heads of his former wards, Eddard and Robert. Jon refused and instead called his banners.</Text>
+			<Text>When Robert's Rebellion began, Lord Tywin sat at Casterly Rock and waited, ignoring King Aerys's orders to arm, taking no side until after Robert Baratheon's decisive victory at the Battle of the Trident. After the battle, Tywin mustered his forces and rode for the capital of King's Landing. After Aerys was convinced by Grand Maester Pycelle that Tywin had come to aid him, he ordered the gates of the city opened for Tywin. The westermen proceeded to sack the city. Aerys was killed by Jaime before Tywin's forces arrived at the Red Keep, but Gregor Clegane and Amory Lorch, knights sworn to Tywin and under Tywin's orders, slew Rhaegar's wife Elia of Dorne and her two young children, Rhaenys and Aegon. Tywin wrapped the bodies in crimson Lannister cloaks to better conceal the blood and presented them to Robert Baratheon as a token of fealty.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_5">
-			<Text>With his father and brother dead, Eddard was now the Lord of Winterfell. Eddard called his banners, and marched south to join Robert and Jon, arriving in time to turn the tide at the Battle of the Bells. Afterward, he went to Riverrun to marry Catelyn Tully, who had been betrothed to his brother Brandon before his death. Jon Arryn married Catelyn's sister Lysa in the same ceremony. The double wedding bound House Tully to the rebels' cause. During his marriage to Catelyn, he had five children with her: Robb, Sansa, Arya, Bran, and Rickon.</Text>
+			<Text>After the rebellion, Tywin returned to Casterly Rock, where he continued to serve as Lord and Warden of the West. In 289 AC Lord Balon Greyjoy began Greyjoy's Rebellion against King Robert by burning the Lannister fleet anchored at Lannisport. After the defeat of the Greyjoys, Tywin rebuilt his fleet and hosted another tourney at Lannisport. Due to King Robert's financial mismanagement of the realm, as well as his own new connection to the throne by marriage, Lord Tywin frequently lent money to the crown, placing the court in King's Landing in debt of over three million gold dragons to House Lannister.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_6">
+			<Text>Though ruthless, Tywin Lannister is an able and shrewd ruler who brought great prosperity during his tenures as the King's Hand. He is especially talented at the raising of funds, leading to a persistent jest that he must "shit gold." The common folk of Lannisport cheered twice as loud for Tywin at the tourney for King Aerys II as they did for their actual king. Even so, Tywin is more respected than loved in the Westerlands and he became despised in King's Landing after his house treacherously sacked the city.</Text>
 		</Row>
 
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_TITLE">
@@ -356,44 +365,47 @@
 			<Text>The winters are hard, but the Starks will endure. We always have.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_1">
-			<Text>Eddard Stark, also called "Ned", is the head of House Stark, Lord of Winterfell, and Warden of the North. He is a close friend to King Robert I Baratheon, with whom he was raised.</Text>
+			<Text>Robert was crowned king after King Aerys II Targaryen, his first cousin once removed, was killed during Robert's Rebellion. Following the war, Robert married Cersei Lannister to ensure political stability. With her, Robert has three children: Joffrey, Myrcella, and Tommen. Although, they prove to be the children of Jaime Lannister.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_2">
-			<Text>Eddard Stark was born the second son of Lord Rickard Stark and Lady Lyarra Stark. He had one older brother, Brandon, and two younger siblings, Lyanna and Benjen.</Text>
+			<Text>Robert has the classical Baratheon look: black hair and bright blue eyes. His heavy black hair is thick on his chest, and coarse around his sex. He is a very tall man; Eddard Stark estimates his height to be six and a half feet. As a young adult, Robert was a handsome, clean shaven man, with rough and hard hands. He was strong and powerful, and muscled "like a maiden's fantasy". However, after he won the throne, Robert's appearance changed. Due to excessive feasting and drinking, Robert gained a significant amount of weight. In the nine years since Greyjoy's Rebellion, he gained at least eight stone in weight. Now, he is often red-faced from drink, with dark circles underneath his eyes, and walks as if he is half in his cups, while sweating through his silks. In the final years of his life, Robert grew a beard, which people described as a wild, thick and fierce thing, and which served to hide his double chin.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_3">
-			<Text>Eddard was fostered by Lord Jon Arryn at the Eyrie from the age of eight. There, Eddard befriended his fellow ward, Robert Baratheon, while Lord Jon became like a second father to him. When he reached the age of sixteen, Eddard was a man grown, and divided his time between Winterfell and the Eyrie. During one of his visits to Winterfell, Eddard carried a wedding proposal from Robert to his father, Lord Rickard, who agreed to betroth his daughter Lyanna to Eddard's friend. When Lyanna later expressed that her believe that Robert would never keep to one bed, having heard about Robert's bastard daughter in the Vale, Eddard recalled having seen the child, and is unable to deny her existence.</Text>
+			<Text>Robert is brave, but headstrong, rash, and impatient. He is proud, and will not likely back down on words spoken in a drunken bravado. As king, Robert is no longer used to someone disagreeing with him, and a good way of ensuring that he’d do something, is telling him that he could not, should not, of must not do something (especially in public). Tyrion Lannister considers Robert to be a great blustering oaf, while Varys describes him as a fool. Cersei Lannister considers Robert to be an ignorant, dumb, slow-witted, drunken brute of a man, who does not have the ruthless streak she believes a king requires. Although several people consider Robert to be brave, Cersei believes him to be a coward. According to Petyr Baelish, Robert is simply very practiced at closing his eyes to things he would rather not see.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_4">
-			<Text>In 282 AC, Eddard's sister Lyanna was allegedly abducted by Prince Rhaegar Targaryen. Eddard's brother Brandon rode to King's Landing in anger, but when he threatened the crown prince, he was arrested. Lord Rickard Stark was summoned to King's Landing, and when he demanded a trial by combat, both he and Brandon were executed at the command of King Aerys II Targaryen. Aerys's next step was to demand that Jon Arryn send him the heads of his former wards, Eddard and Robert. Jon refused and instead called his banners.</Text>
+			<Text>Robert is as strong as a bull and fearless in battle. He loves the song of swords and considers poison to be a coward’s weapon. As long they are honest and brave, Robert can be merciful towards his enemies. The only exception are the Targaryens; His hatred for them is a madness within him. A peerless warrior in his youth, Robert fought with a spiked iron warhammer, crafted by Donal Noye. In battle, he wore a great antlered helmet, which made him look like a horned god. He prefers melees, in which he can hit people with his hammer, over jousts. Despite the numerous weapons in the royal armory, the only blade Robert uses is a hunting knife he received as a boy from Lord Jon Arryn, his foster father. Although his condition has deteriorated due to his weight gain and frequent drinking, Robert remains a strong man; Jaime Lannister believes that Robert is stronger than him. Robert possesses a powerful battlefield voice.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_5">
-			<Text>With his father and brother dead, Eddard was now the Lord of Winterfell. Eddard called his banners, and marched south to join Robert and Jon, arriving in time to turn the tide at the Battle of the Bells. Afterward, he went to Riverrun to marry Catelyn Tully, who had been betrothed to his brother Brandon before his death. Jon Arryn married Catelyn's sister Lysa in the same ceremony. The double wedding bound House Tully to the rebels' cause. During his marriage to Catelyn, he had five children with her: Robb, Sansa, Arya, Bran, and Rickon.</Text>
+			<Text>Robert is a man of huge appetites, who knows how to take his pleasures. He is quite promiscuous, and has fathered multiple bastard children. His lusts are the subject of ribald drinking songs throughout the realm. As king, Robert is not loath to impose upon the hospitality of his subjects, no matter whether it is voluntarily or forced. At the same time, however, Robert possesses a great, but rather careless, generosity. He is an avid hunter. Some of Robert's favorite songs are "A Cask of Ale", "Fifty-Four Tuns", and "The Bear and the Maiden Fair".</Text>
 		</Row>
 
 		<!--UNITS-->
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SELLSWORDS_CHAPTER_HISTORY_PARA_1">
-			<Text>Placeholder</Text>
+			<Text>A Sellsword is a mercenary who hires out his services to the highest bidder. Inevitably, this sort of lifestyle involves a great deal of violence and physical exertion. Many sellswords are organized into companies. Some of the sellsword companies are very disciplined (such as the Golden Company), and some are nothing but rabble joined together in search of loot (like the Brave Companions); the Second Sons and the Stormcrows are in the middle. Most tend to be experienced professional soldiers, as it is a profession a man tends to chose after he's tasted a few battles and learned that he's good at fighting.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SELLSWORDS_CHAPTER_HISTORY_PARA_2">
-			<Text>Placeholder</Text>
+			<Text>The Free Cities have made heavy use of mercenaries for centuries, to fight their endless wars in the Stepstones and the Disputed Lands; as such there are more sellswords in Essos than in Westeros. Many of the mercenary soldiers of the east are organized into long-established sellsword companies, or "free companies".</Text>
 		</Row>
 
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SQUIRE_CHAPTER_HISTORY_PARA_1">
-			<Text>Placeholder</Text>
+			<Text>Although not a requirement for becoming a knight, boys, often nobly born, can serve as pages and later squires. Boys can become pages at several different ages. It appears to be normal to become a page from the ages of six or seven onwards. Robert Arryn was six years old when his father planned on having him become a page, although circumstances were not entirely ordinary. According to Brienne of Tarth, boys near the age of six or seven are pages. Edric Dayne became a page at the age of seven, and the Princess of Dorne suggested taking on Jaime Lannister as a page at that age as well. Tommen Baratheon hid as a page at the age of eight, while Kevan Lannister was made a page at this age. When Jon Snow, Lord Commander of the Night's Watch, accepts pages and squires from the free folk, he does not accept any boy younger than eight.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SQUIRE_CHAPTER_HISTORY_PARA_2">
-			<Text>Placeholder</Text>
+			<Text>After a several years of serving as a page, a boy can become a squire. However, boys are not required to serve as a page before becoming a squire, and because of that, the range of ages upon which a boy is made a squire range quite widely. While Samwell Tarly was supposed to become a page and cupbearer at the age of ten, multiple boys are known to have been squires by that age or by an even younger age. Examples include Doran Martell, Aegon V Targaryen, Rollam Westerling, and Elmar Frey, who were all already a squire at the age of nine, and Barristan Selmy, and Edric Dayne, made a squire at the age of ten. Some squires choose to never become a knight, and live the rest of their lives as squires. This may be because the individual does not have the inclination to live a knight's martial lifestyle, or does not have the funds to properly equip himself.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SQUIRE_CHAPTER_HISTORY_PARA_3">
+			<Text>Pages and squires train at arms. Squires run errands for their masters, tend to their master's animals, clean his mail, and help him into his armor whenever required. In times of war, they ride beside their masters, assisting them and fighting by their sides. During tourneys, squires will provide their masters with new lances, or with a sword. A boy who is being fostered but who is not training for knighthood (e.g., because he does not follow the Faith of the Seven), can perform the duties of a page and squire without strictly being one.</Text>
 		</Row>
 		<!--CIVINFO-->
 		<Row Tag="LOC_CIVINFO_THE_WESTERLANDS_LOCATION">
 			<Text>The Westerlands</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_THE_WESTERLANDS_SIZE">
-			<Text>While some say the vast north is nearly as large as the rest of the Seven Kingdoms combined, in actuality it is roughly a third of the landmass controlled by the Iron Throne.</Text>
+			<Text>The Westerlands is a region in the west of the continent of Westeros. Before the Targaryen conquest, it was known as the Kingdom of the Rock. People from the westerlands are known as westermen.</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_THE_WESTERLANDS_POPULATION">
-			<Text>Most northmen are descended from the First Men, although there have been centuries of intermarriage with the Andals who conquered south of the Neck.</Text>
+			<Text>The customary surname of bastards of noble origin born in the westerlands is Hill.</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_THE_WESTERLANDS_CAPITAL">
 			<Text>Castly Rock</Text>
@@ -403,10 +415,10 @@
 			<Text>The Stormlands</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_THE_STORMLANDS_SIZE">
-			<Text>While some say the vast north is nearly as large as the rest of the Seven Kingdoms combined, in actuality it is roughly a third of the landmass controlled by the Iron Throne.</Text>
+			<Text>The Stormlands are one of the constituent regions of the Seven Kingdoms on the continent of Westeros. The Kingdom of the Storm was a sovereign nation until the War of Conquest, in which the last Storm King was slain. The region is so-named for the savage and frequent autumn storms that batter the coast after beginning in the Summer Sea.</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_THE_STORMLANDS_POPULATION">
-			<Text>Most northmen are descended from the First Men, although there have been centuries of intermarriage with the Andals who conquered south of the Neck.</Text>
+			<Text>Notable bannermen of the region include Buckler, Caron, Connington, Dondarrion, Errol, Estermont, Penrose, Selmy, Staedmon, Swann, Tarth, and Wylde. Noble bastards raised in the stormlands are given the surname Storm.</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_THE_STORMLANDS_CAPITAL">
 			<Text>Storm's End</Text>
@@ -414,100 +426,100 @@
 		<!--DIPLO-->
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>You honor me with your friendship, we accept it.</Text>
+			<Text>A profitable proposal, I appreciate it.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Honor is not with you, your friendship can't be accepted.</Text>
+			<Text>I see you come for the gold of the Westerlands, I must deny.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>You are the true friend to the North, let's declare friendship.</Text>
+			<Text>Some battles are won with swords and spears, others with quills and ravens. Do you like my raven and the words it brought?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>It's my honor.</Text>
+			<Text>This is a good start.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>What a pity.</Text>
+			<Text>Fine. Maybe next time.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>My banner man awaits. They will fight alongside House Stark for honor and justice.</Text>
+			<Text>You will regret it. I have gold dragons for sellswords and will not sacrifice a single life of my own people. Would you care about your... peasants?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Your act is despicable, the north shall purnish your folly.</Text>
+			<Text>I bet you heard about my Hammer and Anvil tactics. Yet still, it's too late to run.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>We will make sure our guest stays warm and well fed.</Text>
+			<Text>There is a tool for every task, and a task for every tool. I wish your delegation is a good tool.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Not this time.</Text>
+			<Text>No. I think not.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>I bet you'd like to receive some northern goods. Fur and turnip.</Text>
+			<Text>I sent my delegation with some golden artifacts. I hope you like them.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>I don't like the sound of it, you should reconsider what you say to north people.</Text>
+			<Text>The greatest fools are ofttimes more clever than the men who laugh at them. Don't you think so?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>You bear no honor with you. Even the Old God whispers to me about your evil. (Denounces You).</Text>
+			<Text>What is the value of your people in this world? (Denounces You).</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Welcome to the north. Our land is vast, wind is cold, people are tough. I wish you be faithful to the Old God. Yes, the trees that're staring at you.</Text>
+			<Text>Welcome to the Westerlands. Do visit your famous gold mines and trade with merchants in Lannisport. Make yourself at home here, and you will never want to leave.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>How about joining the feast in my castle, have a bathe in the hot spring and get a good sleep under the wolf-skin blankets.</Text>
+			<Text>People say I shit gold. What a funny tale... I'm not inviting you to watch me shiting... (wait what is that a crossbow or something?)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>We thank you for your hospitality</Text>
+			<Text>Your city is beautiful. But might need some more decoration. How about gold?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Tell me of your capital. Does it snow often like here?</Text>
+			<Text>I would like to know about your capital. I hope it's not a filthy place like a sewer that my son is cleaning.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_GREETING_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Welcome again.</Text>
+			<Text>Greetings.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Your are loyal to your friends. The north sees, the north remembers.</Text>
+			<Text>Your people are rich, your army is strong. You have my congratulations.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_ANY">
-			<Text>(You are friend to them)</Text>
+			<Text>(You have high gold income and strong army)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>What you've done isn't honorable, stop this folly.</Text>
+			<Text>You have no gold, no army. How would protect your people?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_ANY">
-			<Text>(You have backstabbed a friend or declared a surprise war.)</Text>
+			<Text>(You have low gold income or weak army)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Alliance makes us stronger. Shall we make bonds of our houses?</Text>
+			<Text>I believe you will find it beneficial to become our ally, don't you agree?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>We should save some food for next winter. Let's stop this war.</Text>
+			<Text>This war is pointless. Let's stop wasting gold.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>No. It's not over yet.</Text>
+			<Text>I spent my money, my sellswords don't get their price yet. How do you expect me to stop?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>I have made more mistakes than you can possibly imagine, but that was not one of them.</Text>
+			<Text>Bend your knees, and I will help you get up again. How does that sound?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Be careful, it's dangerous deep in the forest.</Text>
+			<Text>I wish you can pick up some gold ores on our road side.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>The sacred weirwood groves are not for tourism.</Text>
+			<Text>Border is border, we will not allow any passage.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Please grant us a passage, we thank you for your generosity</Text>
+			<Text>Passage for gold. I see a fair trade.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Maester Luwin, send the ravens to my banner man. Looking like we will have a war to fight.</Text>
+			<Text>My sellsword companies informed me about your troops,</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>In this world only winter is certain. We may lose our heads, it's true ... but what if we prevail?</Text>
+			<Text>Very well, ser. Go do your duty.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>We do not accept it.</Text>
+			<Text>This is not a fair trade. No.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>That's a good deal.</Text>
+			<Text>The Lannisters pays debts. With gold, or with goods.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
@@ -544,7 +556,7 @@
 			<Text>I don't like the sound of it, you should reconsider what you say to north people.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>You bear no honor with you. Even the Old God whispers to me about your evil. (Denounces You).</Text>
+			<Text>STOP THIS MADNESS, IN THE NAME OF YOUR KING! (Denounces You).</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ROBERT_BARATHEON_ANY">
 			<Text>Welcome to the north. Our land is vast, wind is cold, people are tough. I wish you be faithful to the Old God. Yes, the trees that're staring at you.</Text>
@@ -583,7 +595,7 @@
 			<Text>No. It's not over yet.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>I have made more mistakes than you can possibly imagine, but that was not one of them.</Text>
+			<Text>I will not kill a man for loyalty, nor for fighting well.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
 			<Text>Be careful, it's dangerous deep in the forest.</Text>
@@ -598,7 +610,7 @@
 			<Text>Maester Luwin, send the ravens to my banner man. Looking like we will have a war to fight.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>In this world only winter is certain. We may lose our heads, it's true ... but what if we prevail?</Text>
+			<Text>The realm ... the realm knows ... what a wretched king I've been. Bad as Aerys, the gods spare me.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
 			<Text>We do not accept it.</Text>
