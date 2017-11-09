@@ -14,7 +14,7 @@
 		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" Name="LOC_DISTRICT_SELLSWORDS_CAMP_NAME" Description="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Appeal="-1" CityStrengthModifier="2" TraitType ="TRAIT_CIVILIZATION_DISTRICT_SELLSWORDS_CAMP"/>
 	</Districts>
 	<District_Adjacencies>
-		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" YieldChangeId="Sellswords_CommercialHub_Gold"/>
+		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" YieldChangeId="Sellswordscamp_CommercialHub_Gold"/>
 	</District_Adjacencies>
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
@@ -29,10 +29,10 @@
 		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" YieldType="YIELD_GOLD" YieldChange="1"/>
 	</District_CitizenYieldChanges>
 	<District_CitizenGreatPersonPoints>
-		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1">
+		<Row DistrictType="DISTRICT_SELLSWORDS_CAMP" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
 	</District_CitizenGreatPersonPoints>
 	<Adjacency_YieldChanges>
-		<Row ID="Sellswords_CommercialHub_Gold" Description="LOC_DISTRICT_SELLSWORDS_CAMP_COMMERCIAL_HUB_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="Sellswordscamp_CommercialHub_Gold" Description="LOC_DISTRICT_SELLSWORDS_CAMP_COMMERCIAL_HUB_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
 	</Adjacency_YieldChanges>
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_JOUSTING_ARENA" ReplacesBuildingType="BUILDING_STABLE"/>
