@@ -29,16 +29,40 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Artdefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Artdefs\Civilizations.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Artdefs\Cultures.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Artdefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Artdefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Artdefs\Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_ENC_Joust.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_SELLSWORDS_CAMP_Base_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_SELLSWORDS_CAMP_Base_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_SELLSWORDS_CAMP_Base_03.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_SELLSWORDS_CAMP_Base_04.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\No_Horse.ast">
@@ -72,6 +96,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="TywinRobert_Text_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\hero_buildings.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Icons.xlp">
