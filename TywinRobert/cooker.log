@@ -1,11 +1,11 @@
 Starting AssetCooker...
 XLP cook starting...
-C:\Users\Furion\Documents\Firaxis ModBuddy\Civilization VI\TywinRobert\TywinRobert\XLPs\Units.xlp
-Opened output file: C:\Users\Furion\Documents\My Games\Sid Meier's Civilization VI\Mods\TywinRobert\Platforms\MacOS\BLPs/units/units.blp    For XLP: 'C:\Users\Furion\Documents\Firaxis ModBuddy\Civilization VI\TywinRobert\TywinRobert\XLPs\Units.xlp'
+C:\Users\Administrator\Documents\Firaxis ModBuddy\Civilization VI\TywinRobert\TywinRobert\XLPs\Units.xlp
+Opened output file: C:\Users\Administrator\Documents\My Games\Sid Meier's Civilization VI\Mods\TywinRobert\Platforms\MacOS\BLPs/units/units.blp    For XLP: 'C:\Users\Administrator\Documents\Firaxis ModBuddy\Civilization VI\TywinRobert\TywinRobert\XLPs\Units.xlp'
 Starting 'units/units'
-Load finished for: 'units/units' in 0.568 seconds
+Load finished for: 'units/units' in 3.534 seconds
 Cook finished for: 'units/units' in 0.002 seconds
-Disk write finished for: 'units/units' in 0.513 seconds
-Cleanup finished for: 'units/units' in 0.011 seconds
+Disk write finished for: 'units/units' in 0.087 seconds
+Cleanup finished for: 'units/units' in 0.012 seconds
 XLP cook completed with success.
-Cook completed in 1.275 seconds
+Cook completed in 3.802 seconds
