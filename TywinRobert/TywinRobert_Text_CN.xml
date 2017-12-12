@@ -360,7 +360,7 @@
 			<Text>拜拉席恩家族的族长，风息堡公爵，篡夺王，全境守护者。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_QUOTE">
-			<Text>纵使凛冬难耐，然史塔克家族绝不屈服。正如一直以来的那样。</Text>
+			<Text>I will not kill a man for loyalty, nor for fighting well.</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_1">
 			<Text>Robert was crowned king after King Aerys II Targaryen, his first cousin once removed, was killed during Robert's Rebellion. Following the war, Robert married Cersei Lannister to ensure political stability. With her, Robert has three children: Joffrey, Myrcella, and Tommen. Although, they prove to be the children of Jaime Lannister.</Text>
