@@ -269,59 +269,59 @@
 		<!--PEDIA-->
 		<!--CIV-->
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SELLSWORD_CAMP_CHAPTER_HISTORY_PARA_1">
-			<Text>A mercenary is a soldier who takes temporary assignments fighting for wages rather than as an official member of an army. There are a number of different types of mercenaries. The terms "sellsword" and "freerider" carry a certain stigma in Westeros. Sellswords are said to have no loyalty, or only loyal to GOLD.</Text>
+			<Text>雇佣兵并不是正规军队的成员。他们通过完成短期任务，领取报酬。雇佣兵分为不同种类。在维斯特洛，雇佣剑士和自由骑士的名声并不怎么好。据说雇佣剑士缺乏忠诚而自由骑士毫无纪律。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_1">
-			<Text>The westerlands lie along the coast of the Sunset Sea, with Ironman's Bay and the Iron Islands to the north. A salient of the northeastern westerlands extends near the ruins of Oldstones and the Blue Fork. Castles on the northwestern coast include Banefort and the Crag. Faircastle is located on Fair Isle, while Feastfires and the market town of Kayce are found on a peninsula jutting into the sea.</Text>
+			<Text>西境多山多丘陵，向东一直延伸到金牙城和红粉城之间的山脉，向西到达日落之海，向南可达银山城、玉米城、秧鸡厅一线，向北直至铁民湾。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_2">
-			<Text>Also along the coast is Casterly Rock, the seat of House Lannister, a fortress carved out of a massive hill of solid rock. Near the Rock is Lannisport, a port and one of the largest cities of Westeros. Three days ride from the Rock is the village of Oxcross. Hills and mountain ranges are spread throughout the westerlands, with inland castles near the Rock including Ashemark and Sarsfield,[8] as well as the ruins of Castamere and Tarbeck Hall.</Text>
+			<Text>由于绵延的群山遮挡，与河间地接壤的东边界防御性极强，穿过山脉的主干道由坐落在河间大道上的要塞金牙城扼守。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_3">
-			<Text>The headwaters of the Tumblestone and the Red Fork begin in the westerlands and flow east into the riverlands. The main pass through the eastern mountains is guarded by the Golden Tooth, a castle which controls access to the river road leading to Riverrun. Further south is the Goldroad, which runs east to King's Landing. Deep Den watches this road, with Hornvale to the north and Silverhill to the south.</Text>
+			<Text>从南边进入西境主要是通过滨海大道，其防御性不能和红叉河相比肩，但是秧鸡厅附近的森林形成了一道良好的天然防御。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_4">
-			<Text>The southern westerlands contain more flatland than the rest of the country and includes Cornfield and the forest by Crakehall Castle. The Ocean Road leads south from the Rock past Crakehall to Old Oak and Highgarden in the Reach. Also located in the westerlands are Greenfield and Wyndhall.</Text>
+			<Text>由于海岸沿线地势较为平坦，从西海岸采取进攻相对容易一些。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_5">
-			<Text>The westerlands are not the largest, most populous, or most fertile part of the realm, but they are the richest. Full of hills and crags, the land is dotted with mines from which pour gold and silver in astonishing quantities. There are gold mines at Casterly Rock, the Golden Tooth, Castamere, Nunn's Deep, and the Pendric Hills. According to semi-canon sources, there are settlements which become ghost towns once nearby mines stop producing ore.[10] Besides farming, there is also some fishery in Lannisport and on Fair Isle.</Text>
+			<Text>于七国之中，西境并非面积最大、人口最多或是物产最丰饶，但是毫无疑问，西境最为富有。境内多山，金银矿藏的产量之丰令人咂舌。凯岩城、金牙城、卡斯特梅、努恩堡和彭德瑞丘陵都是金矿的主要产地，因此西境在金矿和其余物产挖掘中投入了巨大的人力。兰尼斯港和仙女岛还存在一些渔场。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_6">
-			<Text>The military strength of the westerlands to be fifty thousand men strong, though this count includes even green boys, and depletes most castles of any protection. During Aegon's Conquest, King Loren I Lannister marched a host of twenty-two thousand from the westerlands to battle. The westerlands contributed ten thousand men-at-arms and one thousand knights during the War of the Ninepenny Kings.</Text>
+			<Text></Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_7">
-			<Text>In 261 AC House Reyne was able to field eight thousand men, while Houses Westerling, Banefort, Plumm, and Stackspear together were able to field at least sixty-five hundred men together.</Text>
+			<Text></Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_8">
-			<Text>In 283 AC, Lord Tywin Lannister commanded twelve thousand Lannister men during the Sack of King's Landing. The Lannister fleet at Lannisport consists of twenty or thirty cogs, carracks, galleys, and dromonds, while lesser lords have two or three ships for patrolling. The total naval power of the westerlands to be “probably closer to fifty or sixty large ships”. Casterly Rock's vessels were rebuilt after the burning of the Lannister fleet in 289 AC.</Text>
+			<Text></Text>
 		</Replace>
 
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_DISTRICTS_PAGE_BUILDING_JOUSTING_ARENA_CHAPTER_HISTORY_PARA_1">
-			<Text>Tourneys in Westeros vary according to the region in which the tourney is held, the desires of the hosting lord, and the rules devised by the lord's master of the games. Many forms of competition are known, including jousting (also called the lists), mock battles between teams of knights, archery competitions, or the melee, in which many warriors fight individually in one large battle. Tourneys can be small events focusing on one competition held on a single day, or they can be large events that take several days and may include several different competitions. Jousting is a martial game or hastilude between two horsemen wielding lances with blunted tips, often as part of a tournament. The primary aim was to replicate a clash of heavy cavalry, with each opponent trying hard to strike the opponent while riding towards him at high speed, if possible breaking the lance on the opponent's shield or jousting armour, or unhorsing him. The joust became an iconic characteristic of the knight in Romantic medievalism. The participants experience close to three and a quarter times their body weight in G-forces when the lances collide with their armor.</Text>
+			<Text>維斯特洛的比武賽事中最關鍵的一環是長槍比武，兩位穿戴盔甲的騎士在比試過程中，以手中的長槍互相攻擊，以將對方從坐騎上擊落為目標，所使用的武器是經過特殊打造的鈍化長槍。除此之外還有其他的比賽形式，例如由騎士組成的小隊間進行的模擬戰，射箭比賽，以及團體比武——參與的眾多戰鬥者們均以個人身份在一場混戰中謀求最後的獨自勝利。不少比武大會規模較大，需歷時幾天的時間來進行，且包含幾種不同的比賽形式。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_1">
-			<Text>The Stormlands are one of the constituent regions of the Seven Kingdoms on the continent of Westeros. The Kingdom of the Storm was a sovereign nation until the War of Conquest, in which the last Storm King was slain. The region is so-named for the savage and frequent autumn storms that batter the coast after beginning in the Summer Sea.</Text>
+			<Text>风暴地是维斯特洛大陆七大王国的番邦区域之一。在最后的风暴王死于征服者战争之前，它曾是一个由风暴王统治的独立完整的国家。现在的风暴地由风息堡的拜拉席恩家族统治。之所以得名“风暴地”是由于这片区域常年遭受来自狭海的暴雨和狂风的侵袭。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_2">
-			<Text>The Stormlands are ruled from the castle of Storm's End by House Baratheon. Notable bannermen of the region include Buckler, Caron, Connington, Dondarrion, Errol, Estermont, Penrose, Selmy, Staedmon, Swann, Tarth, and Wylde. Noble bastards raised in the stormlands are given the surname Storm.</Text>
+			<Text>风暴地位于七大王国的首都，君临的南方，西接河湾地，南抵多恩海，东边则是破船湾。从面积上来说，它属于七大王国中相对较小的领地，内陆地形多为险峻的山地（如盛夏厅附近），海岸多磐石（如风怒角），有广阔而茂密的丛林（代表地区有御林和雨林）。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_3">
-			<Text>The Stormlands are bordered to the north by the crownlands, west by the Reach, south by Dorne and the Sea of Dorne, and east by Shipbreaker Bay and the narrow sea. They are one of the smaller regions of Westeros, a land of harsh mountains, stony shores, and verdant forests, including the kingswood and the rainwood along Cape Wrath. Major rivers include the Slayne and part of the Wendwater.</Text>
+			<Text>西南方向，从赤红山脉延绵出去的一片狭长地区称为多恩边疆地。这里形成了一道地缘上有效的缓冲区域，将长久以来属于敌视状态的三个邦国风暴地、多恩、河湾地隔离开来。过去的几个世纪这里发生过无数次战斗，这片区域也几经易主，直到多恩被纳入七大王国，战火才逐渐安静下来。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_4">
-			<Text>The Dornish Marches, located in the south-west in a long salient along the Red Mountains, serve as an effective buffer zone between the stormlands and their old enemies of the Reach and Dorne. For centuries it was a regular battleground, changing hands more than once until Dorne became part of the Seven Kingdoms.</Text>
+			<Text>东部，从属于风暴地的还有一些海岸外的岛屿。其中最著名的莫过于号称蓝宝石之岛的塔斯和历史悠久的伊斯蒙。多数船只都避免经过风暴地附近的海湾，也就是破船湾。然而数里格外，塔斯附近的海域却令人惊讶的无比湛蓝和清澈，所以被称之为蓝宝石之岛。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_5">
-			<Text>A few islands, including Tarth and Estermont, are also considered part of the stormlands. Ships coming across the narrow sea avoid the notorious Shipbreaker Bay and its storms, though the seas along the Stormlands can be clear and blue. The waters around Tarth are particularly famed for their clear blue color, earning Tarth the name "Sapphire Isle."</Text>
+			<Text>风暴地曾是风暴王的国家。最强盛时期的风暴王国几乎扩张到了卡林湾和颈泽。上千年来风暴地成为了防御多恩侵略的第一道防线，所以风暴地的人民一向有军事传统，风暴地的堡垒通常也比其他地区修建的更为坚固。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_6">
-			<Text>Although it is rainy, the region is fertile enough. There are no cities in the stormlands due to the strong martial culture of the storm lords, but larger fortresses such as Bronzegate are often supported by several small towns. The Weeping Town is a thriving port on the Sea of Dorne. The kingsroad runs north from Storm's End to King's Landing in the crownlands.</Text>
+			<Text>最后的风暴王名字叫做骄傲的亚尔吉拉，在征服者战争时被杀死。他的封地，头衔，箴言被龙王伊耿·坦格利安一世的私生子兄弟奥里斯通过结姻的方式继承。从此拜拉席恩家族就一直作为公爵统辖着风暴地。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_7">
-			<Text>The population of the Stormlands is diffused, and the region can perhaps raise some thirty thousand men. In 206 AC, House Dondarrion on its own was able to raise nearly four thousand infantry and eight hundred cavalry.</Text>
+			<Text></Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_8">
-			<Text>Possibly, as much as some twenty thousand Stormlanders join Renly Baratheon in the War of the Five Kings.</Text>
+			<Text></Text>
 		</Replace>
 
 		<!--LEADER-->
@@ -335,22 +335,22 @@
 			<Text>有些战斗是用剑和枪打赢的，还有一些用的是笔和乌鸦打赢的。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_1">
-			<Text>Tywin is one of the most powerful lords in Westeros, and is the father of Cersei, Jaime, and Tyrion. He loves his children Jaime and Cersei, but despises Tyrion. This is partly because Tyrion is deformed, but also Tywin blames his son for causing his beloved wife Joanna's death during his birth, as well as for shaming the family name with his frequent whoring.</Text>
+			<Text>泰温·兰尼斯特是凯岩城公爵、兰尼斯港之盾和西境守护。作为兰尼斯特家族的族长，泰温生性冷酷无情、精于谋算、控制欲极强，是维斯特洛最有权力的领主之一。泰温是詹姆、瑟曦和提利昂·兰尼斯特的父亲，他喜爱詹姆和瑟曦，但看不起提利昂；一方面因为提利昂是个侏儒，另一让面是因为提利昂出生的时候难产，导致了泰温的爱妻乔安娜的死亡，同时泰温认为提利昂常常嫖妓玷污了家族荣誉。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_2">
-			<Text>Tywin is a tall, slender, broad-shouldered man in his fifties. He has kept his head shaved ever since he started going bald, but grows out bushy golden side-whiskers, and has green eyes flecked with gold. In battle, he wears deep crimson armor highlighted with gold, with a cloth-of-gold cape.</Text>
+			<Text>泰温身材高大修长，肩膀宽阔，年纪刚过五十。自从他开始脱发之后，泰温就把全部的头发都剃光了，只留下两鬓浓密的金黄的络腮胡子，淡绿色的眼睛中也点缀着金黄。战场上，泰温公爵穿一身深红色的盔甲，上面用黄金刻画着鲜艳的狮子，身披用金线编制的巨大斗篷。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_3">
-			<Text>Tywin is a calculating, intelligent, politically astute, ruthless, and controlling man. He dedicates his life and efforts towards maintaining the Lannisters' prestige, and ensuring House Lannister is respected, or at least feared. He is a proven battle commander and politician, and has a very powerful presence combined with an intimidating gaze.</Text>
+			<Text></Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_4">
-			<Text>When Robert's Rebellion began, Lord Tywin sat at Casterly Rock and waited, ignoring King Aerys's orders to arm, taking no side until after Robert Baratheon's decisive victory at the Battle of the Trident. After the battle, Tywin mustered his forces and rode for the capital of King's Landing. After Aerys was convinced by Grand Maester Pycelle that Tywin had come to aid him, he ordered the gates of the city opened for Tywin. The westermen proceeded to sack the city. Aerys was killed by Jaime before Tywin's forces arrived at the Red Keep, but Gregor Clegane and Amory Lorch, knights sworn to Tywin and under Tywin's orders, slew Rhaegar's wife Elia of Dorne and her two young children, Rhaenys and Aegon. Tywin wrapped the bodies in crimson Lannister cloaks to better conceal the blood and presented them to Robert Baratheon as a token of fealty.</Text>
+			<Text>在篡夺者战争期间，泰温一直蛰伏于凯岩城，不支持战争中的任何一方。直到劳勃·拜拉席恩在三叉戟河之战取得决定性的胜利之后，泰温起兵向君临进发。尽管情报总管瓦里斯坚决反对打开城门，但是伊里斯听取了大学士派席尔的建议命人打开了城门。泰温的军队随即洗劫了君临城，詹姆杀死了疯王，同时泰温麾下骑士格雷果·克里冈和亚摩利·洛奇残忍地屠杀了雷加的妻子和孩子。劳勃进城的时候，泰温将他们的尸体用金红的兰尼斯特披风（也方便隐藏血迹）包裹着进献给他以示忠诚</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_5">
-			<Text>After the rebellion, Tywin returned to Casterly Rock, where he continued to serve as Lord and Warden of the West. In 289 AC Lord Balon Greyjoy began Greyjoy's Rebellion against King Robert by burning the Lannister fleet anchored at Lannisport. After the defeat of the Greyjoys, Tywin rebuilt his fleet and hosted another tourney at Lannisport. Due to King Robert's financial mismanagement of the realm, as well as his own new connection to the throne by marriage, Lord Tywin frequently lent money to the crown, placing the court in King's Landing in debt of over three million gold dragons to House Lannister.</Text>
+			<Text>一切平定之后，泰温返回凯岩城继续做他的大领主和西境守护（女儿做了王后，劳勃不敢让父亲再成为首相）。劳勃国王则沉湎于物质享受，他的昏庸和奢靡为王室造成了巨额的财政赤字。由于兰尼斯特和王室刚刚建立的婚姻关系，泰温公爵频繁的向王室提供借款，逐渐成为王室和国家的大债主（欠债超过三百万金龙）。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_6">
-			<Text>Though ruthless, Tywin Lannister is an able and shrewd ruler who brought great prosperity during his tenures as the King's Hand. He is especially talented at the raising of funds, leading to a persistent jest that he must "shit gold." The common folk of Lannisport cheered twice as loud for Tywin at the tourney for King Aerys II as they did for their actual king. Even so, Tywin is more respected than loved in the Westerlands and he became despised in King's Landing after his house treacherously sacked the city.</Text>
+			<Text></Text>
 		</Replace>
 
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_TITLE">
@@ -360,50 +360,50 @@
 			<Text>拜拉席恩家族的族长，风息堡公爵，篡夺王，全境守护者。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_QUOTE">
-			<Text>纵使凛冬难耐，然史塔克家族绝不屈服。正如一直以来的那样。</Text>
+			<Text>我不会因为一个人忠心耿耿、英勇作战而杀他。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_1">
-			<Text>Robert was crowned king after King Aerys II Targaryen, his first cousin once removed, was killed during Robert's Rebellion. Following the war, Robert married Cersei Lannister to ensure political stability. With her, Robert has three children: Joffrey, Myrcella, and Tommen. Although, they prove to be the children of Jaime Lannister.</Text>
+			<Text>国王劳勃·拜拉席恩一世在坦格利安王朝时期曾是风息堡公爵，拜拉席恩家族的族长。他为了救回莱安娜·史塔克，与自己的好友奈德掀起了一场被称为“篡夺者战争”的反叛并成功推翻了坦格利安家族的统治。随后劳勃加冕成为七国国王。莱安娜死后，劳勃迎娶了瑟曦·兰尼斯特以确保政治局势的稳定。298AC在故事的开头，他邀请奈德成为他的国王之手，随后在一次打猎中被野猪刺伤，伤重不治而亡。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_2">
-			<Text>Robert has the classical Baratheon look: black hair and bright blue eyes. His heavy black hair is thick on his chest, and coarse around his sex. He is a very tall man; Eddard Stark estimates his height to be six and a half feet. As a young adult, Robert was a handsome, clean shaven man, with rough and hard hands. He was strong and powerful, and muscled "like a maiden's fantasy". However, after he won the throne, Robert's appearance changed. Due to excessive feasting and drinking, Robert gained a significant amount of weight. In the nine years since Greyjoy's Rebellion, he gained at least eight stone in weight. Now, he is often red-faced from drink, with dark circles underneath his eyes, and walks as if he is half in his cups, while sweating through his silks. In the final years of his life, Robert grew a beard, which people described as a wild, thick and fierce thing, and which served to hide his double chin.</Text>
+			<Text>劳勃身材高大，性格豪爽，以骁勇善战著而称。他在年轻时，曾是一名面容修整干净、眼神清澈迷人的精壮男子，就像少女们的梦中情人。可是，在赢得王冠之后，过度沉湎于美食酒色，使他的体重无可救药地增加了八石，稍一走动就气喘吁吁汗流浃背。虽然粗黑浓密的大胡子遮住了他的双下巴，但是没有任何东西可以遮盖他突出的小腹和凹陷的黑眼圈。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_3">
-			<Text>Robert is brave, but headstrong, rash, and impatient. He is proud, and will not likely back down on words spoken in a drunken bravado. As king, Robert is no longer used to someone disagreeing with him, and a good way of ensuring that he’d do something, is telling him that he could not, should not, of must not do something (especially in public). Tyrion Lannister considers Robert to be a great blustering oaf, while Varys describes him as a fool. Cersei Lannister considers Robert to be an ignorant, dumb, slow-witted, drunken brute of a man, who does not have the ruthless streak she believes a king requires. Although several people consider Robert to be brave, Cersei believes him to be a coward. According to Petyr Baelish, Robert is simply very practiced at closing his eyes to things he would rather not see.</Text>
+			<Text>他最喜爱的歌曲有狗熊与美少女，一桶麦酒和五十四只酒桶。不过即使如此，劳勃仍然以他极富亲和力的魅力、直率的性格、善于化敌为友的非凡能力而出名。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_4">
-			<Text>Robert is as strong as a bull and fearless in battle. He loves the song of swords and considers poison to be a coward’s weapon. As long they are honest and brave, Robert can be merciful towards his enemies. The only exception are the Targaryens; His hatred for them is a madness within him. A peerless warrior in his youth, Robert fought with a spiked iron warhammer, crafted by Donal Noye. In battle, he wore a great antlered helmet, which made him look like a horned god. He prefers melees, in which he can hit people with his hammer, over jousts. Despite the numerous weapons in the royal armory, the only blade Robert uses is a hunting knife he received as a boy from Lord Jon Arryn, his foster father. Although his condition has deteriorated due to his weight gain and frequent drinking, Robert remains a strong man; Jaime Lannister believes that Robert is stronger than him. Robert possesses a powerful battlefield voice.</Text>
+			<Text>劳勃跟很多女人发生过关系，和他们生下私生子女，然后就再也不理不问。根据艾德·史塔克所说，劳勃可以誓言真爱不渝，然后在天黑以前就忘得一干二净。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_5">
-			<Text>Robert is a man of huge appetites, who knows how to take his pleasures. He is quite promiscuous, and has fathered multiple bastard children. His lusts are the subject of ribald drinking songs throughout the realm. As king, Robert is not loath to impose upon the hospitality of his subjects, no matter whether it is voluntarily or forced. At the same time, however, Robert possesses a great, but rather careless, generosity. He is an avid hunter. Some of Robert's favorite songs are "A Cask of Ale", "Fifty-Four Tuns", and "The Bear and the Maiden Fair".</Text>
+			<Text></Text>
 		</Replace>
 
 		<!--UNITS-->
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SELLSWORDS_CHAPTER_HISTORY_PARA_1">
-			<Text>A Sellsword is a mercenary who hires out his services to the highest bidder. Inevitably, this sort of lifestyle involves a great deal of violence and physical exertion. Many sellswords are organized into companies. Some of the sellsword companies are very disciplined (such as the Golden Company), and some are nothing but rabble joined together in search of loot (like the Brave Companions); the Second Sons and the Stormcrows are in the middle. Most tend to be experienced professional soldiers, as it is a profession a man tends to chose after he's tasted a few battles and learned that he's good at fighting.</Text>
+			<Text>雇佣剑士只为出价最高的的雇主效力。不可避免的，他们穿梭于刀光剑影。很多雇佣剑士组团行动。其中有些颇为自律（如黄金团），而有些不过是一群打家劫舍的乌合之众（如勇士团）。次子团和暴鸦团则介于这两者之间。雇佣剑士多为经验丰富的职业战士，他们在大大小小的战斗中幸存下来，并发现自己精于此道。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SELLSWORDS_CHAPTER_HISTORY_PARA_2">
-			<Text>The Free Cities have made heavy use of mercenaries for centuries, to fight their endless wars in the Stepstones and the Disputed Lands; as such there are more sellswords in Essos than in Westeros. Many of the mercenary soldiers of the east are organized into long-established sellsword companies, or "free companies".</Text>
+			<Text>数百年来，自由贸易城邦雇佣了大量佣兵，将他们投入到争夺石阶群岛和争议之地的无尽战争中。因此，厄索斯的雇佣剑士比维斯特洛更多。东大陆的雇佣兵往往加入那些历史悠久的佣兵团，或者“自由佣兵团”。</Text>
 		</Replace>
 
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SQUIRE_CHAPTER_HISTORY_PARA_1">
-			<Text>Although not a requirement for becoming a knight, boys, often nobly born, can serve as pages and later squires. Boys can become pages at several different ages. It appears to be normal to become a page from the ages of six or seven onwards. Robert Arryn was six years old when his father planned on having him become a page, although circumstances were not entirely ordinary. According to Brienne of Tarth, boys near the age of six or seven are pages. Edric Dayne became a page at the age of seven, and the Princess of Dorne suggested taking on Jaime Lannister as a page at that age as well. Tommen Baratheon hid as a page at the age of eight, while Kevan Lannister was made a page at this age. When Jon Snow, Lord Commander of the Night's Watch, accepts pages and squires from the free folk, he does not accept any boy younger than eight.</Text>
+			<Text>男孩成为侍童以后会跟着一位骑士，这位骑士就是他的主人。许多骑士和领主都会让孩子跟着亲戚或同盟，让其他的侍童跟着自己。侍童的工作很简单，只是为骑士跑跑腿，以后骑士才会教他重要的技巧，比如骑马比武和剑术。一般训练时都使用钝剑在场上比武。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SQUIRE_CHAPTER_HISTORY_PARA_2">
-			<Text>After a several years of serving as a page, a boy can become a squire. However, boys are not required to serve as a page before becoming a squire, and because of that, the range of ages upon which a boy is made a squire range quite widely. While Samwell Tarly was supposed to become a page and cupbearer at the age of ten, multiple boys are known to have been squires by that age or by an even younger age. Examples include Doran Martell, Aegon V Targaryen, Rollam Westerling, and Elmar Frey, who were all already a squire at the age of nine, and Barristan Selmy, and Edric Dayne, made a squire at the age of ten. Some squires choose to never become a knight, and live the rest of their lives as squires. This may be because the individual does not have the inclination to live a knight's martial lifestyle, or does not have the funds to properly equip himself.</Text>
+			<Text>男孩到了青春期以后就不再是侍童，而成为侍从。是从知道如何保护并使用武器、盔甲、马匹，并且也跟着学习骑士精神。战争时期，侍从会跟着主人上战场，帮助他们准备装备、并肩奋战。有些侍从不愿意当骑士，因此一辈子都是侍从。原因可能是他们自身厌恶打斗，因此不想要骑士那种生活方式，也可能是没钱购买装备。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SQUIRE_CHAPTER_HISTORY_PARA_3">
-			<Text>Pages and squires train at arms. Squires run errands for their masters, tend to their master's animals, clean his mail, and help him into his armor whenever required. In times of war, they ride beside their masters, assisting them and fighting by their sides. During tourneys, squires will provide their masters with new lances, or with a sword. A boy who is being fostered but who is not training for knighthood (e.g., because he does not follow the Faith of the Seven), can perform the duties of a page and squire without strictly being one.</Text>
+			<Text>任何骑士都能册封其他人为骑士，不管是出于什么理由。当侍从成年后，如果他的主人认为他有资格成为骑士，那他就会被册封为骑士。即使没有在骑士系统中长大，也可以由于出众的表现被册封，比如那些勇武的士兵和有功劳的小人物，成为骑士以后他们的社会地位会立即提升一个级别。</Text>
 		</Replace>
 		<!--CIVINFO-->
 		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_THE_WESTERLANDS_LOCATION">
 			<Text>西境</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_THE_WESTERLANDS_SIZE">
-			<Text>The Westerlands is a region in the west of the continent of Westeros. Before the Targaryen conquest, it was known as the Kingdom of the Rock. People from the westerlands are known as westermen.</Text>
+			<Text>西境是位于维斯特洛大陆西部的一片区域，由兰尼斯特家族统治。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_THE_WESTERLANDS_POPULATION">
-			<Text>The customary surname of bastards of noble origin born in the westerlands is Hill.</Text>
+			<Text>在征服战争之前，被称为凯岩王国。西境惯用的私生子姓氏为希山。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_THE_WESTERLANDS_CAPITAL">
 			<Text>凯岩城</Text>
@@ -413,208 +413,208 @@
 			<Text>风暴地</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_THE_STORMLANDS_SIZE">
-			<Text>The Stormlands are one of the constituent regions of the Seven Kingdoms on the continent of Westeros. The Kingdom of the Storm was a sovereign nation until the War of Conquest, in which the last Storm King was slain. The region is so-named for the savage and frequent autumn storms that batter the coast after beginning in the Summer Sea.</Text>
+			<Text>风暴地是维斯特洛大陆七大王国的番邦区域之一。在最后的风暴王死于征服者战争之前，它曾是一个由风暴王统治的独立完整的国家。现在的风暴地由风息堡的拜拉席恩家族统治。之所以得名“风暴地”是由于这片区域常年遭受来自狭海的暴雨和狂风的侵袭。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_THE_STORMLANDS_POPULATION">
-			<Text>Notable bannermen of the region include Buckler, Caron, Connington, Dondarrion, Errol, Estermont, Penrose, Selmy, Staedmon, Swann, Tarth, and Wylde. Noble bastards raised in the stormlands are given the surname Storm.</Text>
+			<Text>风暴地位于七大王国的首都，君临的南方，西接河湾地，南抵多恩海，东边则是破船湾。从面积上来说，它属于七大王国中相对较小的领地，内陆地形多为险峻的山地（如盛夏厅附近），海岸多磐石（如风怒角），有广阔而茂密的丛林（代表地区有御林和雨林）。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_THE_STORMLANDS_CAPITAL">
-			<Text>Storm's End</Text>
+			<Text>风息堡</Text>
 		</Replace>
 		<!--DIPLO-->
 
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>A profitable proposal, I appreciate it.</Text>
+			<Text>多么美好的提议，就这么办吧。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>I see you come for the gold of the Westerlands, I must deny.</Text>
+			<Text>西境而来的家伙，我必须拒绝你的请求。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Some battles are won with swords and spears, others with quills and ravens. Do you like my raven and the words it brought?</Text>
+			<Text>有些战斗是用剑和枪打赢的，还有一些用的是笔和乌鸦打赢的。是否接受我的乌鸦带来的友谊呢？</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>This is a good start.</Text>
+			<Text>这是个好的开始。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Fine. Maybe next time.</Text>
+			<Text>好吧。也许下次我们能达成一致。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>You will regret it. I have gold dragons for sellswords and will not sacrifice a single life of my own people. Would you care about your... peasants?</Text>
+			<Text>你会后悔的。雇佣兵会代替我的人民而战，而你的农夫又将如何呢。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>I bet you heard about my Hammer and Anvil tactics. Yet still, it's too late to run.</Text>
+			<Text>我猜你一定听过我的锤子和铁砧战术。是的，你已经在劫难逃了。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>There is a tool for every task, and a task for every tool. I wish your delegation is a good tool.</Text>
+			<Text>万事皆有器可善之,凡器皆有可善之事。希望你的代表团也能善其事。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>No. I think not.</Text>
+			<Text>不，我不这么认为。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>I sent my delegation with some golden artifacts. I hope you like them.</Text>
+			<Text>我的代表团为您带来了一些黄金工艺品。我想您一定会喜欢的。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>The greatest fools are ofttimes more clever than the men who laugh at them. Don't you think so?</Text>
+			<Text>最蠢的人通常也比嘲笑他们的家伙聪明。你说呢？</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>What is the value of your people in this world? (Denounces You).</Text>
+			<Text>你和你的子民简直毫无价值！(谴责你)</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Welcome to the Westerlands. Do visit your famous gold mines and trade with merchants in Lannisport. Make yourself at home here, and you will never want to leave.</Text>
+			<Text>欢迎来到西境。来看看我们最有名的金矿还有兰尼斯港的交易所。你不会舍得离开这里的。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>People say I shit gold. What a funny tale... I'm not inviting you to watch me shiting... (wait what is that a crossbow or something?)</Text>
+			<Text>人们说我的钱多如粪土，多么可笑。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Your city is beautiful. But might need some more decoration. How about gold?</Text>
+			<Text>多么美妙的城市，不过好像缺了点什么...加点黄金点缀一下如何？</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>I would like to know about your capital. I hope it's not a filthy place like a sewer that my son is cleaning.</Text>
+			<Text>我倒想看看你的首都，怕不是像下水道一样肮脏，以至于如此羞于见人。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Greetings.</Text>
+			<Text>你吼啊。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Your people are rich, your army is strong. You have my congratulations.</Text>
+			<Text>你的国家如此富有强盛。请接收我的敬意。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_ANY">
-			<Text>(You have high gold income and strong army)</Text>
+			<Text>(你十分富有和强大)</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>You have no gold, no army. How would protect your people?</Text>
+			<Text>贫穷、弱小，真不知道你是如何坚持到现在的。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_ANY">
-			<Text>(You have low gold income or weak army)</Text>
+			<Text>(你的收入过低或者过于弱小)</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>I believe you will find it beneficial to become our ally, don't you agree?</Text>
+			<Text>我相信你能理解咱们同盟的利益所在，你说呢？</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>This war is pointless. Let's stop wasting gold.</Text>
+			<Text>毫无意义的战争，这简直是在浪费金钱。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>I spent my money, my sellswords don't get their price yet. How do you expect me to stop?</Text>
+			<Text>我花钱雇佣了雇佣兵，但他们还毫无斩获，你却希望我停下？真是笑话！</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Bend your knees, and I will help you get up again. How does that sound?</Text>
+			<Text>一直跪着似乎很不好受的样子，不如先站起来休息一下，一会再接着跪吧。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>I wish you can pick up some gold ores on our road side.</Text>
+			<Text>祝你你们经过的时候能幸运的捡到几块金疙瘩，就当我送你们的了~</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Border is border, we will not allow any passage.</Text>
+			<Text>国境的存在意义，就是不让人随意通过。你应该懂的。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Passage for gold. I see a fair trade.</Text>
+			<Text>过路费？听起来不错。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>My sellsword companies informed me about your troops,</Text>
+			<Text>我的贩剑集团在边境发现了你的士兵，你是否想做些解释呢？</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>Very well, ser. Go do your duty.</Text>
+			<Text>Well well</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>This is not a fair trade. No.</Text>
+			<Text>这不公平！我必须拒绝</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>The Lannisters pays debts. With gold, or with goods.</Text>
+			<Text>兰尼斯港欢迎交易，无论是钱还是货物。</Text>
 		</Replace>
 
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>You will be our good friend, offer accepted!</Text>
+			<Text>我想我们会成为好朋友的。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>You are not a true friend yet. Prove yourself and try next time.</Text>
+			<Text>你暂时还没资格成为我的朋友，等到你能证明自己的时候再来吧。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>You are mightly like a god! Would you like to accept our friendship?</Text>
+			<Text>您是如此的英明神武，可否和我做个朋友呢。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Happy day.</Text>
+			<Text>嘿嘿嘿，好开心。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Ah... you should have accepted it.</Text>
+			<Text>Emmm...你应该接受这个提议。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Have you heard about how strong the defence of Storm's End is? Try ensiege our cities and you will find you don't have enough supplies for the war.</Text>
+			<Text>风息堡固若金汤无坚不摧！想进攻我的城市？装备的储存量足够么？</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>I will not kill a man for loyalty, nor for fighting well. Prove yourself and I will spare your life.</Text>
+			<Text>我不会杀一个忠心耿耿、英勇作战的人。如果能证明自己那么我将饶你一命。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Your delegation is well settled. But next time, don't take ships here. The gulf is cursed.</Text>
+			<Text>你的使团已经安顿好了。但是下次请不要走水路，这个海湾已经被诅咒了。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Hmmm, did I see a sinking ship with your flag?</Text>
+			<Text>哈哈哈哈哈，那艘正沉没的帆船似乎挂着的是你的旗帜？</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>I sent my envoy to you. Try some peach, it tastes like maiden's lip.</Text>
+			<Text>我的特使给您带来了一些桃子，尝一口，宛如少女嘴唇一般鲜嫩。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Fat? Fat, is it? Is that how you speak to your king?</Text>
+			<Text>肥？你说肥？？你居然说我一国之君是一个肥宅？！</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>STOP THIS MADNESS, IN THE NAME OF YOUR KING! (Denounces You).</Text>
+			<Text>停止你愚蠢的行为，这不是君王该有的行为。 (谴责你)</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>The Stormlands welcome you. I believe you've seen our mighty castles already. Laugh loud, this is how we make friends.</Text>
+			<Text>伟大的风暴地欢迎你。不要在意那守卫森严的堡垒，它们不是为朋友准备的。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Are you down watching a jousting tourney? Or rather melee brawl?</Text>
+			<Text>你想来欣赏一场美妙的比武大赛么，还是说你想要亲自试试？</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Let's see what good wine you got.</Text>
+			<Text>让我看看你带来了什么好酒。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Just tell me one thing, do you unforgetable whores and wine?</Text>
+			<Text>我想你一定被酒色迷昏了头脑</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Good day!</Text>
+			<Text>嘿嘿嘿，吼开心。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>We share the same ideology, we train strong armies. I see you good friend to be.</Text>
+			<Text>我们有着同样的思想，我们训练着强大的军队。看来我们可以做个好朋友。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_LEADER_ROBERT_BARATHEON_REASON_ANY">
-			<Text>(Your government is the same as theirs, and you have strong standing army.)</Text>
+			<Text>(你们有着相同的政体以及强大的军队)</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>What you believe is a lie, and where's your army to defend your miserable little lie?</Text>
+			<Text>你的信仰是如此脆弱，还有你那群可笑的农夫，哦，你说那是军队？哈哈哈</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_LEADER_ROBERT_BARATHEON_REASON_ANY">
-			<Text>(Your government is different than theirs, and your standing army is weak.)</Text>
+			<Text>(你们有着不同的政体，并且你的军队十分弱小)</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Our houses will be strong and prosper by making alliances.</Text>
+			<Text>同盟会使我们的堡垒更加强大。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>I agree, I'm bored already.</Text>
+			<Text>听起来不错。我早已厌倦了。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Now you regret? Now you tremble in front of the horned god? No, it's not done yet. </Text>
+			<Text>你现在后悔了？尽情颤抖吧，这一切还远远没有结束</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Bend your knees to your king. It is over.</Text>
+			<Text>在我的面前跪下吧。这样一来这一切都将结束。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Our sea is furious, only smugglers can handle it. Be careful.</Text>
+			<Text>只有走私者才能驾驭这愤怒的波涛。小心点。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>You will only see our iron gates but nothing beyond.</Text>
+			<Text>迎接你的只有这冰冷的铁门。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Can you grant a passage to us? Fat boars on the other side of the forest.</Text>
+			<Text>能让我们通过您的领地么，只要一小会就好。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Your troops want to climb my wall, aren't they? Tell them leave, it's not gonna be an easy climb.</Text>
+			<Text>你的小丑似乎想攀登我的城墙，让他们回去吧。在他们送命之前。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>The realm ... the realm knows ... what a wretched king I've been. Bad as Aerys, the gods spare me.</Text>
+			<Text>只有这国家...这国家清楚...我是怎样的一个昏君，跟伊里斯一样的昏君。请诸神饶恕我吧。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>I'm not drunk nor fool, this is not a fair trade.</Text>
+			<Text>连一个醉鬼都能看得出这根本算不上公平的交易。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
-			<Text>Good ale, good deal. Aha.</Text>
+			<Text>Aha~好酒，好交易！</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
