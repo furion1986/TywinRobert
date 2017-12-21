@@ -88,12 +88,13 @@
 	</CivilizationCitizenNames>
 
 	<LoadingInfo>
-		<Row LeaderType="LEADER_TYWIN_LANNISTER" PlayDawnOfManAudio="0" BackgroundImage="LEADER_TYWIN_LANNISTER_Background" ForegroundImage="LEADER_TYWIN_LANNISTER_Foreground"/>
-		<Row LeaderType="LEADER_ROBERT_BARATHEON" PlayDawnOfManAudio="0" BackgroundImage="LEADER_ROBERT_BARATHEON_Background" ForegroundImage="LEADER_ROBERT_BARATHEON_Foreground"/>
+		<Row LeaderType="LEADER_TYWIN_LANNISTER" PlayDawnOfManAudio="0" BackgroundImage="LEADER_TYWIN_LANNISTER_BACKGROUND" ForegroundImage="LEADER_TYWIN_LANNISTER_Foreground"/>
+		<Row LeaderType="LEADER_ROBERT_BARATHEON" PlayDawnOfManAudio="0" BackgroundImage="LEADER_ROBERT_BARATHEON_BACKGROUND" ForegroundImage="ROBERTBARATHEON_Foreground"/>
 	</LoadingInfo>
+	
 	<DiplomacyInfo>
 		<Row Type="LEADER_TYWIN_LANNISTER" BackgroundImage="LEADER_TYWIN_LANNISTER_Diplomacy"/>
-		<Row Type="LEADER_ROBERT_BARATHEON" BackgroundImage="LEADER_ROBERT_BARATHEON_Diplomacy"/>
+		<Row Type="LEADER_ROBERT_BARATHEON" BackgroundImage="ROBERTBARATHEON_Diplomacy"/>
 	</DiplomacyInfo>
 
 	<Traits>

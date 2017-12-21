@@ -11,178 +11,17 @@
 </m_Version>
 <m_Meshes>
 <Element>
-<m_Name text="Robert_Armor_Body#M"/>
-<m_Groups>
-<Element>
-<m_Name text="MetalPlate"/>
-<m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>16742</m_nPrims>
-</Element>
-<Element>
-<m_Name text="ChainMail"/>
-<m_nFirstPrim>16742</m_nFirstPrim>
-<m_nPrims>7442</m_nPrims>
-</Element>
-</m_Groups>
-<m_nBoundBoneCount>52</m_nBoundBoneCount>
-<m_nPrimitiveCount>24184</m_nPrimitiveCount>
-<m_nVertexCount>13419</m_nVertexCount>
-</Element>
-<Element>
-<m_Name text="Robert_Armor_Hip#M"/>
-<m_Groups>
-<Element>
-<m_Name text="MetalPlate"/>
-<m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>4608</m_nPrims>
-</Element>
-</m_Groups>
-<m_nBoundBoneCount>2</m_nBoundBoneCount>
-<m_nPrimitiveCount>4608</m_nPrimitiveCount>
-<m_nVertexCount>2778</m_nVertexCount>
-</Element>
-<Element>
-<m_Name text="Robert_Armor_Legs#M"/>
-<m_Groups>
-<Element>
-<m_Name text="MetalPlate"/>
-<m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>4320</m_nPrims>
-</Element>
-</m_Groups>
-<m_nBoundBoneCount>8</m_nBoundBoneCount>
-<m_nPrimitiveCount>4320</m_nPrimitiveCount>
-<m_nVertexCount>2900</m_nVertexCount>
-</Element>
-<Element>
-<m_Name text="Robert_Armor_Shoulder#M"/>
-<m_Groups>
-<Element>
-<m_Name text="MetalPlate"/>
-<m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>4320</m_nPrims>
-</Element>
-</m_Groups>
-<m_nBoundBoneCount>2</m_nBoundBoneCount>
-<m_nPrimitiveCount>4320</m_nPrimitiveCount>
-<m_nVertexCount>2763</m_nVertexCount>
-</Element>
-<Element>
-<m_Name text="Robert_Belt#M"/>
-<m_Groups>
-<Element>
-<m_Name text="Belt"/>
-<m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>14784</m_nPrims>
-</Element>
-</m_Groups>
-<m_nBoundBoneCount>1</m_nBoundBoneCount>
-<m_nPrimitiveCount>14784</m_nPrimitiveCount>
-<m_nVertexCount>7864</m_nVertexCount>
-</Element>
-<Element>
-<m_Name text="Robert_Cloak#M"/>
-<m_Groups>
-<Element>
-<m_Name text="Stag"/>
-<m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>3328</m_nPrims>
-</Element>
-</m_Groups>
-<m_nBoundBoneCount>2</m_nBoundBoneCount>
-<m_nPrimitiveCount>3328</m_nPrimitiveCount>
-<m_nVertexCount>1780</m_nVertexCount>
-</Element>
-<Element>
-<m_Name text="Robert_Eye_Left#M"/>
-<m_Groups>
-<Element>
-<m_Name text="Eyes"/>
-<m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>760</m_nPrims>
-</Element>
-</m_Groups>
-<m_nBoundBoneCount>1</m_nBoundBoneCount>
-<m_nPrimitiveCount>760</m_nPrimitiveCount>
-<m_nVertexCount>403</m_nVertexCount>
-</Element>
-<Element>
-<m_Name text="Robert_Eye_Right#M"/>
-<m_Groups>
-<Element>
-<m_Name text="Eyes"/>
-<m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>760</m_nPrims>
-</Element>
-</m_Groups>
-<m_nBoundBoneCount>1</m_nBoundBoneCount>
-<m_nPrimitiveCount>760</m_nPrimitiveCount>
-<m_nVertexCount>403</m_nVertexCount>
-</Element>
-<Element>
-<m_Name text="Robert_Eyebrow_Left#M"/>
-<m_Groups>
-<Element>
-<m_Name text="Hair1"/>
-<m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>44</m_nPrims>
-</Element>
-</m_Groups>
-<m_nBoundBoneCount>3</m_nBoundBoneCount>
-<m_nPrimitiveCount>44</m_nPrimitiveCount>
-<m_nVertexCount>24</m_nVertexCount>
-</Element>
-<Element>
-<m_Name text="Robert_Eyebrow_Right#M"/>
-<m_Groups>
-<Element>
-<m_Name text="Hair1"/>
-<m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>44</m_nPrims>
-</Element>
-</m_Groups>
-<m_nBoundBoneCount>3</m_nBoundBoneCount>
-<m_nPrimitiveCount>44</m_nPrimitiveCount>
-<m_nVertexCount>24</m_nVertexCount>
-</Element>
-<Element>
-<m_Name text="Robert_Hair#M"/>
-<m_Groups>
-<Element>
-<m_Name text="Hair1"/>
-<m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>5376</m_nPrims>
-</Element>
-</m_Groups>
-<m_nBoundBoneCount>9</m_nBoundBoneCount>
-<m_nPrimitiveCount>5376</m_nPrimitiveCount>
-<m_nVertexCount>2813</m_nVertexCount>
-</Element>
-<Element>
-<m_Name text="Robert_Head#M"/>
+<m_Name text="Robert_Baratheon#M"/>
 <m_Groups>
 <Element>
 <m_Name text="Skin"/>
 <m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>47024</m_nPrims>
+<m_nPrims>114782</m_nPrims>
 </Element>
 </m_Groups>
-<m_nBoundBoneCount>91</m_nBoundBoneCount>
-<m_nPrimitiveCount>47024</m_nPrimitiveCount>
-<m_nVertexCount>23746</m_nVertexCount>
-</Element>
-<Element>
-<m_Name text="Robert_Mouth#M"/>
-<m_Groups>
-<Element>
-<m_Name text="LEAD_GERM_Barbarossa_Skin_Material1.001"/>
-<m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>5230</m_nPrims>
-</Element>
-</m_Groups>
-<m_nBoundBoneCount>33</m_nBoundBoneCount>
-<m_nPrimitiveCount>5230</m_nPrimitiveCount>
-<m_nVertexCount>2805</m_nVertexCount>
+<m_nBoundBoneCount>156</m_nBoundBoneCount>
+<m_nPrimitiveCount>114782</m_nPrimitiveCount>
+<m_nVertexCount>61722</m_nVertexCount>
 </Element>
 </m_Meshes>
 <m_Bones>
@@ -365,6 +204,10 @@
 <m_ID text="GR2"/>
 <m_RelativePath text="Leader_Robert_Baratheon.fgx"/>
 </Element>
+<Element>
+			<m_ID text="WIG"/>
+			<m_RelativePath text="Robert_wig_Fallback.wig"/>
+		</Element>
 </m_DataFiles>
 <m_Name text="Leader_Robert_Baratheon"/>
 <m_Description text="Leader_Robert_Baratheon"/>

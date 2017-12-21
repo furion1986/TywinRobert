@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Shell_Loading"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEADER_ROBERT_BARATHEON_BACKGROUND"/>
+			<m_ObjectName text="TYWINROBERT_Background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ROBERTBARATHEON_Foreground"/>
+			<m_ObjectName text="ROBERTBARATHEON_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TYWIN_LANNISTER_BACKGROUND"/>
+			<m_ObjectName text="TYWIN_Background"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

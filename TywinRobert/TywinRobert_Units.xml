@@ -46,7 +46,7 @@
 		<Row UnitType="UNIT_SELLSWORDS_PIKEMAN" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SELLSWORDS_PIKEMAN_NAME" Description="LOC_UNIT_SELLSWORDS_PIKEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="3" Combat="41" PrereqCivic="CIVIC_FEUDALISM" TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS"/>
 		<Row UnitType="UNIT_SELLSWORDS_MARKSMAN" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SELLSWORDS_MARKSMAN_NAME" Description="LOC_UNIT_SELLSWORDS_MARKSMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="3" Combat="30" RangedCombat="40" Range="2" PrereqCivic="CIVIC_FEUDALISM" TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS"/>
 		<!--Robert Baratheon-->
-		<Row UnitType="UNIT_SQUIRE" TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE" BaseMoves="4" Cost="48" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_SQUIRE_NAME" Description="LOC_UNIT_SQUIRE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" CanCapture="False" PrereqCivic="CIVIC_MILITARY_TRADITION"/>
+		<Row UnitType="UNIT_SQUIRE" TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE" BaseMoves="3" Cost="48" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_SQUIRE_NAME" Description="LOC_UNIT_SQUIRE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="1" CanCapture="False" PrereqCivic="CIVIC_MILITARY_TRADITION"/>
 	</Units>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_SELLSWORDS" Name="LOC_ABILITY_SELLSWORDS_NAME" Description="LOC_ABILITY_SELLSWORDS_DESCRIPTION"/>
@@ -115,12 +115,12 @@
 		<Row>
 			<ModifierId>SQUIRE_COMBAT_BONUS</ModifierId>
 			<Name>Amount</Name>
-			<Value>12</Value>
+			<Value>9</Value>
 		</Row>
 		<Row>
 			<ModifierId>SQUIRE_MOVEMENT_BONUS</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 	</ModifierArguments>
 	<ModifierStrings>

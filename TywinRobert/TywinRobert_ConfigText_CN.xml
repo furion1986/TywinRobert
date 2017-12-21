@@ -38,7 +38,7 @@
 			<Text>远程类型雇佣兵。战斗胜利会获得相当于所战胜单位75%[ICON_Strength]战斗力的[ICON_GOLD]金钱。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_SQUIRE_DESCRIPTION">
-			<Text>风暴地独特的支援单位。为所属同一格的勇士和剑客提供 +12 [ICON_Strength] 战斗力和 +2 [ICON_Movement] 移动力。</Text>
+			<Text>风暴地独特的支援单位。为所属同一格的勇士和剑客提供 +9 [ICON_Strength] 战斗力和 +1 [ICON_Movement] 移动力。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION">
 			<Text>西镜独特的城区，替代军事驻地。 临近商业中心时 +2 [ICON_GOlD] 金钱。 每个在雇佣兵营帐工作的市民产生 +1 大商人点数。</Text>

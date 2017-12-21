@@ -2,14 +2,14 @@
 <GameData>
 	<IconTextureAtlases>
 		<!--LEADER ICON-->
-		<Row Filename="ICON_LEADER_TYRB_LEADERS_32" IconsPerColumn="1" IconsPerRow="2" IconSize="32" Name="ICON_ATLAS_TYRB_LEADERS"/>
-		<Row Filename="ICON_LEADER_TYRB_LEADERS_45" IconsPerColumn="1" IconsPerRow="2" IconSize="45" Name="ICON_ATLAS_TYRB_LEADERS"/>
-		<Row Filename="ICON_LEADER_TYRB_LEADERS_48" IconsPerColumn="1" IconsPerRow="2" IconSize="48" Name="ICON_ATLAS_TYRB_LEADERS"/>
-		<Row Filename="ICON_LEADER_TYRB_LEADERS_50" IconsPerColumn="1" IconsPerRow="2" IconSize="50" Name="ICON_ATLAS_TYRB_LEADERS"/>
-		<Row Filename="ICON_LEADER_TYRB_LEADERS_55" IconsPerColumn="1" IconsPerRow="2" IconSize="55" Name="ICON_ATLAS_TYRB_LEADERS"/>
-		<Row Filename="ICON_LEADER_TYRB_LEADERS_64" IconsPerColumn="1" IconsPerRow="2" IconSize="64" Name="ICON_ATLAS_TYRB_LEADERS"/>
-		<Row Filename="ICON_LEADER_TYRB_LEADERS_80" IconsPerColumn="1" IconsPerRow="2" IconSize="80" Name="ICON_ATLAS_TYRB_LEADERS"/>
-		<Row Filename="ICON_LEADER_TYRB_LEADERS_256" IconsPerColumn="1" IconsPerRow="2" IconSize="256" Name="ICON_ATLAS_TYRB_LEADERS"/>
+		<Row Filename="ICON_LEADER_TYWINROBERT_32" IconsPerColumn="1" IconsPerRow="2" IconSize="32" Name="ICON_ATLAS_TYRB_LEADERS"/>
+		<Row Filename="ICON_LEADER_TYWINROBERT_45" IconsPerColumn="1" IconsPerRow="2" IconSize="45" Name="ICON_ATLAS_TYRB_LEADERS"/>
+		<Row Filename="ICON_LEADER_TYWINROBERT_48" IconsPerColumn="1" IconsPerRow="2" IconSize="48" Name="ICON_ATLAS_TYRB_LEADERS"/>
+		<Row Filename="ICON_LEADER_TYWINROBERT_50" IconsPerColumn="1" IconsPerRow="2" IconSize="50" Name="ICON_ATLAS_TYRB_LEADERS"/>
+		<Row Filename="ICON_LEADER_TYWINROBERT_55" IconsPerColumn="1" IconsPerRow="2" IconSize="55" Name="ICON_ATLAS_TYRB_LEADERS"/>
+		<Row Filename="ICON_LEADER_TYWINROBERT_64" IconsPerColumn="1" IconsPerRow="2" IconSize="64" Name="ICON_ATLAS_TYRB_LEADERS"/>
+		<Row Filename="ICON_LEADER_TYWINROBERT_80" IconsPerColumn="1" IconsPerRow="2" IconSize="80" Name="ICON_ATLAS_TYRB_LEADERS"/>
+		<Row Filename="ICON_LEADER_TYWINROBERT_256" IconsPerColumn="1" IconsPerRow="2" IconSize="256" Name="ICON_ATLAS_TYRB_LEADERS"/>
 		<!--CIVILIZATION ICON-->
 		<Row Filename="ICON_CIVILIZATION_TYRB_CIVS_22" IconsPerColumn="1" IconsPerRow="2" IconSize="22" Name="ICON_ATLAS_TYRB_CIVS"/>
 		<Row Filename="ICON_CIVILIZATION_TYRB_CIVS_30" IconsPerColumn="1" IconsPerRow="2" IconSize="30" Name="ICON_ATLAS_TYRB_CIVS"/>
@@ -25,19 +25,19 @@
 		<Row Filename="ICON_CIVILIZATION_TYRB_CIVS_128" IconsPerColumn="1" IconsPerRow="2" IconSize="128" Name="ICON_ATLAS_TYRB_CIVS"/>
 		<Row Filename="ICON_CIVILIZATION_TYRB_CIVS_256" IconsPerColumn="1" IconsPerRow="2" IconSize="256" Name="ICON_ATLAS_TYRB_CIVS"/>
 		<!--BUILDING ICON-->
-		<Row Filename="ICON_DISTRICT_SELLSWORDS_CAMP_32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_SELLSWORDS_CAMP"/>
-		<Row Filename="ICON_DISTRICT_SELLSWORDS_CAMP_38" IconsPerColumn="1" IconsPerRow="1" IconSize="38" Name="ICON_ATLAS_SELLSWORDS_CAMP"/>
-		<Row Filename="ICON_DISTRICT_SELLSWORDS_CAMP_50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_SELLSWORDS_CAMP"/>
-		<Row Filename="ICON_DISTRICT_SELLSWORDS_CAMP_80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_SELLSWORDS_CAMP"/>
-		<Row Filename="ICON_DISTRICT_SELLSWORDS_CAMP_128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_SELLSWORDS_CAMP"/>
-		<Row Filename="ICON_DISTRICT_SELLSWORDS_CAMP_256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_SELLSWORDS_CAMP"/>
+		<Row Filename="ICON_DISTRICT_BUILDING_TWRB_32" IconsPerColumn="1" IconsPerRow="2" IconSize="32" Name="ICON_ATLAS_DISTRICT_BUILDING_TWRB"/>
+		<Row Filename="ICON_DISTRICT_BUILDING_TWRB_38" IconsPerColumn="1" IconsPerRow="2" IconSize="38" Name="ICON_ATLAS_DISTRICT_BUILDING_TWRB"/>
+		<Row Filename="ICON_DISTRICT_BUILDING_TWRB_50" IconsPerColumn="1" IconsPerRow="2" IconSize="50" Name="ICON_ATLAS_DISTRICT_BUILDING_TWRB"/>
+		<Row Filename="IICON_DISTRICT_BUILDING_TWRB_80" IconsPerColumn="1" IconsPerRow="2" IconSize="80" Name="ICON_ATLAS_DISTRICT_BUILDING_TWRB"/>
+		<Row Filename="ICON_DISTRICT_BUILDING_TWRB_128" IconsPerColumn="1" IconsPerRow="2" IconSize="128" Name="ICON_ATLAS_DISTRICT_BUILDING_TWRB"/>
+		<Row Filename="ICON_DISTRICT_BUILDING_TWRB_256" IconsPerColumn="1" IconsPerRow="2" IconSize="256" Name="ICON_ATLAS_DISTRICT_BUILDING_TWRB"/>
 		<!--UNIT ICONS-->
-		<Row Filename="ICON_TYRB_UNITS_22" IconsPerColumn="10" IconsPerRow="10" IconSize="22" Name="ICON_ATLAS_TYRB_UNITS"/>
-		<Row Filename="ICON_TYRB_UNITS_32" IconsPerColumn="10" IconsPerRow="10" IconSize="32" Name="ICON_ATLAS_TYRB_UNITS"/>
-		<Row Filename="ICON_TYRB_UNITS_38" IconsPerColumn="10" IconsPerRow="10" IconSize="38" Name="ICON_ATLAS_TYRB_UNITS"/>
-		<Row Filename="ICON_TYRB_UNITS_50" IconsPerColumn="10" IconsPerRow="10" IconSize="50" Name="ICON_ATLAS_TYRB_UNITS"/>
-		<Row Filename="ICON_TYRB_UNITS_80" IconsPerColumn="10" IconsPerRow="10" IconSize="80" Name="ICON_ATLAS_TYRB_UNITS"/>
-		<Row Filename="ICON_TYRB_UNITS_256" IconsPerColumn="10" IconsPerRow="10" IconSize="256" Name="ICON_ATLAS_TYRB_UNITS"/>
+		<Row Filename="ICON_TYRB_UNITS_22" IconsPerColumn="3" IconsPerRow="2" IconSize="22" Name="ICON_ATLAS_TYRB_UNITS"/>
+		<Row Filename="ICON_TYRB_UNITS_32" IconsPerColumn="3" IconsPerRow="2" IconSize="32" Name="ICON_ATLAS_TYRB_UNITS"/>
+		<Row Filename="ICON_TYRB_UNITS_38" IconsPerColumn="3" IconsPerRow="2" IconSize="38" Name="ICON_ATLAS_TYRB_UNITS"/>
+		<Row Filename="ICON_TYRB_UNITS_50" IconsPerColumn="3" IconsPerRow="2" IconSize="50" Name="ICON_ATLAS_TYRB_UNITS"/>
+		<Row Filename="ICON_TYRB_UNITS_80" IconsPerColumn="3" IconsPerRow="2" IconSize="80" Name="ICON_ATLAS_TYRB_UNITS"/>
+		<Row Filename="ICON_TYRB_UNITS_256" IconsPerColumn="3" IconsPerRow="2" IconSize="256" Name="ICON_ATLAS_TYRB_UNITS"/>
 		<!--UNIT PORTRAITS-->
 		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS"   IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="ICON_TYRB_UNIT_PORTRAITS_256"/>
 		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS"   IconSize="200" IconsPerRow="8" IconsPerColumn="8" Filename="ICON_TYRB_UNIT_PORTRAITS_200"/>
@@ -59,13 +59,13 @@
 		<Row Name="ICON_UNIT_SQUIRE" Atlas="ICON_ATLAS_TYRB_UNITS" Index="4"/>
 		<Row Name="ICON_UNIT_SQUIRE_PORTRAIT" Atlas="ICON_ATLAS_TYRB_UNIT_PORTRAITS" Index="4"/>
 		<!--BUILDING ICON-->
-		<Row Name="ICON_DISTRICT_SELLSWORDS_CAMP" Atlas="ICON_ATLAS_SELLSWORDS_CAMP" Index="0"/>
-
+		<Row Name="ICON_DISTRICT_SELLSWORDS_CAMP" Atlas="ICON_ATLAS_DISTRICT_BUILDING_TWRB" Index="1"/>
+		<Row Name="ICON_BUILDING_JOUSTING_ARENA" Atlas="ICON_ATLAS_DISTRICT_BUILDING_TWRB" Index="0"/>
 		<!--CIVILIZATION ICON-->
 		<Row Name="ICON_CIVILIZATION_THE_WESTERLANDS" Atlas="ICON_ATLAS_TYRB_CIVS" Index="0"/>
 		<Row Name="ICON_CIVILIZATION_THE_STORMLANDS" Atlas="ICON_ATLAS_TYRB_CIVS" Index="1"/>
 		<!--LEADER ICON-->
-		<Row Name="ICON_LEADER_TYWIN_LANNISTER" Atlas="ICON_ATLAS_TYRB_LEADERS" Index="0"/>
-		<Row Name="ICON_LEADER_ROBERT_BARATHEON" Atlas="ICON_ATLAS_TYRB_LEADERS" Index="1"/>
+		<Row Name="ICON_LEADER_TYWIN_LANNISTER" Atlas="ICON_ATLAS_TYRB_LEADERS" Index="1"/>
+		<Row Name="ICON_LEADER_ROBERT_BARATHEON" Atlas="ICON_ATLAS_TYRB_LEADERS" Index="0"/>
 	</IconDefinitions>
 </GameData>

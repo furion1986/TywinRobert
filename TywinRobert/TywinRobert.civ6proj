@@ -14,7 +14,7 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>TywinRobert_Civilizations.xml</File><File>TywinRobert_Leaders.xml</File><File>TywinRobert_Units.xml</File><File>TywinRobert_District_and_Buildings.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>TywinRobert_ConfigText.xml</File><File>TywinRobert_Text.xml</File><File>TywinRobert_Text_CN.xml</File><File>TywinRobert_ConfigText_CN.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>TywinRobert_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="InGameScripts"><File>GameScript/LannisterBaratheonGameScript.lua</File></AddGameplayScripts><AddUserInterfaces id="AddUI"><Properties><Context>InGame</Context></Properties><File>GameScript/TR_SwitchMember.xml</File></AddUserInterfaces><ImportFiles id="ImportUI"><File>GameScript/TR_SwitchMember.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>TywinRobert_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>TywinRobert_ConfigText.xml</File><File>TywinRobert_ConfigText_CN.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>TywinRobert_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_TYWIN_LANNISTER,LEADER_ROBERT_BARATHEON</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:StandardPlayers::LEADER_TYWIN_LANNISTER,LEADER_ROBERT_BARATHEON</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>EddardStark</AssemblyName>
     <RootNamespace>EddardStark</RootNamespace>
     <Authors>Furion Huang</Authors>
@@ -44,6 +44,9 @@
     <Content Include="Artdefs\Landmarks.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Artdefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Artdefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -63,6 +66,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\DIS_SELLSWORDS_CAMP_Base_04.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Leader_Robert_Baratheon.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\No_Horse.ast">
@@ -104,7 +110,19 @@
     <Content Include="XLPs\Icons.xlp">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="XLPs\leader_robert.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Shell_Loading.xlp">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="XLPs\tilebases.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UILeaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UI_LeaderScenes.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Units.xlp">

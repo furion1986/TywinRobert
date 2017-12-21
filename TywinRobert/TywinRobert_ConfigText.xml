@@ -35,7 +35,7 @@
 			<Text>Ranged class Sellswords unit. Combat victories provide [ICON_GOLD] Gold equal to 75% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SQUIRE_DESCRIPTION">
-			<Text>The Stormlands' unique support unit. Provide +12 [ICON_Strength] Combat Strength and +2 [ICON_Movement] Movement to Warrior and Swordsman in the same tile.</Text>
+			<Text>The Stormlands' unique support unit. Provide +9 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Warrior and Swordsman in the same tile.</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION">
 			<Text>A district unique to Westerlands replacing Encampment. +2 [ICON_GOlD] Gold bonus if adjacent to a Commercial Hub district. +1 Great Merchant point for each citizen working on Sellswords Camp.</Text>

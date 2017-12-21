@@ -339,6 +339,7 @@
 		<Element>
 			<consumerName text="Leaders"/>
 			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Leader"/>
@@ -482,6 +483,7 @@
 		<Element>
 			<libraryName text="Leader"/>
 			<relativePackagePaths>
+				<Element text="leaders/leader_robert"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

@@ -1,79 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Players>
-		<Row>
-			<Domain>StandardPlayers</Domain>
-			<CivilizationType>CIVILIZATION_THE_WESTERLANDS</CivilizationType>
-			<LeaderType>LEADER_TYWIN_LANNISTER</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_THE_WESTERLANDS_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_THE_WESTERLANDS</CivilizationIcon>
-			<LeaderName>LOC_LEADER_TYWIN_LANNISTER_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_TYWIN_LANNISTER</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_THE_WESTERLANDS</CivilizationAbilityIcon>
-			<LeaderAbilityName>LOC_TRAIT_LEADER_TYWIN_LANNISTER_NAME</LeaderAbilityName>
-			<LeaderAbilityDescription>LOC_TRAIT_LEADER_TYWIN_LANNISTER_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_TYWIN_LANNISTER</LeaderAbilityIcon>
-			<PortraitBackground>LEADER_TYWIN_LANNISTER_Background</PortraitBackground>
-			<Portrait>LEADER_TYWIN_LANNISTER_NEUTRAL</Portrait>
-		</Row>
-		<Row>
-			<Domain>StandardPlayers</Domain>
-			<CivilizationType>CIVILIZATION_THE_STORMLANDS</CivilizationType>
-			<LeaderType>LEADER_ROBERT_BARATHEON</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_THE_STORMLANDS_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_THE_STORMLANDS</CivilizationIcon>
-			<LeaderName>LOC_LEADER_ROBERT_BARATHEON_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_ROBERT_BARATHEON</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_THE_STORMLANDS</CivilizationAbilityIcon>
-			<LeaderAbilityName>LOC_TRAIT_LEADER_ROBERT_BARATHEON_NAME</LeaderAbilityName>
-			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ROBERT_BARATHEON_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_ROBERT_BARATHEON</LeaderAbilityIcon>
-			<PortraitBackground>LEADER_ROBERT_BARATHEON_Background</PortraitBackground>
-			<Portrait>LEADER_ROBERT_BARATHEON_NEUTRAL</Portrait>
-		</Row>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" LeaderType="LEADER_TYWIN_LANNISTER" CivilizationName="LOC_CIVILIZATION_THE_WESTERLANDS_NAME" CivilizationIcon="ICON_CIVILIZATION_THE_WESTERLANDS" LeaderName="LOC_LEADER_TYWIN_LANNISTER_NAME" LeaderIcon="ICON_LEADER_TYWIN_LANNISTER" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_NAME" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_THE_WESTERLANDS" LeaderAbilityName="LOC_TRAIT_LEADER_TYWIN_LANNISTER_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_TYWIN_LANNISTER_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_TYWIN_LANNISTER" Portrait="LEADER_TYWIN_LANNISTER_NEUTRAL" PortraitBackground="ROBERTBARATHEON_Background"/>
+		
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" LeaderType="LEADER_ROBERT_BARATHEON" CivilizationName="LOC_CIVILIZATION_THE_STORMLANDS_NAME" CivilizationIcon="ICON_CIVILIZATION_THE_STORMLANDS" LeaderName="LOC_LEADER_ROBERT_BARATHEON_NAME" LeaderIcon="ICON_LEADER_ROBERT_BARATHEON" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_NAME" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_THE_STORMLANDS" LeaderAbilityName="LOC_TRAIT_LEADER_ROBERT_BARATHEON_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_ROBERT_BARATHEON_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_ROBERT_BARATHEON" Portrait="LEADER_ROBERT_BARATHEON_NEUTRAL" PortraitBackground="ROBERTBARATHEON_Background"/>
 	</Players>
 	<PlayerItems>
 		<!--Tywin Lannister-->
-		<Row>
-			<CivilizationType>CIVILIZATION_THE_WESTERLANDS</CivilizationType>
-			<LeaderType>LEADER_TYWIN_LANNISTER</LeaderType>
-			<SortIndex>10</SortIndex>
-			<Type>UNIT_SELLSWORDS</Type>
-			<Name>LOC_UNIT_SELLSWORDS_NAME</Name>
-			<Icon>ICON_UNIT_SELLSWORDS</Icon>
-			<Description>LOC_UNIT_SELLSWORDS_DESCRIPTION</Description>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_THE_WESTERLANDS</CivilizationType>
-			<LeaderType>LEADER_TYWIN_LANNISTER</LeaderType>
-			<SortIndex>20</SortIndex>
-			<Type>DISTRICT_SELLSWORDS_CAMP</Type>
-			<Name>LOC_DISTRICT_SELLSWORDS_CAMP_NAME</Name>
-			<Icon>ICON_DISTRICT_SELLSWORDS_CAMP</Icon>
-			<Description>LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION</Description>
-		</Row>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" LeaderType="LEADER_TYWIN_LANNISTER" Type="UNIT_SELLSWORDS" Icon="ICON_UNIT_SELLSWORDS" Name="LOC_UNIT_SELLSWORDS_NAME" Description="LOC_UNIT_SELLSWORDS_DESCRIPTION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" LeaderType="LEADER_TYWIN_LANNISTER" Type="DISTRICT_SELLSWORDS_CAMP" Icon="ICON_DISTRICT_SELLSWORDS_CAMP" Name="LOC_DISTRICT_SELLSWORDS_CAMP_NAME" Description="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION" SortIndex="20"/>
 		<!--Robert Baratheon-->
-		<Row>
-			<CivilizationType>CIVILIZATION_THE_STORMLANDS</CivilizationType>
-			<LeaderType>LEADER_ROBERT_BARATHEON</LeaderType>
-			<SortIndex>10</SortIndex>
-			<Type>UNIT_SQUIRE</Type>
-			<Name>LOC_UNIT_SQUIRE_NAME</Name>
-			<Icon>ICON_UNIT_SQUIRE</Icon>
-			<Description>LOC_UNIT_SQUIRE_DESCRIPTION</Description>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_THE_STORMLANDS</CivilizationType>
-			<LeaderType>LEADER_ROBERT_BARATHEON</LeaderType>
-			<SortIndex>20</SortIndex>
-			<Type>BUILDING_JOUSTING_ARENA</Type>
-			<Name>LOC_BUILDING_JOUSTING_ARENA_NAME</Name>
-			<Icon>ICON_BUILDING_JOUSTING_ARENA</Icon>
-			<Description>LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION</Description>
-		</Row>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" LeaderType="LEADER_ROBERT_BARATHEON" Type="UNIT_SQUIRE" Icon="ICON_UNIT_SQUIRE" Name="LOC_UNIT_SQUIRE_NAME" Description="LOC_UNIT_SQUIRE_DESCRIPTION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" LeaderType="LEADER_ROBERT_BARATHEON" Type="BUILDING_JOUSTING_ARENA" Icon="ICON_BUILDING_JOUSTING_ARENA" Name="LOC_BUILDING_JOUSTING_ARENA_NAME" Description="LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION" SortIndex="20"/>
 	</PlayerItems>
 </GameData>
