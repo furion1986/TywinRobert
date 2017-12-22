@@ -212,7 +212,7 @@ function RBOnCityConquered(capturerID, ownerID, cityID, cityX, cityY)
 				else
 					techSeed= 0;
 				end
-				local techIndex = availableTechs[techSeed];
+				local techIndex:number = availableTechs[techSeed];
 				print("Tech Seed = "..tostring(techSeed).." Tech Index = "..tostring(techIndex));
 				pPlayerTechs:SetResearchProgress(techIndex, pPlayerTechs:GetResearchCost(techIndex));
 			else
@@ -224,7 +224,7 @@ function RBOnCityConquered(capturerID, ownerID, cityID, cityX, cityY)
 				else
 					civicSeed = 0;
 				end
-				local civicIndex = availableCivics[civicSeed];
+				local civicIndex:number = availableCivics[civicSeed];
 				print("Civic Seed = "..tostring(civicSeed).." Civic Index = "..tostring(civicIndex));
 				pPlayerCulture:SetCulturalProgress(civicIndex, pPlayerCulture:GetCultureCost(civicIndex));	
 			end
@@ -236,7 +236,7 @@ function RBOnCityConquered(capturerID, ownerID, cityID, cityX, cityY)
 			else
 				techSeed = 0;
 			end
-			local techIndex = availableTechs[techSeed];
+			local techIndex:number = availableTechs[techSeed];
 			print("Tech Seed = "..tostring(techSeed).." Tech Index = "..tostring(techIndex));
 			pPlayerTechs:SetResearchProgress(techIndex, pPlayerTechs:GetResearchCost(techIndex));
 		elseif techCount == 0 and civicCount > 0 then
@@ -247,7 +247,7 @@ function RBOnCityConquered(capturerID, ownerID, cityID, cityX, cityY)
 			else
 				civicSeed = 0;
 			end
-			local civicIndex = availableCivics[civicSeed];
+			local civicIndex:number = availableCivics[civicSeed];
 			print("Civic Seed = "..tostring(civicSeed).." Civic Index = "..tostring(civicIndex));
 			pPlayerCulture:SetCulturalProgress(civicIndex, pPlayerCulture:GetCultureCost(civicIndex));	
 		else
