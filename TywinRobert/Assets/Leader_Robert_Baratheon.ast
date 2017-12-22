@@ -8,6 +8,14 @@
 						<m_SlotName text="NEUTRAL_IDLE_A"/>
 						<m_AnimationName text="LeaderRobert_Neutral_Idle"/>
 					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_NEGATIVE_A"/>
+						<m_AnimationName text="LeaderRobert_Neutral_Negative"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_POSITIVE_A"/>
+						<m_AnimationName text="LeaderRobert_Neutral_Positive"/>
+					</Element>
 				</m_Bindings>
 			</m_animationBindings>
 			<m_timelineBindings>
@@ -36,6 +44,24 @@
 				<m_Name text="Root"/>
 				<m_GeoName text="Leader_Robert_Baratheon"/>
 				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Robert_Cloth"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="RecalculateNormals"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Cloth"/>
+						<m_MeshName text="Robert_Baratheon#M"/>
+						<m_StateName text="Default"/>
+					</Element>
 					<Element>
 						<m_Values>
 							<m_Values>

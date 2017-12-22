@@ -14,9 +14,14 @@
 <m_Name text="Robert_Baratheon#M"/>
 <m_Groups>
 <Element>
-<m_Name text="Skin"/>
+<m_Name text="Cloth"/>
 <m_nFirstPrim>0</m_nFirstPrim>
-<m_nPrims>114782</m_nPrims>
+<m_nPrims>55544</m_nPrims>
+</Element>
+<Element>
+<m_Name text="Skin"/>
+<m_nFirstPrim>55544</m_nFirstPrim>
+<m_nPrims>59238</m_nPrims>
 </Element>
 </m_Groups>
 <m_nBoundBoneCount>156</m_nBoundBoneCount>

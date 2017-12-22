@@ -3,7 +3,7 @@
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text=""/>
+				<m_ObjectName text="Normals"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Normal"/>
 			</Element>
@@ -38,7 +38,7 @@
 				<m_ParamName text="Gloss"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="Transparency"/>
+				<m_ObjectName text=""/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Translucency"/>
 			</Element>

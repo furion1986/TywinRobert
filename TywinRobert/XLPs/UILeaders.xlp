@@ -10,12 +10,12 @@
 	<m_PackageName text="UILeaders"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="LEADER_ROBERT_BARATHEON_NEUTRAL"/>
-			<m_ObjectName text="Leader_Neutral_Robert"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ROBERTBARATHEON_Background"/>
 			<m_ObjectName text="ROBERTBARATHEON_Background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ROBERT_BARATHEON_NEUTRAL"/>
+			<m_ObjectName text="Leader_Neutral_Robert"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

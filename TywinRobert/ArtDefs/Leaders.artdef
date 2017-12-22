@@ -23,7 +23,7 @@
 							<m_ParamName text="Leader_BLP_Entry"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Barbarossa_LightRig"/>
+							<m_EntryName text="Pericles_LightRig"/>
 							<m_XLPClass text="LeaderLighting"/>
 							<m_XLPPath text="Leader_LightRigs.xlp"/>
 							<m_BLPPackage text="leaders/light_rigs"/>
@@ -31,7 +31,7 @@
 							<m_ParamName text="Leader_Lightrig_BLP_Entry"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Leader_Colorkey_2"/>
+							<m_EntryName text="Leader_Colorkey_1"/>
 							<m_XLPClass text="ColorKey"/>
 							<m_XLPPath text="ColorKeys.xlp"/>
 							<m_BLPPackage text="ColorKeys"/>
