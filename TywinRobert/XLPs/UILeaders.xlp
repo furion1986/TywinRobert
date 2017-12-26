@@ -15,7 +15,7 @@
 		</Element>
 		<Element>
 			<m_EntryID text="LEADER_ROBERT_BARATHEON_NEUTRAL"/>
-			<m_ObjectName text="Leader_Neutral_Robert"/>
+			<m_ObjectName text="LEADER_ROBERT_BARATHEON_NEUTRAL"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

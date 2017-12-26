@@ -208,7 +208,7 @@ function RBOnCityConquered(capturerID, ownerID, cityID, cityX, cityY)
 				local techSeed:number = 0;
 				if techCount > 1 then
 					--math.randomseed( os.time() );
-					techSeed= math.floor(math.random() * techCount +0.5) ;
+					techSeed= math.floor(math.random() * (techCount-1) +0.5) ;
 				else
 					techSeed= 0;
 				end
@@ -220,7 +220,7 @@ function RBOnCityConquered(capturerID, ownerID, cityID, cityX, cityY)
 				local civicSeed:number = 0;
 				if civicCount > 1 then
 					--math.randomseed( os.time() );
-					civicSeed = math.floor(math.random() * civicCount +0.5) ;
+					civicSeed = math.floor(math.random() * (civicCount-1) +0.5) ;
 				else
 					civicSeed = 0;
 				end
@@ -232,7 +232,7 @@ function RBOnCityConquered(capturerID, ownerID, cityID, cityX, cityY)
 			local techSeed:number = 0;
 			if techCount > 1 then
 				--math.randomseed( os.time() );
-				techSeed = math.floor(math.random() * techCount +0.5) ;
+				techSeed = math.floor(math.random() * (techCount-1) +0.5) ;
 			else
 				techSeed = 0;
 			end
@@ -243,7 +243,7 @@ function RBOnCityConquered(capturerID, ownerID, cityID, cityX, cityY)
 			local civicSeed:number = 0;
 			if civicCount > 1 then
 				--math.randomseed( os.time() );
-				civicSeed = math.floor(math.random() * civicCount +0.5);
+				civicSeed = math.floor(math.random() * (civicCount-1) +0.5);
 			else
 				civicSeed = 0;
 			end
