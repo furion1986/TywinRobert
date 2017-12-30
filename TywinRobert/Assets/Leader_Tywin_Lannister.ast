@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="NEUTRAL_IDLE_A"/>
+						<m_AnimationName text="LeaderTywin_Neutral_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_NEGATIVE_A"/>
+						<m_AnimationName text="LeaderTywin_Neutral_Negative"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_POSITIVE_A"/>
+						<m_AnimationName text="LeaderTywin_Neutral_Positive"/>
+					</Element>
+				</m_Bindings>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings/>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines/>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points/>
+			</m_attachmentPoints>
+			<m_stateSet/>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="Standard_Leader"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="LEAD_GERM_Barbarossa_Camera"/>
+				<m_GeoName text="LEAD_GERM_Barbarossa_Camera"/>
+				<m_GroupStates/>
+			</Element>
+			<Element>
+				<m_Name text="Root"/>
+				<m_GeoName text="LEADER_TYWIN_LANNISTER"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Leader_Tywin_BeardEyes"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="RecalculateNormals"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="BeardMouth"/>
+						<m_MeshName text="Tywin_BeardMouth#M"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Leader_Tywin_Cloth"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="RecalculateNormals"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Cloth"/>
+						<m_MeshName text="Tywin_Cloth#M"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Leader_Tywin_Skin"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="RecalculateNormals"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Skin"/>
+						<m_MeshName text="Tywin_Skin#M"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>14.000000</m_fValue>
+				<m_ParamName text="EnvironmentRotationX"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>12.000000</m_fValue>
+				<m_ParamName text="EnvironmentRotationY"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="EnvironmentRotationZ"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>5.000000</m_fValue>
+				<m_ParamName text="AOPower"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="AOScale"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>10.000000</m_fValue>
+				<m_ParamName text="AORadius"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.200000</m_fValue>
+				<m_ParamName text="BloomStrength"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.700000</m_fValue>
+				<m_ParamName text="BloomThreshold"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>2.000000</m_fValue>
+				<m_ParamName text="ExtraExposureRange"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="leader_filmgrain"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="GrainTexture"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.200000</m_fValue>
+				<m_ParamName text="GrainStrength"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="VelocityScale"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="Leader"/>
+	<m_DataFiles/>
+	<m_Name text="Leader_Tywin_Lannister"/>
+	<m_Description text=""/>
+	<m_Tags/>
+	<m_Groups/>
+</AssetObjects..AssetInstance>
+

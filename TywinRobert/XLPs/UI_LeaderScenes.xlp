@@ -13,6 +13,10 @@
 			<m_EntryID text="ROBERTBARATHEON_Diplomacy"/>
 			<m_ObjectName text="ROBERTBARATHEON_Diplomacy"/>
 		</Element>
+		<Element>
+			<m_EntryID text="TYWINLANNISTER_Diplomacy"/>
+			<m_ObjectName text="TYWINLANNISTER_Diplomacy"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

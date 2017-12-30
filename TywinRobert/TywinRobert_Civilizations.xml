@@ -93,7 +93,7 @@
 	</LoadingInfo>
 	
 	<DiplomacyInfo>
-		<Row Type="LEADER_TYWIN_LANNISTER" BackgroundImage="LEADER_TYWIN_LANNISTER_Diplomacy"/>
+		<Row Type="LEADER_TYWIN_LANNISTER" BackgroundImage="TYWINLANNISTER_Diplomacy"/>
 		<Row Type="LEADER_ROBERT_BARATHEON" BackgroundImage="ROBERTBARATHEON_Diplomacy"/>
 	</DiplomacyInfo>
 

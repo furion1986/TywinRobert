@@ -13,6 +13,10 @@
 			<m_EntryID text="Leader_Robert_Baratheon"/>
 			<m_ObjectName text="Leader_Robert_Baratheon"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Leader_Tywin_Lannister"/>
+			<m_ObjectName text="Leader_Tywin_Lannister"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

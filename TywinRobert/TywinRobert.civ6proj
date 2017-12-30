@@ -71,6 +71,9 @@
     <Content Include="Assets\Leader_Robert_Baratheon.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Leader_Tywin_Lannister.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\No_Horse.ast">
       <SubType>Content</SubType>
     </Content>

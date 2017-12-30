@@ -95,7 +95,7 @@ function AddPlotIfNotOwned(plot:table,eOwner:number,ownerCity) --return plot, if
 	return nil;
 end
 
-function OnLoadScreenClose()
+function RBOnLoadScreenClose()
 	Events.ImprovementAddedToMap.Add(OnImprovementAddedToMap);
 end
 ----------Baratheon Grant Walls on founding city----------
@@ -258,7 +258,7 @@ function RBOnCityConquered(capturerID, ownerID, cityID, cityX, cityY)
 	end
 end
 ----------Events----------
-Events.LoadScreenClose.Add(OnLoadScreenClose);
+Events.LoadScreenClose.Add(RBOnLoadScreenClose);
 Events.UnitAddedToMap.Add(Sellswords_Random_Types);
 Events.CityAddedToMap.Add(RBOnCityAddedToMap);
 GameEvents.CityConquered.Add(RBOnCityConquered);
