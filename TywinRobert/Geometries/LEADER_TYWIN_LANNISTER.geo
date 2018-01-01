@@ -27,7 +27,7 @@
 <m_Name text="Tywin_Cloth#M"/>
 <m_Groups>
 <Element>
-<m_Name text="Cloth"/>
+<m_Name text="Cloth.002"/>
 <m_nFirstPrim>0</m_nFirstPrim>
 <m_nPrims>76480</m_nPrims>
 </Element>
@@ -35,6 +35,19 @@
 <m_nBoundBoneCount>28</m_nBoundBoneCount>
 <m_nPrimitiveCount>76480</m_nPrimitiveCount>
 <m_nVertexCount>39821</m_nVertexCount>
+</Element>
+<Element>
+<m_Name text="Tywin_ClothInside#M"/>
+<m_Groups>
+<Element>
+<m_Name text="Cloth.003"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>51984</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>24</m_nBoundBoneCount>
+<m_nPrimitiveCount>51984</m_nPrimitiveCount>
+<m_nVertexCount>26727</m_nVertexCount>
 </Element>
 <Element>
 <m_Name text="Tywin_Skin#M"/>

@@ -8,7 +8,7 @@
 				<m_ParamName text="Opacity"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="Normals"/>
+				<m_ObjectName text="Leader_Robert_Normals"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Normal"/>
 			</Element>
@@ -18,17 +18,17 @@
 				<m_ParamName text="SpecTint"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="Metalness"/>
+				<m_ObjectName text="Leader_Robert_Metalness"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Metalness"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="Diffuse"/>
+				<m_ObjectName text="Leader_Robert_Diffuse"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="BaseColor"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="AO"/>
+				<m_ObjectName text="Leader_Robert_AO"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="AO"/>
 			</Element>
@@ -53,7 +53,7 @@
 				<m_ParamName text="FuzzTint"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="Gloss"/>
+				<m_ObjectName text="Leader_Robert_Gloss"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Gloss"/>
 			</Element>

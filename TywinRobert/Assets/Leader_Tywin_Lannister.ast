@@ -16,6 +16,38 @@
 						<m_SlotName text="NEUTRAL_POSITIVE_A"/>
 						<m_AnimationName text="LeaderTywin_Neutral_Positive"/>
 					</Element>
+					<Element>
+						<m_SlotName text="01_FIRST_MEET"/>
+						<m_AnimationName text="LeaderTywin_First_Meet"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_IDLE_A"/>
+						<m_AnimationName text="LeaderTywin_Unhappy_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_NEGATIVE_A"/>
+						<m_AnimationName text="LeaderTywin_Unhappy_Negative"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_NEGATIVE_B"/>
+						<m_AnimationName text="LeaderTywin_Unhappy_Negative"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_POSITIVE_B"/>
+						<m_AnimationName text="LeaderTywin_Neutral_Positive"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_NEGATIVE_B"/>
+						<m_AnimationName text="LeaderTywin_Neutral_Negative"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_POSITIVE_A"/>
+						<m_AnimationName text="LeaderTywin_Unhappy_Positive"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_POSITIVE_B"/>
+						<m_AnimationName text="LeaderTywin_Unhappy_Positive"/>
+					</Element>
 				</m_Bindings>
 			</m_animationBindings>
 			<m_timelineBindings>
@@ -76,8 +108,26 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Cloth"/>
+						<m_GroupName text="Cloth.002"/>
 						<m_MeshName text="Tywin_Cloth#M"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Leader_Tywin_Cloth"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="RecalculateNormals"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Cloth.003"/>
+						<m_MeshName text="Tywin_ClothInside#M"/>
 						<m_StateName text="Default"/>
 					</Element>
 					<Element>

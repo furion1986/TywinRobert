@@ -41,6 +41,9 @@
     <Content Include="Artdefs\Districts.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Artdefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Artdefs\Landmarks.artdef">
       <SubType>Content</SubType>
     </Content>

@@ -8,8 +8,8 @@
 				<m_ParamName text="Opacity"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text=""/>
-				<m_eObjectType>INVALID</m_eObjectType>
+				<m_ObjectName text="LeaderTywin_Skin_Normal"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Normal"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
@@ -28,7 +28,7 @@
 				<m_ParamName text="BaseColor"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text=""/>
+				<m_ObjectName text="LeaderTywin_Skin_AO"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="AO"/>
 			</Element>
@@ -53,7 +53,7 @@
 				<m_ParamName text="FuzzTint"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text=""/>
+				<m_ObjectName text="LeaderTywin_Skin_Gloss"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Gloss"/>
 			</Element>
@@ -64,8 +64,8 @@
 			</Element>
 			<Element class="AssetObjects..RGBValue">
 				<m_r>150.000000</m_r>
-				<m_g>20.000000</m_g>
-				<m_b>7.000000</m_b>
+				<m_g>150.000000</m_g>
+				<m_b>150.000000</m_b>
 				<m_ParamName text="TranslucencyColor"/>
 			</Element>
 			<Element class="AssetObjects..BoolValue">

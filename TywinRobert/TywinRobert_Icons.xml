@@ -39,25 +39,25 @@
 		<Row Filename="ICON_TYRB_UNITS_80" IconsPerColumn="3" IconsPerRow="2" IconSize="80" Name="ICON_ATLAS_TYRB_UNITS"/>
 		<Row Filename="ICON_TYRB_UNITS_256" IconsPerColumn="3" IconsPerRow="2" IconSize="256" Name="ICON_ATLAS_TYRB_UNITS"/>
 		<!--UNIT PORTRAITS-->
-		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS"   IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="ICON_TYRB_UNIT_PORTRAITS_256"/>
-		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS"   IconSize="200" IconsPerRow="8" IconsPerColumn="8" Filename="ICON_TYRB_UNIT_PORTRAITS_200"/>
-		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS"   IconSize="95" IconsPerRow="8" IconsPerColumn="8" Filename="ICON_TYRB_UNIT_PORTRAITS_95"/>
-		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS"   IconSize="70" IconsPerRow="8" IconsPerColumn="8" Filename="ICON_TYRB_UNIT_PORTRAITS_70"/>
-		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS"   IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="ICON_TYRB_UNIT_PORTRAITS_50"/>
-		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS"   IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="ICON_TYRB_UNIT_PORTRAITS_38"/>
+		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS" IconSize="256" IconsPerRow="3" IconsPerColumn="1" Filename="RBTW_UnitPortraits_256"/>
+		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS" IconSize="200" IconsPerRow="3" IconsPerColumn="1" Filename="RBTW_UnitPortraits_200"/>
+		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS" IconSize="95" IconsPerRow="3" IconsPerColumn="1" Filename="RBTW_UnitPortraits_95"/>
+		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS" IconSize="70" IconsPerRow="3" IconsPerColumn="1" Filename="RBTW_UnitPortraits_70"/>
+		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS" IconSize="50" IconsPerRow="3" IconsPerColumn="1" Filename="RBTW_UnitPortraits_50"/>
+		<Row Name="ICON_ATLAS_TYRB_UNIT_PORTRAITS" IconSize="38" IconsPerRow="3" IconsPerColumn="1" Filename="RBTW_UnitPortraits_38"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!--UNIT ICONS-->
 		<Row Name="ICON_UNIT_SELLSWORDS" Atlas="ICON_ATLAS_TYRB_UNITS" Index="0"/>
-		<Row Name="ICON_UNIT_SELLSWORDS_PORTRAIT" Atlas="ICON_ATLAS_TYRB_UNIT_PORTRAITS" Index="0"/>
 		<Row Name="ICON_UNIT_SELLSWORDS_SWORDSMAN" Atlas="ICON_ATLAS_TYRB_UNITS" Index="1"/>
-		<Row Name="ICON_UNIT_SELLSWORDS_SWORDSMAN_PORTRAIT" Atlas="ICON_ATLAS_TYRB_UNIT_PORTRAITS" Index="1"/>
 		<Row Name="ICON_UNIT_SELLSWORDS_PIKEMAN" Atlas="ICON_ATLAS_TYRB_UNITS" Index="2"/>
-		<Row Name="ICON_UNIT_SELLSWORDS_PIKEMAN_PORTRAIT" Atlas="ICON_ATLAS_TYRB_UNIT_PORTRAITS" Index="2"/>
 		<Row Name="ICON_UNIT_SELLSWORDS_MARKSMAN" Atlas="ICON_ATLAS_TYRB_UNITS" Index="3"/>
-		<Row Name="ICON_UNIT_SELLSWORDS_MARKSMAN_PORTRAIT" Atlas="ICON_ATLAS_TYRB_UNIT_PORTRAITS" Index="3"/>
 		<Row Name="ICON_UNIT_SQUIRE" Atlas="ICON_ATLAS_TYRB_UNITS" Index="4"/>
-		<Row Name="ICON_UNIT_SQUIRE_PORTRAIT" Atlas="ICON_ATLAS_TYRB_UNIT_PORTRAITS" Index="4"/>
+		<!--UNIT PORTRAITS-->
+		<Row Name="ICON_UNIT_SELLSWORDS_SWORDSMAN_PORTRAIT" Atlas="ICON_ATLAS_TYRB_UNIT_PORTRAITS" Index="0"/>
+		<Row Name="ICON_UNIT_SELLSWORDS_PIKEMAN_PORTRAIT" Atlas="ICON_ATLAS_TYRB_UNIT_PORTRAITS" Index="1"/>
+		<Row Name="ICON_UNIT_SELLSWORDS_MARKSMAN_PORTRAIT" Atlas="ICON_ATLAS_TYRB_UNIT_PORTRAITS" Index="2"/>
+		<Row Name="ICON_UNIT_SQUIRE_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="28"/>
 		<!--BUILDING ICON-->
 		<Row Name="ICON_DISTRICT_SELLSWORDS_CAMP" Atlas="ICON_ATLAS_DISTRICT_BUILDING_TWRB" Index="1"/>
 		<Row Name="ICON_BUILDING_JOUSTING_ARENA" Atlas="ICON_ATLAS_DISTRICT_BUILDING_TWRB" Index="0"/>
