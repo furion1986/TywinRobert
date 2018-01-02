@@ -48,6 +48,62 @@
 						<m_SlotName text="UNHAPPY_POSITIVE_B"/>
 						<m_AnimationName text="LeaderTywin_Unhappy_Positive"/>
 					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_IDLE_A"/>
+						<m_AnimationName text="LeaderTywin_Happy_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_NEGATIVE_A"/>
+						<m_AnimationName text="LeaderTywin_Happy_Negative"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_NEGATIVE_B"/>
+						<m_AnimationName text="LeaderTywin_Happy_Negative"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_POSITIVE_A"/>
+						<m_AnimationName text="LeaderTywin_Happy_Positive"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_POSITIVE_B"/>
+						<m_AnimationName text="LeaderTywin_Happy_Positive"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_TO_ENRAGED"/>
+						<m_AnimationName text="LeaderTywin_Unhappy2Enrage"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_TO_ENRAGED"/>
+						<m_AnimationName text="LeaderTywin_Neutral2Enrage"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_TO_ENRAGED"/>
+						<m_AnimationName text="LeaderTywin_Happy2Enrage"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_TO_NEUTRAL"/>
+						<m_AnimationName text="LeaderTywin_Happy2Neutral"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_TO_HAPPY"/>
+						<m_AnimationName text="LeaderTywin_Neutral2Happy"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DECLARE_WAR_A"/>
+						<m_AnimationName text="LeaderTywin_Unhappy2Enrage"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_TO_UNHAPPY"/>
+						<m_AnimationName text="LeaderTywin_Neutral2Unhappy"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_TO_NEUTRAL"/>
+						<m_AnimationName text="LeaderTywin_Unhappy2Neutral"/>
+					</Element>
+					<Element>
+						<m_SlotName text="03_DECLARE_WAR_FROM_AI"/>
+						<m_AnimationName text="LeaderTywin_War_AI"/>
+					</Element>
 				</m_Bindings>
 			</m_animationBindings>
 			<m_timelineBindings>
