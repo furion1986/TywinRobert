@@ -104,6 +104,22 @@
 						<m_SlotName text="03_DECLARE_WAR_FROM_AI"/>
 						<m_AnimationName text="LeaderTywin_War_AI"/>
 					</Element>
+					<Element>
+						<m_SlotName text="02_DECLARE_WAR_FROM_HUMAN"/>
+						<m_AnimationName text="LeaderTywin_WAR_Human"/>
+					</Element>
+					<Element>
+						<m_SlotName text="05_WARNING"/>
+						<m_AnimationName text="LeaderTywin_Warning"/>
+					</Element>
+					<Element>
+						<m_SlotName text="04_KUDOS"/>
+						<m_AnimationName text="LeaderTywin_Kudo"/>
+					</Element>
+					<Element>
+						<m_SlotName text="06_DEFEAT"/>
+						<m_AnimationName text="LeaderTywin_Defeat"/>
+					</Element>
 				</m_Bindings>
 			</m_animationBindings>
 			<m_timelineBindings>
