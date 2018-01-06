@@ -53,7 +53,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="FALLBACK_NEUTRAL_EDDARD_STARK"/>
+										<m_EntryName text="Fallback_Neutral_Robert"/>
 										<m_XLPClass text="LeaderFallback"/>
 										<m_XLPPath text="LeaderFallbacks.xlp"/>
 										<m_BLPPackage text="LeaderFallbacks"/>
