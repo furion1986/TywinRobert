@@ -116,6 +116,9 @@
     <Content Include="XLPs\Icons.xlp">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="XLPs\leader_robert.xlp">
       <SubType>Content</SubType>
     </Content>

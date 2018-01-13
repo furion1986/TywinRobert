@@ -16,7 +16,7 @@ local runUpdateUnitAtt = nil;
 ----------Timer Controlled Functions----------
 function UpdateUnitAttachment()
     local iMemberCount = SimUnitSystem.GetVisMemberCount(switchUnit);
-	print(tostring(switchUnit).." Member Count: "..iMemberCount);
+	--print(tostring(switchUnit).." Member Count: "..iMemberCount);
 	--Get all units in same tile
 	local unitX = switchUnit:GetX();
 	local unitY = switchUnit:GetY();
@@ -24,39 +24,39 @@ function UpdateUnitAttachment()
 	--Loop through members of Undead Unit
 	if iMemberCount > 0 then		
 		for j = 0, iMemberCount - 1, 1 do
-			print("Checking Member #"..tostring(j))
+			--print("Checking Member #"..tostring(j))
 			local unitVisArtState = SimUnitSystem.GetVisMemberArtState(switchUnit, j);
 			local hasSquire = false;
 			if unitList ~= nil then
-				print("Plot has units...");
+				--print("Plot has units...");
 				for i, tUnit in ipairs(unitList) do
 					local tUnitInfo:table = GameInfo.Units[tUnit:GetUnitType()];
 					if tUnitInfo.UnitType == "UNIT_SQUIRE" then
-						print("Squire detected...");
+						--print("Squire detected...");
 						hasSquire = true;
 						--break;
 					end
 				end
 			end
-			print("hasSquire = "..tostring(hasSquire));
+			--print("hasSquire = "..tostring(hasSquire));
 			--End looping through units in same plot
 			if (unitVisArtState ~= nil) then
 				for k, att in ipairs(unitVisArtState.Attachments) do
 					local attName = att.Name;
 					--print(attName);
 					if ((attName == "Warrior_ArmorA") or (attName == "Swordsman_ArmorA")) and (hasSquire == true) then
-						print("Swapping to Horse...".."attachment ID: "..k.." Current Attachment Name: "..attName);
+						--print("Swapping to Horse...".."attachment ID: "..k.." Current Attachment Name: "..attName);
 						SimUnitSystem.ChangeVisMemberArtAttachment(switchUnit, j, k-1, 1);
 					elseif ((attName == "WarriorRider_ArmorA") or (attName == "SwordsmanRider_ArmorA")) and (hasSquire == false) then
-						print("Swapping to No Horse...".."attachment ID: "..k.." Current Attachment Name: "..attName);						
+						--print("Swapping to No Horse...".."attachment ID: "..k.." Current Attachment Name: "..attName);						
 						SimUnitSystem.ChangeVisMemberArtAttachment(switchUnit, j, k-1, -1);
 					elseif ((attName == "Warrior_ArmorA") or (attName == "Swordsman_ArmorA")) and (hasSquire == false) then
 					end
 					if (attName == "FullHorseArmorA") and (hasSquire == false) then
-						print("Swapping to No Horse...".."attachment ID: "..k.." Current Attachment Name: "..attName);						
+						--print("Swapping to No Horse...".."attachment ID: "..k.." Current Attachment Name: "..attName);						
 						SimUnitSystem.ChangeVisMemberArtAttachment(switchUnit, j, k-1, -1);
 					elseif (attName == "NoHorse") and (hasSquire == true) then
-						print("Swapping to Horse...".."attachment ID: "..k.." Current Attachment Name: "..attName);					
+						--print("Swapping to Horse...".."attachment ID: "..k.." Current Attachment Name: "..attName);					
 						SimUnitSystem.ChangeVisMemberArtAttachment(switchUnit, j, k-1, 1);
 					elseif (attName == "FullHorseArmorA") and (hasSquire == true) then
 					end
@@ -74,20 +74,22 @@ function RTOnUnitSelectionChanged(playerID, unitId, locationX, locationY, locati
 		local pPlayer = Players[playerID];
 		local pPlayerConfig = PlayerConfigurations[playerID];
 		local sCiv = pPlayerConfig:GetCivilizationTypeName();
+		print(sCiv);
 		if not sCiv == "CIVILIZATION_THE_STORMLANDS" then return; end
 		local pUnit = pPlayer:GetUnits():FindID(unitId);
 		local unitInfo = GameInfo.Units[pUnit:GetUnitType()];
+		print(unitInfo.UnitType);
 		if (unitInfo.UnitType == "UNIT_WARRIOR" or unitInfo.UnitType == "UNIT_SWORDSMAN") then
 			switchUnit = pUnit;
-			--print("Start switching members: "..tostring(switchUnit));
+			print("Start switching members: "..tostring(switchUnit));
 			runUpdateUnitAtt = coroutine.create(function () 
 				for i = 0, 7, 1 do
 					UpdateUnitAttachment();
-					print("requesting pause in script for ", g_Pause, " seconds at time = ".. tostring( Automation.GetTime() ));
+					--print("requesting pause in script for ", g_Pause, " seconds at time = ".. tostring( Automation.GetTime() ));
 					g_Timer = Automation.GetTime();
 					coroutine.yield();
 					-- after g_Pause seconds, the script will start again from here
-					print("resuming script at time = ".. tostring( Automation.GetTime() ));  
+					--print("resuming script at time = ".. tostring( Automation.GetTime() ));  
 				end
 				StopScriptWithPause();
 				switchUnit = nil;
@@ -102,56 +104,25 @@ function RTSetUnitAttachments(playerID, unitID)
 	local pPlayer = Players[playerID];
 	local pPlayerConfig = PlayerConfigurations[playerID];
 	local sCiv = pPlayerConfig:GetCivilizationTypeName();
+	print(sCiv);
 	if not sCiv == "CIVILIZATION_THE_STORMLANDS" then return; end
 	local unit = UnitManager.GetUnit(playerID, unitID);
 	if unit then
 		local unitType = GameInfo.Units[unit:GetUnitType()];
+		print(unitType.UnitType);
 		--Check if unit type is Warrior or Swordsman
 		if unitType.UnitType == "UNIT_WARRIOR" or unitType.UnitType == "UNIT_SWORDSMAN" then
 			LaunchScriptWithPause();
 			switchUnit = unit;
-			--print("Start switching members: "..tostring(switchUnit));
+			print("Start switching members: "..tostring(switchUnit));
 			runUpdateUnitAtt = coroutine.create(function () 
 				for i = 0, 7, 1 do
 					UpdateUnitAttachment();
-					print("requesting pause in script for ", g_Pause, " seconds at time = ".. tostring( Automation.GetTime() ));
+					--print("requesting pause in script for ", g_Pause, " seconds at time = ".. tostring( Automation.GetTime() ));
 					g_Timer = Automation.GetTime();
 					coroutine.yield();
 					-- after g_Pause seconds, the script will start again from here
-					print("resuming script at time = ".. tostring( Automation.GetTime() ));  
-				end
-				StopScriptWithPause();
-				switchUnit = nil;
-			end)
-			LaunchScriptWithPause();			
-			coroutine.resume(runUpdateUnitAtt);
-		end
-		--Done updating Unit members
-	end
-	--unit isn't nil
-end
-
-function RTUnitVisChanged(playerID: number, unitID : number, eVisibility : number)
-	local pPlayer = Players[playerID];
-	local pPlayerConfig = PlayerConfigurations[playerID];
-	local sCiv = pPlayerConfig:GetCivilizationTypeName();
-	if not sCiv == "CIVILIZATION_THE_STORMLANDS" then return; end
-	local unit = UnitManager.GetUnit(playerID, unitID);
-	if unit then
-		local unitType = GameInfo.Units[unit:GetUnitType()];
-		--Check if unit type is Warrior or Swordsman
-		if unitType.UnitType == "UNIT_WARRIOR" or unitType.UnitType == "UNIT_SWORDSMAN" then
-			LaunchScriptWithPause();
-			switchUnit = unit;
-			--print("Start switching members: "..tostring(switchUnit));
-			runUpdateUnitAtt = coroutine.create(function () 
-				for i = 0, 7, 1 do
-					UpdateUnitAttachment();
-					print("requesting pause in script for ", g_Pause, " seconds at time = ".. tostring( Automation.GetTime() ));
-					g_Timer = Automation.GetTime();
-					coroutine.yield();
-					-- after g_Pause seconds, the script will start again from here
-					print("resuming script at time = ".. tostring( Automation.GetTime() ));  
+					--print("resuming script at time = ".. tostring( Automation.GetTime() ));  
 				end
 				StopScriptWithPause();
 				switchUnit = nil;
@@ -168,6 +139,7 @@ function RTOnEnterFormation(playerID1, unitID1, playerID2, unitID2)
 	local pPlayer = Players[playerID1];
 	local pPlayerConfig = PlayerConfigurations[playerID1];
 	local sCiv = pPlayerConfig:GetCivilizationTypeName();
+	print(sCiv);
 	if not sCiv == "CIVILIZATION_THE_STORMLANDS" then return; end
 	if (pPlayer ~= nil) then
 		local pUnit1 = pPlayer:GetUnits():FindID(unitID1);
@@ -175,19 +147,21 @@ function RTOnEnterFormation(playerID1, unitID1, playerID2, unitID2)
 		if (pUnit1 ~= nil) and (pUnit2 ~= nil) then
 			local unitType1 = GameInfo.Units[pUnit1:GetUnitType()];
 			local unitType2 = GameInfo.Units[pUnit2:GetUnitType()];
+			print(unitType1.UnitType);
+			print(unitType2.UnitType);
 			--Check if unit type is Warrior or Swordsman
 			if unitType1.UnitType == "UNIT_WARRIOR" or unitType1.UnitType == "UNIT_SWORDSMAN" then
 				Events.GameCoreEventPublishComplete.Add( CheckTimer );
 				switchUnit = pUnit1;
-				--print("Start switching members: "..tostring(switchUnit));
+				print("Start switching members: "..tostring(switchUnit));
 				runUpdateUnitAtt = coroutine.create(function () 
 					for i = 0, 7, 1 do
 						UpdateUnitAttachment();
-						print("requesting pause in script for ", g_Pause, " seconds at time = ".. tostring( Automation.GetTime() ));
+						--print("requesting pause in script for ", g_Pause, " seconds at time = ".. tostring( Automation.GetTime() ));
 						g_Timer = Automation.GetTime();
 						coroutine.yield();
 						-- after g_Pause seconds, the script will start again from here
-						print("resuming script at time = ".. tostring( Automation.GetTime() ));  
+						--print("resuming script at time = ".. tostring( Automation.GetTime() ));  
 					end
 					StopScriptWithPause();
 					switchUnit = nil;
@@ -197,15 +171,15 @@ function RTOnEnterFormation(playerID1, unitID1, playerID2, unitID2)
 			end
 			if unitType2.UnitType == "UNIT_WARRIOR" or unitType2.UnitType == "UNIT_SWORDSMAN" then
 				switchUnit = pUnit2;
-				--print("Start switching members: "..tostring(switchUnit));
+				print("Start switching members: "..tostring(switchUnit));
 				runUpdateUnitAtt = coroutine.create(function () 
 					for i = 0, 7, 1 do
 						UpdateUnitAttachment();
-						print("requesting pause in script for ", g_Pause, " seconds at time = ".. tostring( Automation.GetTime() ));
+						--print("requesting pause in script for ", g_Pause, " seconds at time = ".. tostring( Automation.GetTime() ));
 						g_Timer = Automation.GetTime();
 						coroutine.yield();
 						-- after g_Pause seconds, the script will start again from here
-						print("resuming script at time = ".. tostring( Automation.GetTime() ));  
+						--print("resuming script at time = ".. tostring( Automation.GetTime() ));  
 					end
 					StopScriptWithPause();
 					switchUnit = nil;
@@ -219,7 +193,7 @@ end
 
 ----------Timer Functions----------
 function ChangePause(value) -- Not called anywhere?
-    print("changing pause value to ", value);
+    --print("changing pause value to ", value);
     g_Pause = value;
 end
 function CheckTimer()  
@@ -235,8 +209,11 @@ end
 function StopScriptWithPause() -- GameCoreEventPublishComplete is called frequently, keep it clean
     Events.GameCoreEventPublishComplete.Remove( CheckTimer );
 end
-Events.UnitSelectionChanged.Add(RTOnUnitSelectionChanged);
-Events.UnitEnterFormation.Add(RTOnEnterFormation);
-Events.UnitExitFormation.Add(RTOnEnterFormation);
-Events.UnitAddedToMap.Add(RTSetUnitAttachments);
-Events.UnitVisibilityChanged.Add(RTUnitVisChanged);
+
+function RBSwitchOnLoadScreenClose()
+	Events.UnitSelectionChanged.Add(RTOnUnitSelectionChanged);
+	Events.UnitEnterFormation.Add(RTOnEnterFormation);
+	Events.UnitExitFormation.Add(RTOnEnterFormation);
+	Events.UnitAddedToMap.Add(RTSetUnitAttachments);
+end
+Events.LoadScreenClose.Add(RBSwitchOnLoadScreenClose);

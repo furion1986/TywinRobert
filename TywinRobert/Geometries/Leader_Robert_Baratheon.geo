@@ -28,11 +28,25 @@
 <m_nPrimitiveCount>114782</m_nPrimitiveCount>
 <m_nVertexCount>61722</m_nVertexCount>
 </Element>
+<Element>
+<m_Name text="Robert_Helm#M"/>
+<m_Groups>
+<Element>
+<m_Name text="lambert1"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>34112</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>34112</m_nPrimitiveCount>
+<m_nVertexCount>18390</m_nVertexCount>
+</Element>
 </m_Meshes>
 <m_Bones>
 <Element text="Root"/>
 <Element text="root"/>
 <Element text="dummy"/>
+<Element text="DEF-Helm"/>
 <Element text="DEF-ShoulderPlate_L"/>
 <Element text="DEF-ShoulderPlate_R"/>
 <Element text="DEF-breast.L"/>
@@ -210,9 +224,9 @@
 <m_RelativePath text="Leader_Robert_Baratheon.fgx"/>
 </Element>
 <Element>
-			<m_ID text="WIG"/>
-			<m_RelativePath text="Robert_wig_Fallback.wig"/>
-		</Element>
+<m_ID text="WIG"/>
+<m_RelativePath text="Leader_Robert_Baratheon.wig"/>
+</Element>
 </m_DataFiles>
 <m_Name text="Leader_Robert_Baratheon"/>
 <m_Description text="Leader_Robert_Baratheon"/>

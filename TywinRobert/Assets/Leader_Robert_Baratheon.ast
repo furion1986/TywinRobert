@@ -5,16 +5,80 @@
 			<m_animationBindings>
 				<m_Bindings>
 					<Element>
-						<m_SlotName text="NEUTRAL_IDLE_A"/>
-						<m_AnimationName text="LeaderRobert_Neutral_Idle"/>
-					</Element>
-					<Element>
 						<m_SlotName text="NEUTRAL_NEGATIVE_A"/>
 						<m_AnimationName text="LeaderRobert_Neutral_Negative"/>
 					</Element>
 					<Element>
 						<m_SlotName text="NEUTRAL_POSITIVE_A"/>
 						<m_AnimationName text="LeaderRobert_Neutral_Positive"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_IDLE_A"/>
+						<m_AnimationName text="LeaderRobert_Neutral_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_IDLE_A"/>
+						<m_AnimationName text="LeaderRobert_Unhappy_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_NEGATIVE_B"/>
+						<m_AnimationName text="LeaderRobert_Neutral_Negative"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_POSITIVE_B"/>
+						<m_AnimationName text="LeaderRobert_Neutral_Positive"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_NEGATIVE_A"/>
+						<m_AnimationName text="LeaderRobert_Unhappy_Negative"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_NEGATIVE_B"/>
+						<m_AnimationName text="LeaderRobert_Unhappy_Negative"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_POSITIVE_A"/>
+						<m_AnimationName text="LeaderRobert_Unhappy_Positive"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_POSITIVE_B"/>
+						<m_AnimationName text="LeaderRobert_Unhappy_Positive"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_IDLE_A"/>
+						<m_AnimationName text="LeaderRobert_Happy_Idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_NEGATIVE_A"/>
+						<m_AnimationName text="LeaderRobert_Happy_Negative"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_NEGATIVE_B"/>
+						<m_AnimationName text="LeaderRobert_Happy_Negative"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_POSITIVE_A"/>
+						<m_AnimationName text="LeaderRobert_Happy_Positive"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_POSITIVE_B"/>
+						<m_AnimationName text="LeaderRobert_Happy_Positive"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_TO_UNHAPPY"/>
+						<m_AnimationName text="LeaderRobert_Neutral2Unhappy"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_TO_NEUTRAL"/>
+						<m_AnimationName text="LeaderRobert_Unhappy2Neutral"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_TO_ENRAGED"/>
+						<m_AnimationName text="LeaderRobert_Unhappy2Enranged"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_TO_ENRAGED"/>
+						<m_AnimationName text="LeaderRobert_Neutral2Enraged"/>
 					</Element>
 				</m_Bindings>
 			</m_animationBindings>
@@ -78,6 +142,24 @@
 						</m_Values>
 						<m_GroupName text="Skin"/>
 						<m_MeshName text="Robert_Baratheon#M"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Leader_Robert_Helm"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="RecalculateNormals"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="lambert1"/>
+						<m_MeshName text="Robert_Helm#M"/>
 						<m_StateName text="Default"/>
 					</Element>
 				</m_GroupStates>
