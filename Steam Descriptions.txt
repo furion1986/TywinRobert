@@ -1,0 +1,79 @@
+IF YOU APPRECIATE THIS CONTENT, PLEASE SUPPORT ME AND GET EXCLUSIVE CONTENTS AND VOTING RIGHTS FOR THE NEXT RELEASE!
+https://www.patreon.com/furion1986
+
+This Mod adds Leaders Tywin Lannister of the Westerlands and Robert Baratheon of the Stormlands to standard gameplay.
+Tywin Lannister and Robert Baratheon are characters in the fantasy A Song of Ice and Fire (original story of HBO show Game of Thrones, AKA GoT), the heads of House Lannister and Baratheon.
+
+[img]https://steamuserimages-a.akamaihd.net/ugc/931550577357029729/71BA2B90D602C1922E1A5E85BA4D1C4282C65AA7/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside%7C*%3A0[/img]
+
+Tywin Lannister
+Civilization Trait: Hear Me Roar.
+All Mines over resources yield +2 Gold. Completing Mines over resources triggers culture bomb even if the adjacent tiles are already 4 or more tiles away from city. 20% discount to all Gold purchases.
+Leader Trait: Hammer and Anvil.
++10 Combat Strength to Melee and Anti-Cavalry units when defending. +50% Flanking Bonus to Light and Heavy Cavalry units. +5 Combat Strength to Ranged and Siege units when attacking wounded unit.
+
+Robert Baratheon
+Civilization Trait: Ours Is the Fury.
++100% Production when building Ancient Walls, Medieval Walls and Renaissance Walls. Self founded cities grant Ancient Walls immediately even without Masonary Technology. Ancient Walls yield extra +1 Culture, Medieval Walls yield extra +2 Culture, and Renaissance Walls yield extra +4 Culture. +10 City Defense Strength with walls.
+Leader Trait: The Usurper.
+Upon major civilization city conquered by Robert Baratheon, grant a free Technology or Civic that the conquered city owner already has and is available to Robert Baratheon.
+
+Unique Districts, Buildings and Units
+
+[img]https://steamuserimages-a.akamaihd.net/ugc/931550577357032423/C9A90A63DD46FBAB329AFEBE799D94AE4A5E2B22/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside%7C*%3A0[/img]
+
+Unique District: Sellswords Camp.
+A district unique to Westerlands replacing Encampment. +2 Gold bonus if adjacent to a Commercial Hub district. +1 Great Merchant point for each citizen working on Sellswords Camp.
+Unique Unit: Sellswords.
+The Westerlands' unique Medieval era units. Randomly spawn Swordsman, Pikeman or Marksman on purchase and can move instantly. Combat victories provide Gold equal to 75% of the Combat Strength of the defeated unit.
+
+[img]https://steamuserimages-a.akamaihd.net/ugc/931550577357080235/B474A70C58C481C5B41056497B6D1BA39E559F1F/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside%7C*%3A0[/img]
+
+Unique Building: Jousting Arena.
+A building unique to Stormlands replacing Stable. Other than standard Stable yields, Jousting Arena provides extra +1 Amenity and Pastures in the territory of cities with Jousting Arena gain +2 Culture. [NEWLINE]May not be built in an Encampment district that already has a Barracks.
+Unique Unit: Squire.
+The Stormlands' unique support unit. Provide +9 Combat Strength and +1 Movement to Warrior and Swordsman in the same tile.
+
+==========
+
+Known Bugs:
+Had some crashes during testing. I think I fixed it but please report if you experience any crash.
+
+
+**********
+这个MOD加入了泰温·兰尼斯特领导的西境和劳伯·拜拉席恩领导的风暴地。泰温·兰尼斯特和劳伯·拜拉席恩是奇幻小说《冰与火之歌》（HBO剧《权力的游戏》的原著）中的角色，兰尼斯特家族与拜拉席恩家族的族长。
+
+[img]https://steamuserimages-a.akamaihd.net/ugc/931550577357029729/71BA2B90D602C1922E1A5E85BA4D1C4282C65AA7/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside%7C*%3A0[/img]
+
+泰温·兰尼斯特
+文明特性: 听我怒吼
+所有在资源上建设的矿场产出 +2 金钱. 在资源上建设矿场会触发文化炸弹并且能突破城市3格距离的限制。金钱购买单位和建筑便宜20%。
+领袖特性: 铁锤与铁毡
+近战与反骑单位防御时获得 +10 战斗力。轻骑兵和重骑兵获得 +50% 夹击加成。远程和攻城单位对受伤单位获得 +5 战斗力。
+
+劳伯·拜拉席恩
+文明特性: 怒火燎原
+建设远古城墙，中世纪城墙和文艺复兴城墙时 +100% 生产力。通过移民新建立的城市立即获得远古城墙（即使没有研发石工术）。远古城墙额外产出 +1 文化，中世纪城墙额外产出 +2 文化，文艺复兴城墙额外产出 +4 文化。拥有城墙的城市获得 +10 城市防御力。
+领袖特性: 篡夺者
+劳伯·拜拉席恩在攻占主流文明城市时会获得一项对方已研发完成并且劳伯当前可研发的科技或者市政。
+
+独特城区，建筑与单位
+
+[img]https://steamuserimages-a.akamaihd.net/ugc/931550577357032423/C9A90A63DD46FBAB329AFEBE799D94AE4A5E2B22/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside%7C*%3A0[/img]
+
+独特城区:雇佣兵营帐
+西镜独特的城区，替代军事驻地。 临近商业中心时 +2 金钱。 每个在雇佣兵营帐工作的市民产生 +1 大商人点数。
+独特单位: 雇佣兵
+西镜独特的中世纪单位。购买后随机出现剑士，枪兵或者弩手中的一种，并且可以立刻行动。战斗胜利会获得相当于所战胜单位 75% 战斗力的金钱。
+
+[img]https://steamuserimages-a.akamaihd.net/ugc/931550577357080235/B474A70C58C481C5B41056497B6D1BA39E559F1F/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside%7C*%3A0[/img]
+
+独特建筑: 马上比武场
+风暴地独特的建筑，替代马厩。除了普通马厩的产出外，马上比武场还提供额外 +1 宜居度。城市境内的牧场产出 +2 文化。不能在拥有兵营的军事驻地中建造。
+独特单位: 骑士侍从
+风暴地独特的支援单位。为所属同一格的勇士和剑客提供 +9 战斗力和 +1 移动力。
+
+==========
+
+已知问题：
+在测试过程中出现过游戏崩溃。已经尝试修复不过如再遇到请反馈，多谢！

@@ -265,7 +265,7 @@
 
 		<!--PEDIA-->
 		<!--CIV-->
-		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SELLSWORD_CAMP_CHAPTER_HISTORY_PARA_1">
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DISTRICT_SELLSWORDS_CAMP_CHAPTER_HISTORY_PARA_1">
 			<Text>A mercenary is a soldier who takes temporary assignments fighting for wages rather than as an official member of an army. There are a number of different types of mercenaries. The terms "sellsword" and "freerider" carry a certain stigma in Westeros. Sellswords are said to have no loyalty, or only loyal to GOLD.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_1">
@@ -293,7 +293,7 @@
 			<Text>In 283 AC, Lord Tywin Lannister commanded twelve thousand Lannister men during the Sack of King's Landing. The Lannister fleet at Lannisport consists of twenty or thirty cogs, carracks, galleys, and dromonds, while lesser lords have two or three ships for patrolling. The total naval power of the westerlands to be “probably closer to fifty or sixty large ships”. Casterly Rock's vessels were rebuilt after the burning of the Lannister fleet in 289 AC.</Text>
 		</Row>
 
-		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_BUILDING_JOUSTING_ARENA_CHAPTER_HISTORY_PARA_1">
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_JOUSTING_ARENA_CHAPTER_HISTORY_PARA_1">
 			<Text>Tourneys in Westeros vary according to the region in which the tourney is held, the desires of the hosting lord, and the rules devised by the lord's master of the games. Many forms of competition are known, including jousting (also called the lists), mock battles between teams of knights, archery competitions, or the melee, in which many warriors fight individually in one large battle. Tourneys can be small events focusing on one competition held on a single day, or they can be large events that take several days and may include several different competitions. Jousting is a martial game or hastilude between two horsemen wielding lances with blunted tips, often as part of a tournament. The primary aim was to replicate a clash of heavy cavalry, with each opponent trying hard to strike the opponent while riding towards him at high speed, if possible breaking the lance on the opponent's shield or jousting armour, or unhorsing him. The joust became an iconic characteristic of the knight in Romantic medievalism. The participants experience close to three and a quarter times their body weight in G-forces when the lances collide with their armor.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_1">

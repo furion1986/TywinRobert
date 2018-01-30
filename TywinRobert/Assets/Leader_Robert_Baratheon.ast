@@ -80,6 +80,46 @@
 						<m_SlotName text="NEUTRAL_TO_ENRAGED"/>
 						<m_AnimationName text="LeaderRobert_Neutral2Enraged"/>
 					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_TO_ENRAGED"/>
+						<m_AnimationName text="LeaderRobert_Happy2Enraged"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DECLARE_WAR_A"/>
+						<m_AnimationName text="LeaderRobert_Unhappy2Enranged"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_TO_NEUTRAL"/>
+						<m_AnimationName text="LeaderRobert_Happy2Neutral"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_TO_HAPPY"/>
+						<m_AnimationName text="LeaderRobert_Neutral2Happy"/>
+					</Element>
+					<Element>
+						<m_SlotName text="01_FIRST_MEET"/>
+						<m_AnimationName text="LeaderRobert_FirstMeet"/>
+					</Element>
+					<Element>
+						<m_SlotName text="04_KUDOS"/>
+						<m_AnimationName text="LeaderRobert_Kudo"/>
+					</Element>
+					<Element>
+						<m_SlotName text="05_WARNING"/>
+						<m_AnimationName text="LeaderRobert_Warning"/>
+					</Element>
+					<Element>
+						<m_SlotName text="03_DECLARE_WAR_FROM_AI"/>
+						<m_AnimationName text="LeaderRobert_War_AI"/>
+					</Element>
+					<Element>
+						<m_SlotName text="02_DECLARE_WAR_FROM_HUMAN"/>
+						<m_AnimationName text="LeaderRobert_War_Human"/>
+					</Element>
+					<Element>
+						<m_SlotName text="06_DEFEAT"/>
+						<m_AnimationName text="LeaderRobert_Defeat"/>
+					</Element>
 				</m_Bindings>
 			</m_animationBindings>
 			<m_timelineBindings>

@@ -70,6 +70,7 @@ function UpdateUnitAttachment()
 end
 
 function RTOnUnitSelectionChanged(playerID, unitId, locationX, locationY, locationZ, isSelected, isEditable)
+	print("Unit Selection Triggered!");
 	if (isSelected) then
 		local pPlayer = Players[playerID];
 		local pPlayerConfig = PlayerConfigurations[playerID];
@@ -101,6 +102,7 @@ function RTOnUnitSelectionChanged(playerID, unitId, locationX, locationY, locati
 end
 
 function RTSetUnitAttachments(playerID, unitID)
+	print("Added to Map Triggered!");
 	local pPlayer = Players[playerID];
 	local pPlayerConfig = PlayerConfigurations[playerID];
 	local sCiv = pPlayerConfig:GetCivilizationTypeName();
@@ -136,6 +138,7 @@ function RTSetUnitAttachments(playerID, unitID)
 end
 
 function RTOnEnterFormation(playerID1, unitID1, playerID2, unitID2)
+	print("Enter into formation Triggered!");
 	local pPlayer = Players[playerID1];
 	local pPlayerConfig = PlayerConfigurations[playerID1];
 	local sCiv = pPlayerConfig:GetCivilizationTypeName();
@@ -191,6 +194,38 @@ function RTOnEnterFormation(playerID1, unitID1, playerID2, unitID2)
 	end
 end
 
+function RTUnitSimPositionChanged( playerID:number, unitID:number, worldX:number, worldY:number, worldZ:number, bVisible:boolean, isComplete:boolean )
+	print("Sim Position Change Triggered!");
+	if isComplete then
+		local pPlayer = Players[playerID];
+		local pPlayerConfig = PlayerConfigurations[playerID];
+		local sCiv = pPlayerConfig:GetCivilizationTypeName();
+		print(sCiv);
+		if not sCiv == "CIVILIZATION_THE_STORMLANDS" then return; end
+		local pUnit = pPlayer:GetUnits():FindID(unitID);
+		local unitInfo = GameInfo.Units[pUnit:GetUnitType()];
+		print(unitInfo.UnitType);
+		if (unitInfo.UnitType == "UNIT_WARRIOR" or unitInfo.UnitType == "UNIT_SWORDSMAN") then
+			switchUnit = pUnit;
+			print("Start switching members: "..tostring(switchUnit));
+			runUpdateUnitAtt = coroutine.create(function () 
+				for i = 0, 7, 1 do
+					UpdateUnitAttachment();
+					--print("requesting pause in script for ", g_Pause, " seconds at time = ".. tostring( Automation.GetTime() ));
+					g_Timer = Automation.GetTime();
+					coroutine.yield();
+					-- after g_Pause seconds, the script will start again from here
+					--print("resuming script at time = ".. tostring( Automation.GetTime() ));  
+				end
+				StopScriptWithPause();
+				switchUnit = nil;
+			end)
+			LaunchScriptWithPause();
+			coroutine.resume(runUpdateUnitAtt);
+		end
+	end
+end
+
 ----------Timer Functions----------
 function ChangePause(value) -- Not called anywhere?
     --print("changing pause value to ", value);
@@ -210,10 +245,21 @@ function StopScriptWithPause() -- GameCoreEventPublishComplete is called frequen
     Events.GameCoreEventPublishComplete.Remove( CheckTimer );
 end
 
+function RTOnShutdown()
+	Events.UnitSelectionChanged.Remove(RTOnUnitSelectionChanged);
+	Events.UnitEnterFormation.Remove(RTOnEnterFormation);
+	Events.UnitExitFormation.Remove(RTOnEnterFormation);
+	Events.UnitAddedToMap.Remove(RTSetUnitAttachments);
+	Events.UnitSimPositionChanged.Remove(RTUnitSimPositionChanged);
+end
+
 function RBSwitchOnLoadScreenClose()
 	Events.UnitSelectionChanged.Add(RTOnUnitSelectionChanged);
 	Events.UnitEnterFormation.Add(RTOnEnterFormation);
 	Events.UnitExitFormation.Add(RTOnEnterFormation);
 	Events.UnitAddedToMap.Add(RTSetUnitAttachments);
+	Events.UnitSimPositionChanged.Add(RTUnitSimPositionChanged);
 end
+----------Open/Close Control----------
 Events.LoadScreenClose.Add(RBSwitchOnLoadScreenClose);
+ContextPtr:SetShutdown(RTOnShutdown);

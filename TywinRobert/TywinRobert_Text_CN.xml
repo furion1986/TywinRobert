@@ -268,7 +268,7 @@
 
 		<!--PEDIA-->
 		<!--CIV-->
-		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SELLSWORD_CAMP_CHAPTER_HISTORY_PARA_1">
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_SELLSWORDS_CAMP_CHAPTER_HISTORY_PARA_1">
 			<Text>雇佣兵并不是正规军队的成员。他们通过完成短期任务，领取报酬。雇佣兵分为不同种类。在维斯特洛，雇佣剑士和自由骑士的名声并不怎么好。据说雇佣剑士缺乏忠诚而自由骑士毫无纪律。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_1">
@@ -296,7 +296,7 @@
 			<Text></Text>
 		</Replace>
 
-		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_DISTRICTS_PAGE_BUILDING_JOUSTING_ARENA_CHAPTER_HISTORY_PARA_1">
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_JOUSTING_ARENA_CHAPTER_HISTORY_PARA_1">
 			<Text>維斯特洛的比武賽事中最關鍵的一環是長槍比武，兩位穿戴盔甲的騎士在比試過程中，以手中的長槍互相攻擊，以將對方從坐騎上擊落為目標，所使用的武器是經過特殊打造的鈍化長槍。除此之外還有其他的比賽形式，例如由騎士組成的小隊間進行的模擬戰，射箭比賽，以及團體比武——參與的眾多戰鬥者們均以個人身份在一場混戰中謀求最後的獨自勝利。不少比武大會規模較大，需歷時幾天的時間來進行，且包含幾種不同的比賽形式。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_1">

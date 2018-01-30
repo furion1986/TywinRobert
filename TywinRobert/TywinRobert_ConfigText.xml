@@ -38,7 +38,7 @@
 			<Text>The Stormlands' unique support unit. Provide +9 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Warrior and Swordsman in the same tile.</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION">
-			<Text>A district unique to Westerlands replacing Encampment. +2 [ICON_GOlD] Gold bonus if adjacent to a Commercial Hub district. +1 Great Merchant point for each citizen working on Sellswords Camp.</Text>
+			<Text>A district unique to Westerlands replacing Encampment. +2 [ICON_GOlD] Gold bonus if adjacent to a Commercial Hub district. +1 [ICON_GreatMerchant] Great Merchant point for each citizen working on Sellswords Camp.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION">
 			<Text>A building unique to Stormlands replacing Stable. Other than standard Stable yields, Jousting Arena provides extra +1 [ICON_Amenities] Amenity and Pastures in the territory of cities with Jousting Arena gain +2 [ICON_CULTURE] Culture. [NEWLINE]May not be built in an Encampment district that already has a Barracks.</Text>

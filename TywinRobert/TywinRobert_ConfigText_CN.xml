@@ -41,7 +41,7 @@
 			<Text>风暴地独特的支援单位。为所属同一格的勇士和剑客提供 +9 [ICON_Strength] 战斗力和 +1 [ICON_Movement] 移动力。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION">
-			<Text>西镜独特的城区，替代军事驻地。 临近商业中心时 +2 [ICON_GOlD] 金钱。 每个在雇佣兵营帐工作的市民产生 +1 大商人点数。</Text>
+			<Text>西镜独特的城区，替代军事驻地。 临近商业中心时 +2 [ICON_GOlD] 金钱。 每个在雇佣兵营帐工作的市民产生 +1 [ICON_GreatMerchant] 大商人点数。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION">
 			<Text>风暴地独特的建筑，替代马厩。除了普通马厩的产出外，马上比武场还提供额外 +1 [ICON_Amenities] 宜居度。城市境内的牧场产出 +2 [ICON_CULTURE] 文化. [NEWLINE]不能在拥有兵营的军事驻地中建造。</Text>
