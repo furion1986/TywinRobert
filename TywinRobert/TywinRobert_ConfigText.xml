@@ -68,7 +68,7 @@
 			<Text>Ours Is the Fury</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION">
-			<Text>All Mines over resources yield +2 [ICON_GOLD] Gold. Completing Mines over resources triggers culture bomb even if the adjacent tiles are already 4 or more tiles away from city. [NEWLINE]20% discount to all [ICON_GOLD] Gold purchases.</Text>
+			<Text>All Mines over resources yield +2 [ICON_GOLD] Gold. Completing Mines trigger culture bombs. [NEWLINE]20% discount to all [ICON_GOLD] Gold purchases.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_DESCRIPTION">
 			<Text>+100% [ICON_Production] Production when building Ancient Walls, Medieval Walls and Renaissance Walls. [NEWLINE]Self founded cities grant Ancient Walls immediately even without Masonary Technology. [NEWLINE]Ancient Walls yield extra +1 [ICON_CULTURE] Culture, Medieval Walls yield extra +2 [ICON_CULTURE] Culture, and Renaissance Walls yield extra +4 [ICON_CULTURE] Culture. [NEWLINE]+10 [ICON_Strength] City Defense Strength with walls.</Text>

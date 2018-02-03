@@ -51,53 +51,7 @@ function Sellswords_Random_Types(playerID, unitID)
 	end
 end
 ----------Culture Bomb Mine over Resource----------
---local mines = {};
---local mineImprovementId = -1;
-
-function OnImprovementAddedToMap(locX, locY, eImprovementType, eOwner)
-	local improvementData:table = GameInfo.Improvements[eImprovementType];
-	local plot = Map.GetPlot(locX, locY);
-	local plotResourceType = GameInfo.Resources[plot:GetResourceType()];
-	local pPlayer = Players[eOwner];
-	local pPlayerConfig = PlayerConfigurations[eOwner];
-	local sCiv = pPlayerConfig:GetCivilizationTypeName();
-	print(sCiv);
-	if (not CivilizationHasTrait(sCiv,sHearMeRoar)) then return; end --Test if current player is The Westerlands
-
-	if ((eOwner ~= -1) and (eOwner ~= 63)  and (improvementData.ImprovementType == "IMPROVEMENT_MINE") and (plotResourceType.ResourceType ~= nil)) then
-		--mineImprovementId = eImprovementType;
-		print ("Mine over resource added to map");
-		local tempPlot = nil;
-		local ownerCity = Cities.GetPlotPurchaseCity(plot);
-		
-		for i=0,5,1 do --for every direction
-			local plotOnDirection = Map.GetAdjacentPlot(plot:GetX(), plot:GetY(), i);
-			tempPlot = AddPlotIfNotOwned(plotOnDirection,eOwner,ownerCity);
-		end
-		print ("Adding mine's plots ended");
-	end
-end
-
-function AddPlotIfNotOwned(plot:table,eOwner:number,ownerCity) --return plot, if its not owned by city
-	if (plot == nil) or (eOwner == -1) then return nil; end
-	if (plot:GetOwner() == -1) or (plot:GetOwner() ~= eOwner) then 
-		--if plot is not city, nor district, nor world wonder
-		local pDistrictType = GameInfo.Districts[plot:GetDistrictType()];
-		print(pDistrictType);
-		--local pWonderType = GameInfo.Buildings[plot:GetWonderType()];
-		if ((plot:IsCity() == false) and (pDistrictType == nil)) then
-			print("Owner ID: "..eOwner..", Location: "..plot:GetX().." "..plot:GetY()..", Owner city: "..ownerCity:GetName());
-			plot:SetOwner(-1);--switching tile ownership bugs out, so first reset owner of plot
-			WorldBuilder.CityManager():SetPlotOwner(plot, ownerCity);
-			print("Mine's plot added to city");
-		end	 
-	end
-	return nil;
-end
-
-function RBOnLoadScreenClose()
-	Events.ImprovementAddedToMap.Add(OnImprovementAddedToMap);
-end
+----------Moved to XML----------
 ----------Baratheon Grant Walls on founding city----------
 function RBOnCityAddedToMap(ownerPlayerID:number, cityID:number)
 	local pPlayer = Players[ownerPlayerID];
@@ -257,8 +211,9 @@ function RBOnCityConquered(capturerID, ownerID, cityID, cityX, cityY)
 		return;
 	end
 end
+
 ----------Events----------
-Events.LoadScreenClose.Add(RBOnLoadScreenClose);
+--Events.LoadScreenClose.Add(RBOnLoadScreenClose);
 Events.UnitAddedToMap.Add(Sellswords_Random_Types);
 Events.CityAddedToMap.Add(RBOnCityAddedToMap);
 GameEvents.CityConquered.Add(RBOnCityConquered);

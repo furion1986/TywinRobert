@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects:ArtDefSet>
+<AssetObjects..ArtDefSet>
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
-		<build>260</build>
-		<revision>754</revision>
+		<build>315</build>
+		<revision>805</revision>
 	</m_Version>
 	<m_TemplateName text="Units"/>
 	<m_RootCollections>
@@ -66,7 +66,7 @@
 									<Element>
 										<m_Fields>
 											<m_Values>
-												<Element class="AssetObjects:ArtDefReferenceValue">
+												<Element class="AssetObjects..ArtDefReferenceValue">
 													<m_ElementName text=""/>
 													<m_RootCollectionName text="UnitTintTypes"/>
 													<m_ArtDefPath text=""/>
@@ -83,7 +83,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects:BLPEntryValue">
+															<Element class="AssetObjects..BLPEntryValue">
 																<m_EntryName text="WarriorHorseman_HorseArmorA"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="Units.xlp"/>
@@ -91,7 +91,7 @@
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
-															<Element class="AssetObjects:FloatValue">
+															<Element class="AssetObjects..FloatValue">
 																<m_fValue>1.000000</m_fValue>
 																<m_ParamName text="Scale"/>
 															</Element>
@@ -135,7 +135,7 @@
 									<Element>
 										<m_Fields>
 											<m_Values>
-												<Element class="AssetObjects:ArtDefReferenceValue">
+												<Element class="AssetObjects..ArtDefReferenceValue">
 													<m_ElementName text=""/>
 													<m_RootCollectionName text="UnitTintTypes"/>
 													<m_ArtDefPath text=""/>
@@ -152,7 +152,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects:BLPEntryValue">
+															<Element class="AssetObjects..BLPEntryValue">
 																<m_EntryName text="WarriorHorseman_ArmorA"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="Units.xlp"/>
@@ -160,7 +160,7 @@
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
-															<Element class="AssetObjects:FloatValue">
+															<Element class="AssetObjects..FloatValue">
 																<m_fValue>1.000000</m_fValue>
 																<m_ParamName text="Scale"/>
 															</Element>
@@ -170,27 +170,6 @@
 													<m_Name text="WarriorRider_ArmorA"/>
 													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
-												<Element>
-													<m_Fields>
-														<m_Values>
-															<Element class="AssetObjects:BLPEntryValue">
-																<m_EntryName text="Warrior_ArmorA"/>
-																<m_XLPClass text="Unit"/>
-																<m_XLPPath text="Units.xlp"/>
-																<m_BLPPackage text="units/units"/>
-																<m_LibraryName text="Unit"/>
-																<m_ParamName text="Asset"/>
-															</Element>
-															<Element class="AssetObjects:FloatValue">
-																<m_fValue>1.000000</m_fValue>
-																<m_ParamName text="Scale"/>
-															</Element>
-														</m_Values>
-													</m_Fields>
-													<m_ChildCollections/>
-													<m_Name text="Warrior_ArmorA"/>
-													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-												</Element>
 											</Element>
 										</m_ChildCollections>
 										<m_Name text="TheStormlands"/>
@@ -198,7 +177,7 @@
 									</Element>
 								</Element>
 							</m_ChildCollections>
-							<m_Name text="Warrior"/>
+							<m_Name text="WarriorMounted"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -212,7 +191,7 @@
 									<Element>
 										<m_Fields>
 											<m_Values>
-												<Element class="AssetObjects:ArtDefReferenceValue">
+												<Element class="AssetObjects..ArtDefReferenceValue">
 													<m_ElementName text=""/>
 													<m_RootCollectionName text="UnitTintTypes"/>
 													<m_ArtDefPath text=""/>
@@ -229,7 +208,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects:BLPEntryValue">
+															<Element class="AssetObjects..BLPEntryValue">
 																<m_EntryName text="SellswordsPikeman_Armor"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="Units.xlp"/>
@@ -237,7 +216,7 @@
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
-															<Element class="AssetObjects:FloatValue">
+															<Element class="AssetObjects..FloatValue">
 																<m_fValue>1.000000</m_fValue>
 																<m_ParamName text="Scale"/>
 															</Element>
@@ -268,7 +247,7 @@
 									<Element>
 										<m_Fields>
 											<m_Values>
-												<Element class="AssetObjects:ArtDefReferenceValue">
+												<Element class="AssetObjects..ArtDefReferenceValue">
 													<m_ElementName text=""/>
 													<m_RootCollectionName text="UnitTintTypes"/>
 													<m_ArtDefPath text=""/>
@@ -285,7 +264,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects:BLPEntryValue">
+															<Element class="AssetObjects..BLPEntryValue">
 																<m_EntryName text="SwordsmanKnight_ArmorA"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="Units.xlp"/>
@@ -293,7 +272,7 @@
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
-															<Element class="AssetObjects:FloatValue">
+															<Element class="AssetObjects..FloatValue">
 																<m_fValue>1.000000</m_fValue>
 																<m_ParamName text="Scale"/>
 															</Element>
@@ -303,27 +282,6 @@
 													<m_Name text="SwordsmanRider_ArmorA"/>
 													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
-												<Element>
-													<m_Fields>
-														<m_Values>
-															<Element class="AssetObjects:BLPEntryValue">
-																<m_EntryName text="Swordsman_Armor_A"/>
-																<m_XLPClass text="Unit"/>
-																<m_XLPPath text="Units.xlp"/>
-																<m_BLPPackage text="units/units"/>
-																<m_LibraryName text="Unit"/>
-																<m_ParamName text="Asset"/>
-															</Element>
-															<Element class="AssetObjects:FloatValue">
-																<m_fValue>1.000000</m_fValue>
-																<m_ParamName text="Scale"/>
-															</Element>
-														</m_Values>
-													</m_Fields>
-													<m_ChildCollections/>
-													<m_Name text="Swordsman_ArmorA"/>
-													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-												</Element>
 											</Element>
 										</m_ChildCollections>
 										<m_Name text="TheStormlands"/>
@@ -331,7 +289,7 @@
 									</Element>
 								</Element>
 							</m_ChildCollections>
-							<m_Name text="Swordsman"/>
+							<m_Name text="SwordsmanMounted"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -358,7 +316,7 @@
 									<Element>
 										<m_Fields>
 											<m_Values>
-												<Element class="AssetObjects:ArtDefReferenceValue">
+												<Element class="AssetObjects..ArtDefReferenceValue">
 													<m_ElementName text=""/>
 													<m_RootCollectionName text="UnitTintTypes"/>
 													<m_ArtDefPath text=""/>
@@ -375,7 +333,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects:BLPEntryValue">
+															<Element class="AssetObjects..BLPEntryValue">
 																<m_EntryName text="WarriorHorseman_HorseArmorA"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="Units.xlp"/>
@@ -383,7 +341,7 @@
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
-															<Element class="AssetObjects:FloatValue">
+															<Element class="AssetObjects..FloatValue">
 																<m_fValue>1.000000</m_fValue>
 																<m_ParamName text="Scale"/>
 															</Element>
@@ -391,27 +349,6 @@
 													</m_Fields>
 													<m_ChildCollections/>
 													<m_Name text="FullHorseArmorA"/>
-													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-												</Element>
-												<Element>
-													<m_Fields>
-														<m_Values>
-															<Element class="AssetObjects:BLPEntryValue">
-																<m_EntryName text="No_Horse"/>
-																<m_XLPClass text="Unit"/>
-																<m_XLPPath text="Units.xlp"/>
-																<m_BLPPackage text="units/units"/>
-																<m_LibraryName text="Unit"/>
-																<m_ParamName text="Asset"/>
-															</Element>
-															<Element class="AssetObjects:FloatValue">
-																<m_fValue>1.000000</m_fValue>
-																<m_ParamName text="Scale"/>
-															</Element>
-														</m_Values>
-													</m_Fields>
-													<m_ChildCollections/>
-													<m_Name text="NoHorse"/>
 													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 												</Element>
 											</Element>
@@ -448,7 +385,7 @@
 									<Element>
 										<m_Fields>
 											<m_Values>
-												<Element class="AssetObjects:ArtDefReferenceValue">
+												<Element class="AssetObjects..ArtDefReferenceValue">
 													<m_ElementName text=""/>
 													<m_RootCollectionName text="UnitTintTypes"/>
 													<m_ArtDefPath text=""/>
@@ -465,7 +402,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects:BLPEntryValue">
+															<Element class="AssetObjects..BLPEntryValue">
 																<m_EntryName text="Lannister_Helm"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="Units.xlp"/>
@@ -473,7 +410,7 @@
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
-															<Element class="AssetObjects:FloatValue">
+															<Element class="AssetObjects..FloatValue">
 																<m_fValue>1.000000</m_fValue>
 																<m_ParamName text="Scale"/>
 															</Element>
@@ -517,7 +454,7 @@
 									<Element>
 										<m_Fields>
 											<m_Values>
-												<Element class="AssetObjects:ArtDefReferenceValue">
+												<Element class="AssetObjects..ArtDefReferenceValue">
 													<m_ElementName text=""/>
 													<m_RootCollectionName text="UnitTintTypes"/>
 													<m_ArtDefPath text=""/>
@@ -534,7 +471,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects:BLPEntryValue">
+															<Element class="AssetObjects..BLPEntryValue">
 																<m_EntryName text="Lannister_Shield"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="Units.xlp"/>
@@ -542,7 +479,7 @@
 																<m_LibraryName text="Unit"/>
 																<m_ParamName text="Asset"/>
 															</Element>
-															<Element class="AssetObjects:FloatValue">
+															<Element class="AssetObjects..FloatValue">
 																<m_fValue>1.000000</m_fValue>
 																<m_ParamName text="Scale"/>
 															</Element>
@@ -581,6 +518,5 @@
 			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 		</Element>
 	</m_RootCollections>
-</AssetObjects:ArtDefSet>
+</AssetObjects..ArtDefSet>
 
- 

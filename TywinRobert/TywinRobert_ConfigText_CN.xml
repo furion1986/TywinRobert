@@ -71,7 +71,7 @@
 			<Text>怒火燎原</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION">
-			<Text>所有在资源上建设的矿场产出 +2 [ICON_GOLD] 金钱. 在资源上建设矿场会触发文化炸弹并且能突破城市3格距离的限制。 [NEWLINE][ICON_GOLD]金钱购买单位和建筑便宜20%。</Text>
+			<Text>所有在资源上建设的矿场产出 +2 [ICON_GOLD] 金钱。建设矿场会触发文化炸弹。 [NEWLINE][ICON_GOLD]金钱购买单位和建筑便宜20%。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_DESCRIPTION">
 			<Text>建设远古城墙，中世纪城墙和文艺复兴城墙时 +100% [ICON_Production] 生产力。 [NEWLINE]通过移民新建立的城市立即获得远古城墙（即使没有研发石工术）。[NEWLINE]远古城墙额外产出 +1 [ICON_CULTURE] 文化，中世纪城墙额外产出 +2 [ICON_CULTURE] 文化，文艺复兴城墙额外产出 +4 [ICON_CULTURE] 文化。 [NEWLINE]拥有城墙的城市获得 +10 [ICON_Strength] 城市防御力。</Text>

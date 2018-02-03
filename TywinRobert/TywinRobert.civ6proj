@@ -12,7 +12,7 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>TywinRobert_Civilizations.xml</File><File>TywinRobert_Leaders.xml</File><File>TywinRobert_Units.xml</File><File>TywinRobert_District_and_Buildings.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>TywinRobert_ConfigText.xml</File><File>TywinRobert_Text.xml</File><File>TywinRobert_Text_CN.xml</File><File>TywinRobert_ConfigText_CN.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>TywinRobert_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="InGameScripts"><File>GameScript/LannisterBaratheonGameScript.lua</File></AddGameplayScripts><AddUserInterfaces id="AddUI"><Properties><Context>InGame</Context></Properties><File>GameScript/TR_SwitchMember.xml</File></AddUserInterfaces><ImportFiles id="ImportUI"><File>GameScript/TR_SwitchMember.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>TywinRobert_Civilizations.xml</File><File>TywinRobert_Leaders.xml</File><File>TywinRobert_Units.xml</File><File>TywinRobert_District_and_Buildings.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>TywinRobert_ConfigText.xml</File><File>TywinRobert_Text.xml</File><File>TywinRobert_Text_CN.xml</File><File>TywinRobert_ConfigText_CN.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>TywinRobert_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="InGameScripts"><File>GameScript/LannisterBaratheonGameScript.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>TywinRobert_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>TywinRobert_ConfigText.xml</File><File>TywinRobert_ConfigText_CN.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>TywinRobert_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:StandardPlayers::LEADER_TYWIN_LANNISTER,LEADER_ROBERT_BARATHEON</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>EddardStark</AssemblyName>
@@ -23,6 +23,7 @@
     </ModProperties>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
+  <Dependency type="Dlc" title="DLC: Poland Civilization Pack" id="3809975F-263F-40A2-A747-8BFB171D821A" />
 </Associations>]]></AssociationData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">

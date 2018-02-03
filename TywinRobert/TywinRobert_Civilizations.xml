@@ -125,6 +125,10 @@
 			<TraitType>TRAIT_CIVILIZATION_HEAR_ME_ROAR</TraitType>
 			<ModifierId>TRAIT_TL_GOLD_DISCOUNT</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HEAR_ME_ROAR</TraitType>
+			<ModifierId>TRAIT_TL_CULTURE_BOMB_TRIGGER_MINE</ModifierId>
+		</Row>
 		<!--Robert Baratheon-->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
@@ -176,6 +180,10 @@
 		<Row>
 			<ModifierId>TRAIT_TL_GOLD_DISCOUNT</ModifierId>
 			<ModifierType>MODIFIER_LANNISTER_TRAIT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_CULTURE_BOMB_TRIGGER_MINE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
 		</Row>
 		<!--Robert Baratheon-->
 		<Row>
@@ -270,6 +278,11 @@
 			<ModifierId>TRAIT_TL_GOLD_DISCOUNT</ModifierId>
 			<Name>Amount</Name>
 			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_CULTURE_BOMB_TRIGGER_MINE</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
 		</Row>
 		<!--Robert Baratheon-->
 		<Row>
